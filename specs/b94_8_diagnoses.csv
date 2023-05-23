@@ -1,0 +1,100 @@
+﻿condition_source_concept_name,condition_concept_id,condition_concept_name,condition_source_value,n_cases,n_persons,exclude? 
+Sequelae of other specified infectious and parasitic diseases,312437,Dyspnea,Persistent dyspnea after COVID-19|1495826900|B94.8,7,6,
+Sequelae of other specified infectious and parasitic diseases,312437,Dyspnea,Persistent dyspnea after COVID-19|1549703|B94.8,2,2,
+Sequelae of other specified infectious and parasitic diseases,312437,Dyspnea,Persistent dyspnea after severe acute respiratory syndrome c|1549707|B94.8,4,2,
+Sequelae of other specified infectious and parasitic diseases,312437,Dyspnea,Persistent shortness of breath after COVID-19|1495826902|B94.8,43,21,
+Sequelae of other specified infectious and parasitic diseases,312437,Dyspnea,Persistent shortness of breath after COVID-19|1549704|B94.8,18,11,
+Sequelae of other specified infectious and parasitic diseases,312437,Dyspnea,Persistent shortness of breath after COVID-19 |  | B94.8,8,5,
+Sequelae of other specified infectious and parasitic diseases,444201,Post-infectious disorder,Post viral syndrome|388192|B94.8,6,6,
+Sequelae of other specified infectious and parasitic diseases,444201,Post-infectious disorder,Post viral syndrome |  | B94.8,30,11,
+Sequelae of other specified infectious and parasitic diseases,444201,Post-infectious disorder,Postviral syndrome |  | B94.8,2,2,
+Sequelae of other specified infectious and parasitic diseases,444205,Post-viral disorder,Multiple persistent symptoms after COVID-19|1495826942|B94.8,20,6,
+Sequelae of other specified infectious and parasitic diseases,444205,Post-viral disorder,Multiple persistent symptoms after COVID-19|1549709|B94.8,11,8,
+Sequelae of other specified infectious and parasitic diseases,444205,Post-viral disorder,Persistent dyspnea after COVID-19|1495826900|B94.8,7,6,
+Sequelae of other specified infectious and parasitic diseases,444205,Post-viral disorder,Persistent dyspnea after COVID-19|1549703|B94.8,2,2,
+Sequelae of other specified infectious and parasitic diseases,444205,Post-viral disorder,Persistent dyspnea after severe acute respiratory syndrome c|1549707|B94.8,4,2,
+Sequelae of other specified infectious and parasitic diseases,444205,Post-viral disorder,Persistent neurologic symptoms after COVID-19|1495827586|B94.8,2,1,
+Sequelae of other specified infectious and parasitic diseases,444205,Post-viral disorder,Persistent neurologic symptoms after COVID-19|1549711|B94.8,5,2,
+Sequelae of other specified infectious and parasitic diseases,444205,Post-viral disorder,Persistent shortness of breath after COVID-19|1495826902|B94.8,43,21,
+Sequelae of other specified infectious and parasitic diseases,444205,Post-viral disorder,Persistent shortness of breath after COVID-19|1549704|B94.8,18,11,
+Sequelae of other specified infectious and parasitic diseases,444205,Post-viral disorder,Persistent shortness of breath after COVID-19 |  | B94.8,8,5,
+Sequelae of other specified infectious and parasitic diseases,444205,Post-viral disorder,Post-COVID-19 condition|1495843448|B94.8,54,27,
+Sequelae of other specified infectious and parasitic diseases,444205,Post-viral disorder,Post-COVID-19 condition|1674508|B94.8,6,4,
+Sequelae of other specified infectious and parasitic diseases,444205,Post-viral disorder,Post-COVID-19 syndrome|1495824338|B94.8,6,5,
+Sequelae of other specified infectious and parasitic diseases,444205,Post-viral disorder,Post-COVID syndrome|1495824334|B94.8,43,24,
+Sequelae of other specified infectious and parasitic diseases,444205,Post-viral disorder,Post-COVID syndrome|1673801|B94.8,3,3,
+Sequelae of other specified infectious and parasitic diseases,444205,Post-viral disorder,Post-viral disorder|1054218|B94.8,19,14,
+Sequelae of other specified infectious and parasitic diseases,444205,Post-viral disorder,Post-viral disorder|261954|B94.8,19,18,
+Sequelae of other specified infectious and parasitic diseases,444205,Post-viral disorder,Post-viral disorder|262599|B94.8,12,9,
+Sequelae of other specified infectious and parasitic diseases,444205,Post-viral disorder,Post-viral disorder |  | B94.8,1,1,
+Sequelae of other specified infectious and parasitic diseases,444205,Post-viral disorder,Post-viral disorder| |B94.8,1,1,
+Sequelae of other specified infectious and parasitic diseases,3661980,History of SARS-CoV-2,COVID-19 long hauler|1674722|B94.8,7,6,
+Sequelae of other specified infectious and parasitic diseases,3661980,History of SARS-CoV-2,Multiple persistent symptoms after COVID-19|1495826942|B94.8,7,4,
+Sequelae of other specified infectious and parasitic diseases,3661980,History of SARS-CoV-2,Multiple persistent symptoms after COVID-19|1549709|B94.8,11,8,
+Sequelae of other specified infectious and parasitic diseases,3661980,History of SARS-CoV-2,Persistent dyspnea after COVID-19|1495826900|B94.8,1,1,
+Sequelae of other specified infectious and parasitic diseases,3661980,History of SARS-CoV-2,Persistent dyspnea after COVID-19|1549703|B94.8,2,2,
+Sequelae of other specified infectious and parasitic diseases,3661980,History of SARS-CoV-2,Persistent dyspnea after severe acute respiratory syndrome c|1549707|B94.8,4,2,
+Sequelae of other specified infectious and parasitic diseases,3661980,History of SARS-CoV-2,Persistent fatigue after COVID-19|1495825526|B94.8,35,18,
+Sequelae of other specified infectious and parasitic diseases,3661980,History of SARS-CoV-2,Persistent fatigue after COVID-19|1549692|B94.8,20,10,
+Sequelae of other specified infectious and parasitic diseases,3661980,History of SARS-CoV-2,Persistent neurologic symptoms after COVID-19|1549711|B94.8,5,2,
+Sequelae of other specified infectious and parasitic diseases,3661980,History of SARS-CoV-2,Persistent shortness of breath after COVID-19|1495826902|B94.8,16,8,
+Sequelae of other specified infectious and parasitic diseases,3661980,History of SARS-CoV-2,Persistent shortness of breath after COVID-19|1549704|B94.8,18,11,
+Sequelae of other specified infectious and parasitic diseases,3661980,History of SARS-CoV-2,Post-COVID-19 condition|1495843448|B94.8,54,27,
+Sequelae of other specified infectious and parasitic diseases,3661980,History of SARS-CoV-2,Post-COVID-19 condition|1674508|B94.8,6,4,
+Sequelae of other specified infectious and parasitic diseases,3661980,History of SARS-CoV-2,Post-COVID syndrome|1673801|B94.8,3,3,
+Sequelae of other specified infectious and parasitic diseases,4028726,Post-scabetic nodules,Post-scabetic nodules|46970022|B94.8,1,1,yes
+Sequelae of other specified infectious and parasitic diseases,4047780,Post-streptococcal reactive arthritis,Post-streptococcal reactive arthritis|185617|B94.8,54,19,yes 
+Sequelae of other specified infectious and parasitic diseases,4047780,Post-streptococcal reactive arthritis,Post-streptococcal reactive arthritis|185928|B94.8,2,1,yes 
+Sequelae of other specified infectious and parasitic diseases,4047780,Post-streptococcal reactive arthritis,Post-streptococcal reactive arthritis | 2845666 | B94.8,6,4,yes 
+Sequelae of other specified infectious and parasitic diseases,4047780,Post-streptococcal reactive arthritis,Post-streptococcal reactive arthritis|710119|B94.8,281,67,yes 
+Sequelae of other specified infectious and parasitic diseases,4102973,Postviral depression,Post-viral psychological depression|1163079|B94.8,1,1,
+Sequelae of other specified infectious and parasitic diseases,4143965,Postviral infection debility,Post viral debility|163976|B94.8,2,2,
+Sequelae of other specified infectious and parasitic diseases,4202045,Postviral fatigue syndrome,Persistent fatigue after COVID-19|1495825526|B94.8,46,24,
+Sequelae of other specified infectious and parasitic diseases,4202045,Postviral fatigue syndrome,Persistent fatigue after COVID-19|1549692|B94.8,20,10,
+Sequelae of other specified infectious and parasitic diseases,4202045,Postviral fatigue syndrome,Persistent fatigue after COVID-19 |  | B94.8,1,1,
+Sequelae of other specified infectious and parasitic diseases,4204047,Neurological symptom,Persistent neurologic symptoms after COVID-19|1495827586|B94.8,2,1,
+Sequelae of other specified infectious and parasitic diseases,4204047,Neurological symptom,Persistent neurologic symptoms after COVID-19|1549711|B94.8,5,2,
+Sequelae of other specified infectious and parasitic diseases,4283947,Vitiligo iridis,Vitiligo iridis | 1384256 | B94.8,1,1,yes
+Sequelae of other specified infectious and parasitic diseases,36714927,Sequelae of infectious disease,Post-acute COVID-19 syndrome|1674720|B94.8,1,1,
+Sequelae of other specified infectious and parasitic diseases,36714927,Sequelae of infectious disease,Post-Lyme disease syndrome|255714|B94.8,8,4,yes
+Sequelae of other specified infectious and parasitic diseases,36714927,Sequelae of infectious disease,Post-Lyme disease syndrome|256381|B94.8,5,5,yes
+Sequelae of other specified infectious and parasitic diseases,36714927,Sequelae of infectious disease,Post-Lyme disease syndrome |  | B94.8,6,2,yes
+Sequelae of other specified infectious and parasitic diseases,36714927,Sequelae of infectious disease,Sequelae of other specified infectious and parasitic disease|1270560|B94.8,2,2,
+Sequelae of other specified infectious and parasitic diseases,36714927,Sequelae of infectious disease,Sequelae of other specified infectious and parasitic disease|508801|B94.8,530,121,
+Sequelae of other specified infectious and parasitic diseases,36714927,Sequelae of infectious disease,Sequelae of other specified infectious and parasitic diseases|1354514|B94.8,3,1,
+Sequelae of other specified infectious and parasitic diseases,36714927,Sequelae of infectious disease,Sequelae of other specified infectious and parasitic diseases|1818740|B94.8,1242,447,
+Sequelae of other specified infectious and parasitic diseases,36714927,Sequelae of infectious disease,Sequelae of other specified infectious and parasitic diseases|458454|B94.8,76,51,
+Sequelae of other specified infectious and parasitic diseases,36714927,Sequelae of infectious disease,"Sequelae of other specified infectious and parasitic diseases|498010 | ,B94.8",581,244,
+Sequelae of other specified infectious and parasitic diseases,36714927,Sequelae of infectious disease,Sequelae of other specified infectious and parasitic diseases|507446|B94.8,186,120,
+Sequelae of other specified infectious and parasitic diseases,36714927,Sequelae of infectious disease,Sequelae of other specified infectious and parasitic diseases |  | B94.8,218,110,
+Sequelae of other specified infectious and parasitic diseases,36714927,Sequelae of infectious disease,Sequelae of other specified infectious and parasitic diseases| |B94.8,755,173,
+Sequelae of other specified infectious and parasitic diseases,36716520,Sequela of infection caused by Corynebacterium,Sequela of Corynebacterium infection|92393622|B94.8,16,8,yes
+Sequelae of other specified infectious and parasitic diseases,36716520,Sequela of infection caused by Corynebacterium,Sequela of Corynebacterium infection |  | B94.8,2,2,yes
+Sequelae of other specified infectious and parasitic diseases,37311061,COVID-19,Post-COVID-19 syndrome|1495824338|B94.8,6,5,
+Sequelae of other specified infectious and parasitic diseases,37311061,COVID-19,Post-COVID syndrome|1495824334|B94.8,43,24,
+Sequelae of other specified infectious and parasitic diseases,40399768,Reactive arthritis,Post-streptococcal reactive arthritis|185617|B94.8,54,19,yes 
+Sequelae of other specified infectious and parasitic diseases,40399768,Reactive arthritis,Post-streptococcal reactive arthritis|185928|B94.8,2,1,yes 
+Sequelae of other specified infectious and parasitic diseases,40399768,Reactive arthritis,Post-streptococcal reactive arthritis | 2845666 | B94.8,6,4,yes 
+Sequelae of other specified infectious and parasitic diseases,40399768,Reactive arthritis,Post-streptococcal reactive arthritis|710119|B94.8,281,67,yes 
+Sequelae of other specified infectious and parasitic diseases,40488855,Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection,PANDAS (pediatric autoimmune neuropsychiatric disease associ|347339|B94.8,468,143,yes 
+Sequelae of other specified infectious and parasitic diseases,40488855,Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection,PANDAS (pediatric autoimmune neuropsychiatric disease associated with streptococcal infection)|513635|B94.8,345,131,yes 
+Sequelae of other specified infectious and parasitic diseases,40488855,Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection,PANDAS (pediatric autoimmune neuropsychiatric disease associated with streptococcal infection) |  | B94.8,390,68,yes 
+Sequelae of other specified infectious and parasitic diseases,40488855,Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection,PANDAS (pediatric autoimmune neuropsychiatric disorder assoc|205027|B94.8,44,20,yes 
+Sequelae of other specified infectious and parasitic diseases,40488855,Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection,PANDAS (pediatric autoimmune neuropsychiatric disorder assoc w/Strep) | 2808854 | B94.8,5,4,yes 
+Sequelae of other specified infectious and parasitic diseases,40488855,Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection,PANDAS (pediatric autoimmune neuropsychiatric disorder assoc w/Strep)|800340|B94.8,67,15,yes 
+Sequelae of other specified infectious and parasitic diseases,40488855,Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection,PANDAS (pediatric autoimmune neuropsychiatric disorders asso|349403|B94.8,16,4,yes 
+Sequelae of other specified infectious and parasitic diseases,40488855,Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection,PANDAS (pediatric autoimmune neuropsychiatric disorders associated with streptococcal infections)|1018947|B94.8,14,4,yes 
+Sequelae of other specified infectious and parasitic diseases,40488855,Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection,PANDAS (pediatric autoimmune neuropsychiatric disorders associated with streptococcal infections) |  | B94.8,16,3,yes 
+Sequelae of other specified infectious and parasitic diseases,40488855,Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection,PANS |  | B94.8,1,1,yes 
+Sequelae of other specified infectious and parasitic diseases,40488855,Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection,Pediatric autoimmune neuropsychiatric disease associated with streptococcal infection|513634|B94.8,1,1,yes 
+Sequelae of other specified infectious and parasitic diseases,40488855,Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection,Pediatric autoimmune neuropsychiatric disease associated with streptococcal infection |  | B94.8,5,5,yes 
+Sequelae of other specified infectious and parasitic diseases,40488855,Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection,Pediatric autoimmune neuropsychiatric disease (PANDAS) due t|421218|B94.8,5,4,yes 
+Sequelae of other specified infectious and parasitic diseases,40488855,Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection,Pediatric autoimmune neuropsychiatric disease (PANDAS) due to Group A streptococcal infection|30955016|B94.8,10,2,yes 
+Sequelae of other specified infectious and parasitic diseases,40488855,Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection,Pediatric autoimmune neuropsychiatric disease (PANDAS) due to Group A streptococcal infection |  | B94.8,17,8,yes 
+Sequelae of other specified infectious and parasitic diseases,40488855,Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection,Pediatric autoimmune neuropsychiatric disease/streptococcal infection | 2808853 | B94.8,6,2,yes 
+Sequelae of other specified infectious and parasitic diseases,40488855,Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection,Pediatric autoimmune neuropsychiatric disorder associated wi|1070089|B94.8,4,3,yes 
+Sequelae of other specified infectious and parasitic diseases,40488855,Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection,Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection (PANDAS)|48685076|B94.8,12,7,yes 
+Sequelae of other specified infectious and parasitic diseases,40488855,Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection,Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection (PANDAS) |  | B94.8,98,17,yes 
+Sequelae of other specified infectious and parasitic diseases,40488855,Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection,Pediatric autoimmune neuropsychiatric disorder assoc w/Strep | 2808855 | B94.8,13,3,yes 
+Sequelae of other specified infectious and parasitic diseases,40488855,Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection,Pediatric autoimmune neuropsychiatric disorders associated with streptococcal infection (PANDAS)|30955601|B94.8,1,1,yes 
+Sequelae of other specified infectious and parasitic diseases,40488855,Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection,Pediatric autoimmune neuropsychiatric disorders associated with streptococcal infection (PANDAS) |  | B94.8,1,1,yes 

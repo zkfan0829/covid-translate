@@ -1,0 +1,138 @@
+﻿Index,PASC (CCSR Category 1),CCSR domain
+0,Osteoarthritis,Diseases of the Musculoskeletal System and Connective Tissue
+1,Spondylopathies/spondyloarthropathy (including infective),Diseases of the Musculoskeletal System and Connective Tissue
+2,"Musculoskeletal pain, not low back pain",Diseases of the Musculoskeletal System and Connective Tissue
+3,Other specified connective tissue disease,Diseases of the Musculoskeletal System and Connective Tissue
+4,Gout,Diseases of the Musculoskeletal System and Connective Tissue
+5,Crystal arthropathies (excluding gout),Diseases of the Musculoskeletal System and Connective Tissue
+6,Acquired deformities (excluding foot),Diseases of the Musculoskeletal System and Connective Tissue
+7,Acquired foot deformities,Diseases of the Musculoskeletal System and Connective Tissue
+8,Autoinflammatory syndromes,Diseases of the Musculoskeletal System and Connective Tissue
+9,Tendon and synovial disorders,Diseases of the Musculoskeletal System and Connective Tissue
+10,Other specified bone disease and musculoskeletal deformities,Diseases of the Musculoskeletal System and Connective Tissue
+11,Other specified joint disorders,Diseases of the Musculoskeletal System and Connective Tissue
+12,Aseptic necrosis and osteonecrosis,Diseases of the Musculoskeletal System and Connective Tissue
+13,Muscle disorders,Diseases of the Musculoskeletal System and Connective Tissue
+14,Immune-mediated/reactive arthropathies,Diseases of the Musculoskeletal System and Connective Tissue
+15,Abdominal pain and other digestive/abdomen signs and symptoms,Diseases of the Digestive System
+16,Other specified and unspecified gastrointestinal disorders,Diseases of the Digestive System
+17,Esophageal disorders,Diseases of the Digestive System
+18,Gastritis and duodenitis,Diseases of the Digestive System
+19,Other specified and unspecified disorders of stomach and duodenum,Diseases of the Digestive System
+20,Nausea and vomiting,Diseases of the Digestive System
+21,Biliary tract disease,Diseases of the Digestive System
+22,Other specified and unspecified liver disease,Diseases of the Digestive System
+23,Intestinal obstruction and ileus,Diseases of the Digestive System
+24,Gastroduodenal ulcer,Diseases of the Digestive System
+25,Peritonitis and intra-abdominal abscess,Diseases of the Digestive System
+26,Pancreatic disorders (excluding diabetes),Diseases of the Digestive System
+27,Hepatic failure,Diseases of the Digestive System
+28,Noninfectious hepatitis,Diseases of the Digestive System
+29,Nervous system signs and symptoms,Diseases of the Nervous System
+30,Sleep wake disorders,Diseases of the Nervous System
+31,Headache; including migraine,Diseases of the Nervous System
+32,Malaise and fatigue,Diseases of the Nervous System
+33,Nervous system pain and pain syndromes,Diseases of the Nervous System
+34,Other nervous system disorders (neither hereditary nor degenerative),Diseases of the Nervous System
+35,Nerve and nerve root disorders,Diseases of the Nervous System
+36,Epilepsy; convulsions,Diseases of the Nervous System
+37,Other nervous system disorders (often hereditary or degenerative),Diseases of the Nervous System
+38,Paralysis (other than cerebral palsy),Diseases of the Nervous System
+39,Polyneuropathies,Diseases of the Nervous System
+40,Neurocognitive disorders,Diseases of the Nervous System
+41,Other and ill-defined cerebrovascular disease,Diseases of the Nervous System
+42,Myopathies,Diseases of the Nervous System
+43,Transient cerebral ischemia,Diseases of the Nervous System
+44,Coma; stupor; and brain damage,Diseases of the Nervous System
+45,Occlusion or stenosis of precerebral or cerebral arteries without infarction,Diseases of the Nervous System
+46,Neurodevelopmental disorders,Diseases of the Nervous System
+47,Cerebral infarction,Diseases of the Nervous System
+48,Encephalitis,Diseases of the Nervous System
+49,Sequela of specified nervous system conditions,Diseases of the Nervous System
+50,Drug induced or toxic related condition,Diseases of the Nervous System
+51,Respiratory signs and symptoms,Diseases of the Respiratory System
+52,Other specified and unspecified lower respiratory disease,Diseases of the Respiratory System
+53,Asthma,Diseases of the Respiratory System
+54,Sinusitis,Diseases of the Respiratory System
+55,Chronic obstructive pulmonary disease and bronchiectasis,Diseases of the Respiratory System
+56,"Pleurisy, pleural effusion and pulmonary collapse",Diseases of the Respiratory System
+57,Other specified upper respiratory infections,Diseases of the Respiratory System
+58,Acute and chronic tonsillitis,Diseases of the Respiratory System
+59,Acute bronchitis,Diseases of the Respiratory System
+60,Pneumonia (except that caused by tuberculosis),Diseases of the Respiratory System
+61,Pneumothorax,Diseases of the Respiratory System
+62,Respiratory failure; insufficiency; arrest,Diseases of the Respiratory System
+63,Mediastinal disorders,Diseases of the Respiratory System
+64,Aspiration pneumonitis,Diseases of the Respiratory System
+65,Nonspecific chest pain,Diseases of the Circulatory System
+66,Circulatory signs and symptoms,Diseases of the Circulatory System
+67,Cardiac dysrhythmias,Diseases of the Circulatory System
+68,Heart failure,Diseases of the Circulatory System
+69,Acute phlebitis; thrombophlebitis and thromboembolism,Diseases of the Circulatory System
+70,Gangrene,Diseases of the Circulatory System
+71,Aortic and peripheral arterial embolism or thrombosis,Diseases of the Circulatory System
+72,Myocarditis and cardiomyopathy,Diseases of the Circulatory System
+73,Cardiac arrest and ventricular fibrillation,Diseases of the Circulatory System
+74,Acute myocardial infarction,Diseases of the Circulatory System
+75,Pulmonary heart disease,Diseases of the Circulatory System
+76,Pericarditis and pericardial disease,Diseases of the Circulatory System
+77,Acute pulmonary embolism,Diseases of the Circulatory System
+78,Hypotension,Diseases of the Circulatory System
+79,Coronary atherosclerosis and other heart disease,Diseases of the Circulatory System
+80,Other and ill-defined heart disease,Diseases of the Circulatory System
+81,Peripheral and visceral vascular disease,Diseases of the Circulatory System
+82,Postthrombotic syndrome and venous insufficiency/hypertension,Diseases of the Circulatory System
+83,Other specified and unspecified circulatory disease,Diseases of the Circulatory System
+84,Arterial dissections,Diseases of the Circulatory System
+85,Vasculitis,Diseases of the Circulatory System
+86,Syncope,Diseases of the Circulatory System
+87,Acute and unspecified renal failure,Diseases of the Genitourinary System
+88,Genitourinary signs and symptoms,Diseases of the Genitourinary System
+89,Urinary incontinence,Diseases of the Genitourinary System
+90,Urinary tract infections,Diseases of the Genitourinary System
+91,Other specified and unspecified diseases of kidney and ureters,Diseases of the Genitourinary System
+92,Nephritis; nephrosis; renal sclerosis,Diseases of the Genitourinary System
+93,Diseases of the Genitourinary System,Diseases of the Genitourinary System
+94,Anemia,Diseases of the Blood and Blood Forming Organs and Certain Disorders Involving the Immune Mechanism
+95,Fluid and electrolyte disorders,"Endocrine, Nutritional and Metabolic Diseases"
+96,Diabetes mellitus with complication,"Endocrine, Nutritional and Metabolic Diseases"
+97,Malnutrition,"Endocrine, Nutritional and Metabolic Diseases"
+98,Diabetes mellitus without complication,"Endocrine, Nutritional and Metabolic Diseases"
+99,Anxiety and fear-related disorders,"Mental, Behavioral and Neurodevelopmental Disorders"
+100,Trauma- and stressor-related disorders,"Mental, Behavioral and Neurodevelopmental Disorders"
+101,Symptoms of mental and substance use conditions,"Mental, Behavioral and Neurodevelopmental Disorders"
+102,Cannabis-related disorders,"Mental, Behavioral and Neurodevelopmental Disorders"
+103,Depressive disorders,"Mental, Behavioral and Neurodevelopmental Disorders"
+104,Miscellaneous mental and behavioral disorders/conditions,"Mental, Behavioral and Neurodevelopmental Disorders"
+105,Sedative-related disorders,"Mental, Behavioral and Neurodevelopmental Disorders"
+106,Schizophrenia spectrum and other psychotic disorders,"Mental, Behavioral and Neurodevelopmental Disorders"
+107,Bipolar and related disorders,"Mental, Behavioral and Neurodevelopmental Disorders"
+108,Alcohol-related disorders,"Mental, Behavioral and Neurodevelopmental Disorders"
+109,Tobacco-related disorders,"Mental, Behavioral and Neurodevelopmental Disorders"
+110,Opioid-related disorders,"Mental, Behavioral and Neurodevelopmental Disorders"
+111,Other substance abuse,"Mental, Behavioral and Neurodevelopmental Disorders"
+112,Stimulant-related disorders,"Mental, Behavioral and Neurodevelopmental Disorders"
+113,Abnormal findings related to substance use,"Mental, Behavioral and Neurodevelopmental Disorders"
+114,Hallucinogen-related disorders,"Mental, Behavioral and Neurodevelopmental Disorders"
+115,Feeding and eating disorders,"Mental, Behavioral and Neurodevelopmental Disorders"
+116,Other specified and unspecified mood disorders,"Mental, Behavioral and Neurodevelopmental Disorders"
+117,Obsessive-compulsive and related disorders,"Mental, Behavioral and Neurodevelopmental Disorders"
+118,Pressure ulcer of skin,Diseases of the Skin and Subcutaneous Tissue
+119,Skin and subcutaneous tissue infections,Diseases of the Skin and Subcutaneous Tissue
+120,Skin/Subcutaneous signs and symptoms,Diseases of the Skin and Subcutaneous Tissue
+121,Other specified and unspecified skin disorders,Diseases of the Skin and Subcutaneous Tissue
+122,Other specified inflammatory condition of skin,Diseases of the Skin and Subcutaneous Tissue
+123,Retinal and vitreous conditions,Diseases of the Ear and Mastoid Process
+124,Hearing loss,Diseases of the Ear and Mastoid Process
+125,Other specified and unspecified disorders of the ear,Diseases of the Ear and Mastoid Process
+126,Otitis media,Diseases of the Ear and Mastoid Process
+127,Diseases of inner ear and related conditions,Diseases of the Ear and Mastoid Process
+128,"Allergic reactions, subsequent encounter","Injury, Poisoning and Certain Other Consequences of External Causes"
+129,"Toxic effects, subsequent encounter","Injury, Poisoning and Certain Other Consequences of External Causes"
+130,Allergic reactions,"Injury, Poisoning and Certain Other Consequences of External Causes"
+131,Viral infection,Certain Infectious and Parasitic Diseases
+132,Fever,Certain Infectious and Parasitic Diseases
+133,PASC-General,Certain Infectious and Parasitic Diseases
+134,Other general signs and symptoms,General and others
+135,General sensation/perception signs and symptoms,General and others
+136,"Exposure, encounters, screening or contact with infectious disease",General and others

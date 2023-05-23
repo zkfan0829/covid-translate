@@ -1,0 +1,1693 @@
+concept_id,concept_name,concept_code,vocabulary_id,cluster
+45543237,"Acute embolism and thrombosis of axillary vein, bilateral",I82.A13,ICD10CM,thrombophlebitis_and_thromboembolism
+45533514,Chronic embolism and thrombosis of unspecified veins of right upper extremity,I82.701,ICD10CM,thrombophlebitis_and_thromboembolism
+45552851,Acute embolism and thrombosis of left popliteal vein,I82.432,ICD10CM,thrombophlebitis_and_thromboembolism
+45567226,Atheroembolism of unspecified lower extremity,I75.029,ICD10CM,thrombophlebitis_and_thromboembolism
+45557595,"Phlebitis and thrombophlebitis of popliteal vein, bilateral",I80.223,ICD10CM,thrombophlebitis_and_thromboembolism
+45534180,"Deep phlebothrombosis in pregnancy, unspecified trimester",O22.30,ICD10CM,thrombophlebitis_and_thromboembolism
+45543223,Phlebitis and thrombophlebitis of other deep vessels of right lower extremity,I80.291,ICD10CM,thrombophlebitis_and_thromboembolism
+45562409,Acute embolism and thrombosis of unspecified veins of unspecified upper extremity,I82.609,ICD10CM,thrombophlebitis_and_thromboembolism
+45572138,Acute embolism and thrombosis of unspecified deep veins of left proximal lower extremity,I82.4Y2,ICD10CM,thrombophlebitis_and_thromboembolism
+45596248,Other arterial embolism and thrombosis of abdominal aorta,I74.09,ICD10CM,thrombophlebitis_and_thromboembolism
+35207862,Embolism and thrombosis of arteries of the upper extremities,I74.2,ICD10CM,thrombophlebitis_and_thromboembolism
+45601093,"Acute embolism and thrombosis of superficial veins of upper extremity, bilateral",I82.613,ICD10CM,thrombophlebitis_and_thromboembolism
+45533513,Chronic embolism and thrombosis of unspecified deep veins of unspecified distal lower extremity,I82.5Z9,ICD10CM,thrombophlebitis_and_thromboembolism
+35207886,Phlebitis and thrombophlebitis of unspecified site,I80.9,ICD10CM,thrombophlebitis_and_thromboembolism
+45596255,Chronic embolism and thrombosis of unspecified popliteal vein,I82.539,ICD10CM,thrombophlebitis_and_thromboembolism
+45543217,Atheroembolism of right lower extremity,I75.021,ICD10CM,thrombophlebitis_and_thromboembolism
+45591522,Chronic embolism and thrombosis of left axillary vein,I82.A22,ICD10CM,thrombophlebitis_and_thromboembolism
+45605849,"Acute embolism and thrombosis of iliac vein, bilateral",I82.423,ICD10CM,thrombophlebitis_and_thromboembolism
+45533507,Phlebitis and thrombophlebitis of left popliteal vein,I80.222,ICD10CM,thrombophlebitis_and_thromboembolism
+45581821,"Acute embolism and thrombosis of tibial vein, bilateral",I82.443,ICD10CM,thrombophlebitis_and_thromboembolism
+45576928,Chronic embolism and thrombosis of other specified veins,I82.891,ICD10CM,thrombophlebitis_and_thromboembolism
+45572083,Septic pulmonary embolism with acute cor pulmonale,I26.01,ICD10CM,thrombophlebitis_and_thromboembolism
+45538452,Chronic embolism and thrombosis of superior vena cava,I82.211,ICD10CM,thrombophlebitis_and_thromboembolism
+45586635,Acute embolism and thrombosis of left femoral vein,I82.412,ICD10CM,thrombophlebitis_and_thromboembolism
+35207863,Embolism and thrombosis of arteries of the lower extremities,I74.3,ICD10CM,thrombophlebitis_and_thromboembolism
+1553776,Chronic embolism and thrombosis of right peroneal vein,I82.551,ICD10CM,thrombophlebitis_and_thromboembolism
+45548082,Acute embolism and thrombosis of deep veins of unspecified upper extremity,I82.629,ICD10CM,thrombophlebitis_and_thromboembolism
+45538454,Acute embolism and thrombosis of left iliac vein,I82.422,ICD10CM,thrombophlebitis_and_thromboembolism
+45538456,Acute embolism and thrombosis of deep veins of left upper extremity,I82.622,ICD10CM,thrombophlebitis_and_thromboembolism
+45562406,Acute embolism and thrombosis of unspecified tibial vein,I82.449,ICD10CM,thrombophlebitis_and_thromboembolism
+45543229,Acute embolism and thrombosis of unspecified deep veins of right lower extremity,I82.401,ICD10CM,thrombophlebitis_and_thromboembolism
+45605853,Chronic embolism and thrombosis of unspecified femoral vein,I82.519,ICD10CM,thrombophlebitis_and_thromboembolism
+45576917,Saddle embolus of abdominal aorta,I74.01,ICD10CM,thrombophlebitis_and_thromboembolism
+45591521,Chronic embolism and thrombosis of unspecified deep veins of left distal lower extremity,I82.5Z2,ICD10CM,thrombophlebitis_and_thromboembolism
+45596257,Chronic embolism and thrombosis of superficial veins of unspecified upper extremity,I82.719,ICD10CM,thrombophlebitis_and_thromboembolism
+45567234,Acute embolism and thrombosis of unspecified deep veins of unspecified lower extremity,I82.409,ICD10CM,thrombophlebitis_and_thromboembolism
+45591518,Phlebitis and thrombophlebitis of superficial vessels of right lower extremity,I80.01,ICD10CM,thrombophlebitis_and_thromboembolism
+45576925,Chronic embolism and thrombosis of unspecified deep veins of unspecified proximal lower extremity,I82.5Y9,ICD10CM,thrombophlebitis_and_thromboembolism
+1553756,Phlebitis and thrombophlebitis of right peroneal vein,I80.241,ICD10CM,thrombophlebitis_and_thromboembolism
+45581823,Chronic embolism and thrombosis of unspecified deep veins of left proximal lower extremity,I82.5Y2,ICD10CM,thrombophlebitis_and_thromboembolism
+45586576,Other pulmonary embolism with acute cor pulmonale,I26.09,ICD10CM,thrombophlebitis_and_thromboembolism
+45543234,Chronic embolism and thrombosis of superficial veins of left upper extremity,I82.712,ICD10CM,thrombophlebitis_and_thromboembolism
+45572143,Chronic embolism and thrombosis of other specified deep vein of unspecified lower extremity,I82.599,ICD10CM,thrombophlebitis_and_thromboembolism
+45557593,Phlebitis and thrombophlebitis of unspecified femoral vein,I80.10,ICD10CM,thrombophlebitis_and_thromboembolism
+45533510,Acute embolism and thrombosis of other specified deep vein of right lower extremity,I82.491,ICD10CM,thrombophlebitis_and_thromboembolism
+45587287,"Deep phlebothrombosis in pregnancy, first trimester",O22.31,ICD10CM,thrombophlebitis_and_thromboembolism
+1553769,Acute embolism and thrombosis of unspecified peroneal vein,I82.459,ICD10CM,thrombophlebitis_and_thromboembolism
+45572144,Acute embolism and thrombosis of superficial veins of unspecified upper extremity,I82.619,ICD10CM,thrombophlebitis_and_thromboembolism
+45605846,Phlebitis and thrombophlebitis of right tibial vein,I80.231,ICD10CM,thrombophlebitis_and_thromboembolism
+45605789,Septic pulmonary embolism without acute cor pulmonale,I26.90,ICD10CM,thrombophlebitis_and_thromboembolism
+45605856,Chronic embolism and thrombosis of deep veins of right upper extremity,I82.721,ICD10CM,thrombophlebitis_and_thromboembolism
+45543222,Phlebitis and thrombophlebitis of unspecified tibial vein,I80.239,ICD10CM,thrombophlebitis_and_thromboembolism
+45581820,Acute embolism and thrombosis of right femoral vein,I82.411,ICD10CM,thrombophlebitis_and_thromboembolism
+45606541,"Superficial thrombophlebitis in pregnancy, second trimester",O22.22,ICD10CM,thrombophlebitis_and_thromboembolism
+45557594,Phlebitis and thrombophlebitis of unspecified iliac vein,I80.219,ICD10CM,thrombophlebitis_and_thromboembolism
+45538450,Phlebitis and thrombophlebitis of right popliteal vein,I80.221,ICD10CM,thrombophlebitis_and_thromboembolism
+45538445,Embolism and thrombosis of unspecified parts of aorta,I74.10,ICD10CM,thrombophlebitis_and_thromboembolism
+1553749,Single subsegmental pulmonary embolism without acute cor pulmonale,I26.93,ICD10CM,thrombophlebitis_and_thromboembolism
+45533441,Chronic pulmonary embolism,I27.82,ICD10CM,thrombophlebitis_and_thromboembolism
+45567240,"Chronic embolism and thrombosis of unspecified veins of upper extremity, bilateral",I82.703,ICD10CM,thrombophlebitis_and_thromboembolism
+35210369,Superficial thrombophlebitis in the puerperium,O87.0,ICD10CM,thrombophlebitis_and_thromboembolism
+45576924,Chronic embolism and thrombosis of unspecified tibial vein,I82.549,ICD10CM,thrombophlebitis_and_thromboembolism
+45572135,Phlebitis and thrombophlebitis of unspecified deep vessels of right lower extremity,I80.201,ICD10CM,thrombophlebitis_and_thromboembolism
+45605857,"Embolism and thrombosis of superficial veins of lower extremities, bilateral",I82.813,ICD10CM,thrombophlebitis_and_thromboembolism
+45591523,Acute embolism and thrombosis of unspecified subclavian vein,I82.B19,ICD10CM,thrombophlebitis_and_thromboembolism
+45601085,"Phlebitis and thrombophlebitis of superficial vessels of lower extremities, bilateral",I80.03,ICD10CM,thrombophlebitis_and_thromboembolism
+1553763,"Phlebitis and thrombophlebitis of calf muscular vein, bilateral",I80.253,ICD10CM,thrombophlebitis_and_thromboembolism
+1553773,"Acute embolism and thrombosis of calf muscular vein, bilateral",I82.463,ICD10CM,thrombophlebitis_and_thromboembolism
+45567244,"Chronic embolism and thrombosis of subclavian vein, bilateral",I82.B23,ICD10CM,thrombophlebitis_and_thromboembolism
+35207888,Budd-Chiari syndrome,I82.0,ICD10CM,thrombophlebitis_and_thromboembolism
+35207884,"Phlebitis and thrombophlebitis of lower extremities, unspecified",I80.3,ICD10CM,thrombophlebitis_and_thromboembolism
+45543230,Chronic embolism and thrombosis of left femoral vein,I82.512,ICD10CM,thrombophlebitis_and_thromboembolism
+45548085,Chronic embolism and thrombosis of unspecified axillary vein,I82.A29,ICD10CM,thrombophlebitis_and_thromboembolism
+35207889,Thrombophlebitis migrans,I82.1,ICD10CM,thrombophlebitis_and_thromboembolism
+45533508,"Acute embolism and thrombosis of femoral vein, bilateral",I82.413,ICD10CM,thrombophlebitis_and_thromboembolism
+1569147,Pulmonary embolism,I26,ICD10CM,thrombophlebitis_and_thromboembolism
+1553759,Phlebitis and thrombophlebitis of unspecified peroneal vein,I80.249,ICD10CM,thrombophlebitis_and_thromboembolism
+45538449,Phlebitis and thrombophlebitis of right femoral vein,I80.11,ICD10CM,thrombophlebitis_and_thromboembolism
+45552852,Acute embolism and thrombosis of left tibial vein,I82.442,ICD10CM,thrombophlebitis_and_thromboembolism
+1569327,Arterial embolism and thrombosis,I74,ICD10CM,thrombophlebitis_and_thromboembolism
+45562410,Acute embolism and thrombosis of left subclavian vein,I82.B12,ICD10CM,thrombophlebitis_and_thromboembolism
+45576929,"Acute embolism and thrombosis of subclavian vein, bilateral",I82.B13,ICD10CM,thrombophlebitis_and_thromboembolism
+1553761,Phlebitis and thrombophlebitis of right calf muscular vein,I80.251,ICD10CM,thrombophlebitis_and_thromboembolism
+45572084,Other pulmonary embolism without acute cor pulmonale,I26.99,ICD10CM,thrombophlebitis_and_thromboembolism
+45576922,"Acute embolism and thrombosis of unspecified deep veins of lower extremity, bilateral",I82.403,ICD10CM,thrombophlebitis_and_thromboembolism
+45543236,Embolism and thrombosis of superficial veins of right lower extremity,I82.811,ICD10CM,thrombophlebitis_and_thromboembolism
+45538455,Acute embolism and thrombosis of other specified deep vein of unspecified lower extremity,I82.499,ICD10CM,thrombophlebitis_and_thromboembolism
+35207865,Embolism and thrombosis of iliac artery,I74.5,ICD10CM,thrombophlebitis_and_thromboembolism
+1553766,Acute embolism and thrombosis of right peroneal vein,I82.451,ICD10CM,thrombophlebitis_and_thromboembolism
+45543224,Phlebitis and thrombophlebitis of other deep vessels of left lower extremity,I80.292,ICD10CM,thrombophlebitis_and_thromboembolism
+45601094,Acute embolism and thrombosis of deep veins of right upper extremity,I82.621,ICD10CM,thrombophlebitis_and_thromboembolism
+45601095,Chronic embolism and thrombosis of unspecified subclavian vein,I82.B29,ICD10CM,thrombophlebitis_and_thromboembolism
+45567241,Embolism and thrombosis of superficial veins of left lower extremity,I82.812,ICD10CM,thrombophlebitis_and_thromboembolism
+45581825,Acute embolism and thrombosis of unspecified veins of left upper extremity,I82.602,ICD10CM,thrombophlebitis_and_thromboembolism
+1553781,Chronic embolism and thrombosis of right calf muscular vein,I82.561,ICD10CM,thrombophlebitis_and_thromboembolism
+45567238,Chronic embolism and thrombosis of left iliac vein,I82.522,ICD10CM,thrombophlebitis_and_thromboembolism
+45533506,Phlebitis and thrombophlebitis of superficial vessels of left lower extremity,I80.02,ICD10CM,thrombophlebitis_and_thromboembolism
+1553762,Phlebitis and thrombophlebitis of left calf muscular vein,I80.252,ICD10CM,thrombophlebitis_and_thromboembolism
+45543225,"Phlebitis and thrombophlebitis of other deep vessels of lower extremity, bilateral",I80.293,ICD10CM,thrombophlebitis_and_thromboembolism
+45558205,"Superficial thrombophlebitis in pregnancy, unspecified trimester",O22.20,ICD10CM,thrombophlebitis_and_thromboembolism
+1553772,Acute embolism and thrombosis of left calf muscular vein,I82.462,ICD10CM,thrombophlebitis_and_thromboembolism
+45533518,Embolism and thrombosis of superficial veins of unspecified lower extremity,I82.819,ICD10CM,thrombophlebitis_and_thromboembolism
+45557540,Saddle embolus of pulmonary artery with acute cor pulmonale,I26.02,ICD10CM,thrombophlebitis_and_thromboembolism
+45543238,"Chronic embolism and thrombosis of axillary vein, bilateral",I82.A23,ICD10CM,thrombophlebitis_and_thromboembolism
+45557599,Chronic embolism and thrombosis of deep veins of left upper extremity,I82.722,ICD10CM,thrombophlebitis_and_thromboembolism
+45562408,Chronic embolism and thrombosis of right tibial vein,I82.541,ICD10CM,thrombophlebitis_and_thromboembolism
+1553758,"Phlebitis and thrombophlebitis of peroneal vein, bilateral",I80.243,ICD10CM,thrombophlebitis_and_thromboembolism
+45562403,Phlebitis and thrombophlebitis of unspecified deep vessels of unspecified lower extremity,I80.209,ICD10CM,thrombophlebitis_and_thromboembolism
+45557600,Acute embolism and thrombosis of unspecified axillary vein,I82.A19,ICD10CM,thrombophlebitis_and_thromboembolism
+35207864,"Embolism and thrombosis of arteries of extremities, unspecified",I74.4,ICD10CM,thrombophlebitis_and_thromboembolism
+45543226,Phlebitis and thrombophlebitis of other deep vessels of unspecified lower extremity,I80.299,ICD10CM,thrombophlebitis_and_thromboembolism
+45533515,Chronic embolism and thrombosis of unspecified veins of left upper extremity,I82.702,ICD10CM,thrombophlebitis_and_thromboembolism
+45567227,Septic arterial embolism,I76,ICD10CM,thrombophlebitis_and_thromboembolism
+35210370,Deep phlebothrombosis in the puerperium,O87.1,ICD10CM,thrombophlebitis_and_thromboembolism
+45539096,"Superficial thrombophlebitis in pregnancy, third trimester",O22.23,ICD10CM,thrombophlebitis_and_thromboembolism
+45552847,Atheroembolism of kidney,I75.81,ICD10CM,thrombophlebitis_and_thromboembolism
+45562411,Chronic embolism and thrombosis of left subclavian vein,I82.B22,ICD10CM,thrombophlebitis_and_thromboembolism
+45605852,"Chronic embolism and thrombosis of femoral vein, bilateral",I82.513,ICD10CM,thrombophlebitis_and_thromboembolism
+1553778,"Chronic embolism and thrombosis of peroneal vein, bilateral",I82.553,ICD10CM,thrombophlebitis_and_thromboembolism
+1553774,Acute embolism and thrombosis of unspecified calf muscular vein,I82.469,ICD10CM,thrombophlebitis_and_thromboembolism
+45548081,Acute embolism and thrombosis of unspecified veins of right upper extremity,I82.601,ICD10CM,thrombophlebitis_and_thromboembolism
+45543233,"Acute embolism and thrombosis of deep veins of upper extremity, bilateral",I82.623,ICD10CM,thrombophlebitis_and_thromboembolism
+1553768,"Acute embolism and thrombosis of peroneal vein, bilateral",I82.453,ICD10CM,thrombophlebitis_and_thromboembolism
+45605850,Acute embolism and thrombosis of unspecified deep veins of unspecified proximal lower extremity,I82.4Y9,ICD10CM,thrombophlebitis_and_thromboembolism
+45533511,Chronic embolism and thrombosis of other specified deep vein of right lower extremity,I82.591,ICD10CM,thrombophlebitis_and_thromboembolism
+45572141,Chronic embolism and thrombosis of left popliteal vein,I82.532,ICD10CM,thrombophlebitis_and_thromboembolism
+45581822,Chronic embolism and thrombosis of right femoral vein,I82.511,ICD10CM,thrombophlebitis_and_thromboembolism
+45567232,Phlebitis and thrombophlebitis of left tibial vein,I80.232,ICD10CM,thrombophlebitis_and_thromboembolism
+45581824,"Chronic embolism and thrombosis of unspecified deep veins of distal lower extremity, bilateral",I82.5Z3,ICD10CM,thrombophlebitis_and_thromboembolism
+45591524,Acute embolism and thrombosis of left internal jugular vein,I82.C12,ICD10CM,thrombophlebitis_and_thromboembolism
+45601089,Acute embolism and thrombosis of unspecified deep veins of right proximal lower extremity,I82.4Y1,ICD10CM,thrombophlebitis_and_thromboembolism
+45552854,Chronic embolism and thrombosis of right internal jugular vein,I82.C21,ICD10CM,thrombophlebitis_and_thromboembolism
+45605858,Acute embolism and thrombosis of unspecified internal jugular vein,I82.C19,ICD10CM,thrombophlebitis_and_thromboembolism
+35207885,Phlebitis and thrombophlebitis of other sites,I80.8,ICD10CM,thrombophlebitis_and_thromboembolism
+45605854,Chronic embolism and thrombosis of unspecified iliac vein,I82.529,ICD10CM,thrombophlebitis_and_thromboembolism
+45596259,"Acute embolism and thrombosis of internal jugular vein, bilateral",I82.C13,ICD10CM,thrombophlebitis_and_thromboembolism
+35207797,"Intracardiac thrombosis, not elsewhere classified",I51.3,ICD10CM,thrombophlebitis_and_thromboembolism
+45577563,"Deep phlebothrombosis in pregnancy, second trimester",O22.32,ICD10CM,thrombophlebitis_and_thromboembolism
+45552853,Chronic embolism and thrombosis of right axillary vein,I82.A21,ICD10CM,thrombophlebitis_and_thromboembolism
+45597038,Puerperal septic thrombophlebitis,O86.81,ICD10CM,thrombophlebitis_and_thromboembolism
+45548083,"Chronic embolism and thrombosis of superficial veins of upper extremity, bilateral",I82.713,ICD10CM,thrombophlebitis_and_thromboembolism
+35207866,Embolism and thrombosis of other arteries,I74.8,ICD10CM,thrombophlebitis_and_thromboembolism
+45543231,Chronic embolism and thrombosis of right popliteal vein,I82.531,ICD10CM,thrombophlebitis_and_thromboembolism
+45567242,Chronic embolism and thrombosis of unspecified vein,I82.91,ICD10CM,thrombophlebitis_and_thromboembolism
+45576921,Phlebitis and thrombophlebitis of unspecified popliteal vein,I80.229,ICD10CM,thrombophlebitis_and_thromboembolism
+45601088,Chronic embolism and thrombosis of inferior vena cava,I82.221,ICD10CM,thrombophlebitis_and_thromboembolism
+45576926,Acute embolism and thrombosis of superficial veins of left upper extremity,I82.612,ICD10CM,thrombophlebitis_and_thromboembolism
+45567239,Chronic embolism and thrombosis of unspecified deep veins of right proximal lower extremity,I82.5Y1,ICD10CM,thrombophlebitis_and_thromboembolism
+45538451,Acute embolism and thrombosis of superior vena cava,I82.210,ICD10CM,thrombophlebitis_and_thromboembolism
+45596256,Chronic embolism and thrombosis of unspecified veins of unspecified upper extremity,I82.709,ICD10CM,thrombophlebitis_and_thromboembolism
+45576923,"Acute embolism and thrombosis of unspecified deep veins of proximal lower extremity, bilateral",I82.4Y3,ICD10CM,thrombophlebitis_and_thromboembolism
+45605851,"Acute embolism and thrombosis of unspecified deep veins of distal lower extremity, bilateral",I82.4Z3,ICD10CM,thrombophlebitis_and_thromboembolism
+45586634,Acute embolism and thrombosis of other thoracic veins,I82.290,ICD10CM,thrombophlebitis_and_thromboembolism
+45591525,"Chronic embolism and thrombosis of internal jugular vein, bilateral",I82.C23,ICD10CM,thrombophlebitis_and_thromboembolism
+45572140,"Chronic embolism and thrombosis of unspecified deep veins of lower extremity, bilateral",I82.503,ICD10CM,thrombophlebitis_and_thromboembolism
+1569148,Pulmonary embolism with acute cor pulmonale,I26.0,ICD10CM,thrombophlebitis_and_thromboembolism
+45562412,Chronic embolism and thrombosis of left internal jugular vein,I82.C22,ICD10CM,thrombophlebitis_and_thromboembolism
+45596252,Acute embolism and thrombosis of right tibial vein,I82.441,ICD10CM,thrombophlebitis_and_thromboembolism
+45596258,Acute embolism and thrombosis of left axillary vein,I82.A12,ICD10CM,thrombophlebitis_and_thromboembolism
+35207891,Embolism and thrombosis of renal vein,I82.3,ICD10CM,thrombophlebitis_and_thromboembolism
+45548080,Acute embolism and thrombosis of right iliac vein,I82.421,ICD10CM,thrombophlebitis_and_thromboembolism
+45562404,Acute embolism and thrombosis of inferior vena cava,I82.220,ICD10CM,thrombophlebitis_and_thromboembolism
+35207867,Embolism and thrombosis of unspecified artery,I74.9,ICD10CM,thrombophlebitis_and_thromboembolism
+45533512,Chronic embolism and thrombosis of unspecified deep veins of right distal lower extremity,I82.5Z1,ICD10CM,thrombophlebitis_and_thromboembolism
+45576920,"Phlebitis and thrombophlebitis of unspecified deep vessels of lower extremities, bilateral",I80.203,ICD10CM,thrombophlebitis_and_thromboembolism
+1553767,Acute embolism and thrombosis of left peroneal vein,I82.452,ICD10CM,thrombophlebitis_and_thromboembolism
+1569149,Pulmonary embolism without acute cor pulmonale,I26.9,ICD10CM,thrombophlebitis_and_thromboembolism
+1553779,Chronic embolism and thrombosis of unspecified peroneal vein,I82.559,ICD10CM,thrombophlebitis_and_thromboembolism
+45567224,Atheroembolism of bilateral upper extremities,I75.013,ICD10CM,thrombophlebitis_and_thromboembolism
+45601091,"Acute embolism and thrombosis of unspecified veins of upper extremity, bilateral",I82.603,ICD10CM,thrombophlebitis_and_thromboembolism
+45581817,Phlebitis and thrombophlebitis of right iliac vein,I80.211,ICD10CM,thrombophlebitis_and_thromboembolism
+45591520,"Chronic embolism and thrombosis of other specified deep vein of lower extremity, bilateral",I82.593,ICD10CM,thrombophlebitis_and_thromboembolism
+35207887,Portal vein thrombosis,I81,ICD10CM,thrombophlebitis_and_thromboembolism
+45533519,Chronic embolism and thrombosis of right subclavian vein,I82.B21,ICD10CM,thrombophlebitis_and_thromboembolism
+45562405,Acute embolism and thrombosis of right popliteal vein,I82.431,ICD10CM,thrombophlebitis_and_thromboembolism
+45596253,Acute embolism and thrombosis of other specified deep vein of left lower extremity,I82.492,ICD10CM,thrombophlebitis_and_thromboembolism
+35207861,Embolism and thrombosis of abdominal aorta,I74.0,ICD10CM,thrombophlebitis_and_thromboembolism
+45576918,Atheroembolism of unspecified upper extremity,I75.019,ICD10CM,thrombophlebitis_and_thromboembolism
+45538457,Chronic embolism and thrombosis of unspecified internal jugular vein,I82.C29,ICD10CM,thrombophlebitis_and_thromboembolism
+1569328,Embolism and thrombosis of other and unspecified parts of aorta,I74.1,ICD10CM,thrombophlebitis_and_thromboembolism
+45567236,Chronic embolism and thrombosis of unspecified deep veins of right lower extremity,I82.501,ICD10CM,thrombophlebitis_and_thromboembolism
+45533516,Chronic embolism and thrombosis of superficial veins of right upper extremity,I82.711,ICD10CM,thrombophlebitis_and_thromboembolism
+35207696,"Thrombosis of atrium, auricular appendage, and ventricle as current complications following acute myocardial infarction",I23.6,ICD10CM,thrombophlebitis_and_thromboembolism
+45596254,Chronic embolism and thrombosis of right iliac vein,I82.521,ICD10CM,thrombophlebitis_and_thromboembolism
+45601083,Atheroembolism of right upper extremity,I75.011,ICD10CM,thrombophlebitis_and_thromboembolism
+45592192,"Deep phlebothrombosis in pregnancy, third trimester",O22.33,ICD10CM,thrombophlebitis_and_thromboembolism
+45586636,Acute embolism and thrombosis of unspecified deep veins of unspecified distal lower extremity,I82.4Z9,ICD10CM,thrombophlebitis_and_thromboembolism
+45591515,Atheroembolism of other site,I75.89,ICD10CM,thrombophlebitis_and_thromboembolism
+45596251,"Acute embolism and thrombosis of popliteal vein, bilateral",I82.433,ICD10CM,thrombophlebitis_and_thromboembolism
+1553784,Chronic embolism and thrombosis of unspecified calf muscular vein,I82.569,ICD10CM,thrombophlebitis_and_thromboembolism
+45533517,Chronic embolism and thrombosis of deep veins of unspecified upper extremity,I82.729,ICD10CM,thrombophlebitis_and_thromboembolism
+1553782,Chronic embolism and thrombosis of left calf muscular vein,I82.562,ICD10CM,thrombophlebitis_and_thromboembolism
+45543232,Chronic embolism and thrombosis of other specified deep vein of left lower extremity,I82.592,ICD10CM,thrombophlebitis_and_thromboembolism
+1553764,Phlebitis and thrombophlebitis of unspecified calf muscular vein,I80.259,ICD10CM,thrombophlebitis_and_thromboembolism
+45552786,Saddle embolus of pulmonary artery without acute cor pulmonale,I26.92,ICD10CM,thrombophlebitis_and_thromboembolism
+45567243,Acute embolism and thrombosis of right subclavian vein,I82.B11,ICD10CM,thrombophlebitis_and_thromboembolism
+45533501,Atheroembolism of left upper extremity,I75.012,ICD10CM,thrombophlebitis_and_thromboembolism
+45543235,"Chronic embolism and thrombosis of deep veins of upper extremity, bilateral",I82.723,ICD10CM,thrombophlebitis_and_thromboembolism
+45601086,"Phlebitis and thrombophlebitis of femoral vein, bilateral",I80.13,ICD10CM,thrombophlebitis_and_thromboembolism
+45557598,"Chronic embolism and thrombosis of tibial vein, bilateral",I82.543,ICD10CM,thrombophlebitis_and_thromboembolism
+45572142,Chronic embolism and thrombosis of left tibial vein,I82.542,ICD10CM,thrombophlebitis_and_thromboembolism
+45533520,Acute embolism and thrombosis of right internal jugular vein,I82.C11,ICD10CM,thrombophlebitis_and_thromboembolism
+1553783,"Chronic embolism and thrombosis of calf muscular vein, bilateral",I82.563,ICD10CM,thrombophlebitis_and_thromboembolism
+45605848,Acute embolism and thrombosis of unspecified femoral vein,I82.419,ICD10CM,thrombophlebitis_and_thromboembolism
+45601092,Acute embolism and thrombosis of superficial veins of right upper extremity,I82.611,ICD10CM,thrombophlebitis_and_thromboembolism
+45591519,Phlebitis and thrombophlebitis of left femoral vein,I80.12,ICD10CM,thrombophlebitis_and_thromboembolism
+45557590,Embolism and thrombosis of other parts of aorta,I74.19,ICD10CM,thrombophlebitis_and_thromboembolism
+45572146,Acute embolism and thrombosis of right axillary vein,I82.A11,ICD10CM,thrombophlebitis_and_thromboembolism
+45581819,Chronic embolism and thrombosis of other thoracic veins,I82.291,ICD10CM,thrombophlebitis_and_thromboembolism
+45538446,Embolism and thrombosis of thoracic aorta,I74.11,ICD10CM,thrombophlebitis_and_thromboembolism
+45548084,Acute embolism and thrombosis of unspecified vein,I82.90,ICD10CM,thrombophlebitis_and_thromboembolism
+45562407,"Chronic embolism and thrombosis of iliac vein, bilateral",I82.523,ICD10CM,thrombophlebitis_and_thromboembolism
+45586632,Phlebitis and thrombophlebitis of superficial vessels of unspecified lower extremity,I80.00,ICD10CM,thrombophlebitis_and_thromboembolism
+45601090,"Chronic embolism and thrombosis of popliteal vein, bilateral",I82.533,ICD10CM,thrombophlebitis_and_thromboembolism
+45605855,"Chronic embolism and thrombosis of unspecified deep veins of proximal lower extremity, bilateral",I82.5Y3,ICD10CM,thrombophlebitis_and_thromboembolism
+1553771,Acute embolism and thrombosis of right calf muscular vein,I82.461,ICD10CM,thrombophlebitis_and_thromboembolism
+1553757,Phlebitis and thrombophlebitis of left peroneal vein,I80.242,ICD10CM,thrombophlebitis_and_thromboembolism
+1553777,Chronic embolism and thrombosis of left peroneal vein,I82.552,ICD10CM,thrombophlebitis_and_thromboembolism
+45586637,Chronic embolism and thrombosis of unspecified deep veins of left lower extremity,I82.502,ICD10CM,thrombophlebitis_and_thromboembolism
+45596250,Acute embolism and thrombosis of unspecified iliac vein,I82.429,ICD10CM,thrombophlebitis_and_thromboembolism
+45534178,"Superficial thrombophlebitis in pregnancy, first trimester",O22.21,ICD10CM,thrombophlebitis_and_thromboembolism
+45557597,Acute embolism and thrombosis of unspecified deep veins of right distal lower extremity,I82.4Z1,ICD10CM,thrombophlebitis_and_thromboembolism
+45548079,Phlebitis and thrombophlebitis of unspecified deep vessels of left lower extremity,I80.202,ICD10CM,thrombophlebitis_and_thromboembolism
+45586627,Atheroembolism of left lower extremity,I75.022,ICD10CM,thrombophlebitis_and_thromboembolism
+45538453,Acute embolism and thrombosis of unspecified deep veins of left lower extremity,I82.402,ICD10CM,thrombophlebitis_and_thromboembolism
+1553750,Multiple subsegmental pulmonary emboli without acute cor pulmonale,I26.94,ICD10CM,thrombophlebitis_and_thromboembolism
+45576927,Acute embolism and thrombosis of other specified veins,I82.890,ICD10CM,thrombophlebitis_and_thromboembolism
+45567237,Chronic embolism and thrombosis of unspecified deep veins of unspecified lower extremity,I82.509,ICD10CM,thrombophlebitis_and_thromboembolism
+45533509,Acute embolism and thrombosis of unspecified popliteal vein,I82.439,ICD10CM,thrombophlebitis_and_thromboembolism
+45572139,Acute embolism and thrombosis of unspecified deep veins of left distal lower extremity,I82.4Z2,ICD10CM,thrombophlebitis_and_thromboembolism
+45572136,"Phlebitis and thrombophlebitis of tibial vein, bilateral",I80.233,ICD10CM,thrombophlebitis_and_thromboembolism
+45567225,Atheroembolism of bilateral lower extremities,I75.023,ICD10CM,thrombophlebitis_and_thromboembolism
+45543221,Phlebitis and thrombophlebitis of left iliac vein,I80.212,ICD10CM,thrombophlebitis_and_thromboembolism
+45567231,"Phlebitis and thrombophlebitis of iliac vein, bilateral",I80.213,ICD10CM,thrombophlebitis_and_thromboembolism
+45567235,"Acute embolism and thrombosis of other specified deep vein of lower extremity, bilateral",I82.493,ICD10CM,thrombophlebitis_and_thromboembolism
+35211311,"Localized swelling, mass and lump, neck",R22.1,ICD10CM,skin
+1572214,"Localized swelling, mass and lump, upper limb",R22.3,ICD10CM,skin
+35211310,"Localized swelling, mass and lump, head",R22.0,ICD10CM,skin
+45553722,"Localized swelling, mass and lump, left upper limb",R22.32,ICD10CM,skin
+35208688,Other atrophic disorders of skin,L90.8,ICD10CM,skin
+45568121,"Localized swelling, mass and lump, upper limb, bilateral",R22.33,ICD10CM,skin
+35208698,"Granulomatous disorder of the skin and subcutaneous tissue, unspecified",L92.9,ICD10CM,skin
+35211307,Hyperesthesia,R20.3,ICD10CM,skin
+35208689,"Atrophic disorder of skin, unspecified",L90.9,ICD10CM,skin
+35211318,Changes in skin texture,R23.4,ICD10CM,skin
+45606799,Unspecified disturbances of skin sensation,R20.9,ICD10CM,skin
+45539324,"Localized swelling, mass and lump, right upper limb",R22.31,ICD10CM,skin
+1572215,"Localized swelling, mass and lump, lower limb",R22.4,ICD10CM,skin
+45544135,"Localized swelling, mass and lump, unspecified upper limb",R22.30,ICD10CM,skin
+35211306,Paresthesia of skin,R20.2,ICD10CM,skin
+45548957,"Localized swelling, mass and lump, left lower limb",R22.42,ICD10CM,skin
+35208656,Postinflammatory hyperpigmentation,L81.0,ICD10CM,skin
+35211309,Rash and other nonspecific skin eruption,R21,ICD10CM,skin
+35211319,Other skin changes,R23.8,ICD10CM,skin
+35208642,"Follicular disorder, unspecified",L73.9,ICD10CM,skin
+45573019,"Localized swelling, mass and lump, unspecified lower limb",R22.40,ICD10CM,skin
+35208672,Other specified epidermal thickening,L85.8,ICD10CM,skin
+45548958,"Localized swelling, mass and lump, lower limb, bilateral",R22.43,ICD10CM,skin
+45606800,Unspecified skin changes,R23.9,ICD10CM,skin
+35208709,Other specified localized connective tissue disorders,L94.8,ICD10CM,skin
+35211308,Other disturbances of skin sensation,R20.8,ICD10CM,skin
+45592413,"Localized swelling, mass and lump, right lower limb",R22.41,ICD10CM,skin
+1572213,"Localized swelling, mass and lump of skin and subcutaneous tissue",R22,ICD10CM,skin
+35211312,"Localized swelling, mass and lump, trunk",R22.2,ICD10CM,skin
+35208673,"Epidermal thickening, unspecified",L85.9,ICD10CM,skin
+35211316,Flushing,R23.2,ICD10CM,skin
+35211317,Spontaneous ecchymoses,R23.3,ICD10CM,skin
+35208720,Other infiltrative disorders of the skin and subcutaneous tissue,L98.6,ICD10CM,skin
+1572212,Disturbances of skin sensation,R20,ICD10CM,skin
+1572216,Other skin changes,R23,ICD10CM,skin
+35211313,"Localized swelling, mass and lump, unspecified",R22.9,ICD10CM,skin
+35208723,Other disorders of skin and subcutaneous tissue in diseases classified elsewhere,L99,ICD10CM,skin
+35208722,"Disorder of the skin and subcutaneous tissue, unspecified",L98.9,ICD10CM,skin
+45548447,"Infective myositis, unspecified foot",M60.075,ICD10CM,myositis
+1570722,"Interstitial myositis, thigh",M60.15,ICD10CM,myositis
+45562755,"Other myositis, left hand",M60.842,ICD10CM,myositis
+1570708,Infective myositis,M60.0,ICD10CM,myositis
+45557906,"Infective myositis, right lower leg",M60.061,ICD10CM,myositis
+45553208,"Infective myositis, right ankle",M60.070,ICD10CM,myositis
+45606255,"Other myositis, unspecified lower leg",M60.869,ICD10CM,myositis
+45567581,"Infective myositis, unspecified arm",M60.002,ICD10CM,myositis
+45538796,"Infective myositis, other site",M60.08,ICD10CM,myositis
+45557904,"Infective myositis, unspecified left leg",M60.004,ICD10CM,myositis
+45548402,"Polymyositis, organ involvement unspecified",M33.20,ICD10CM,myositis
+45557905,"Infective myositis, left forearm",M60.032,ICD10CM,myositis
+45606250,"Infective myositis, unspecified forearm",M60.039,ICD10CM,myositis
+45577294,"Other myositis, unspecified forearm",M60.839,ICD10CM,myositis
+1570718,"Interstitial myositis, shoulder",M60.11,ICD10CM,myositis
+1570709,"Infective myositis, unspecified site",M60.00,ICD10CM,myositis
+45557913,"Other myositis, unspecified ankle and foot",M60.879,ICD10CM,myositis
+45557908,"Interstitial myositis, unspecified thigh",M60.159,ICD10CM,myositis
+1570738,"Other myositis, thigh",M60.85,ICD10CM,myositis
+45606248,"Infective myositis, unspecified right leg",M60.003,ICD10CM,myositis
+45567582,"Infective myositis, unspecified site",M60.009,ICD10CM,myositis
+45596603,"Interstitial myositis, left forearm",M60.132,ICD10CM,myositis
+45606251,"Interstitial myositis, right lower leg",M60.161,ICD10CM,myositis
+1570720,"Interstitial myositis, forearm",M60.13,ICD10CM,myositis
+45567588,"Other myositis, right lower leg",M60.861,ICD10CM,myositis
+45596606,"Interstitial myositis, left hand",M60.142,ICD10CM,myositis
+1570712,"Infective myositis, forearm",M60.03,ICD10CM,myositis
+45577293,"Interstitial myositis, right ankle and foot",M60.171,ICD10CM,myositis
+45543616,"Infective myositis, unspecified toe(s)",M60.078,ICD10CM,myositis
+1570735,"Other myositis, upper arm",M60.82,ICD10CM,myositis
+1570716,"Infective myositis, ankle, foot and toes",M60.07,ICD10CM,myositis
+1570740,"Other myositis, ankle and foot",M60.87,ICD10CM,myositis
+1570724,"Interstitial myositis, ankle and foot",M60.17,ICD10CM,myositis
+45538799,"Other myositis, multiple sites",M60.89,ICD10CM,myositis
+45543618,"Interstitial myositis, unspecified lower leg",M60.169,ICD10CM,myositis
+45591868,"Infective myositis, left finger(s)",M60.045,ICD10CM,myositis
+45567585,"Interstitial myositis, right upper arm",M60.121,ICD10CM,myositis
+45582178,"Interstitial myositis, unspecified shoulder",M60.119,ICD10CM,myositis
+45586995,"Infective myositis, unspecified right arm",M60.000,ICD10CM,myositis
+45577291,"Infective myositis, left lower leg",M60.062,ICD10CM,myositis
+45567589,"Other myositis, other site",M60.88,ICD10CM,myositis
+1570736,"Other myositis, forearm",M60.83,ICD10CM,myositis
+45538792,"Infective myositis, unspecified leg",M60.005,ICD10CM,myositis
+1570721,"Interstitial myositis, hand",M60.14,ICD10CM,myositis
+45553210,"Interstitial myositis, multiple sites",M60.19,ICD10CM,myositis
+45596608,"Other myositis, unspecified site",M60.80,ICD10CM,myositis
+45586997,"Interstitial myositis, unspecified ankle and foot",M60.179,ICD10CM,myositis
+45562751,"Infective myositis, unspecified hand",M60.043,ICD10CM,myositis
+45577289,"Infective myositis, right upper arm",M60.021,ICD10CM,myositis
+45577290,"Infective myositis, right hand",M60.041,ICD10CM,myositis
+45596605,"Interstitial myositis, right hand",M60.141,ICD10CM,myositis
+1570734,Other myositis shoulder,M60.81,ICD10CM,myositis
+45533871,"Interstitial myositis, left shoulder",M60.112,ICD10CM,myositis
+45543614,"Infective myositis, unspecified shoulder",M60.019,ICD10CM,myositis
+45548451,"Other myositis, unspecified shoulder",M60.819,ICD10CM,myositis
+45596600,"Infective myositis, multiple sites",M60.09,ICD10CM,myositis
+45567587,"Other myositis, left shoulder",M60.812,ICD10CM,myositis
+45533873,"Interstitial myositis, other site",M60.18,ICD10CM,myositis
+1570717,Interstitial myositis,M60.1,ICD10CM,myositis
+45548453,"Other myositis, right thigh",M60.851,ICD10CM,myositis
+45557912,"Other myositis, right ankle and foot",M60.871,ICD10CM,myositis
+45596604,"Interstitial myositis, unspecified forearm",M60.139,ICD10CM,myositis
+45567584,"Infective myositis, right toe(s)",M60.076,ICD10CM,myositis
+45596609,"Other myositis, unspecified upper arm",M60.829,ICD10CM,myositis
+45577288,"Infective myositis, left shoulder",M60.012,ICD10CM,myositis
+35208972,"Myositis, unspecified",M60.9,ICD10CM,myositis
+1570739,"Other myositis, lower leg",M60.86,ICD10CM,myositis
+45533872,"Interstitial myositis, left lower leg",M60.162,ICD10CM,myositis
+45596596,"Infective myositis, right shoulder",M60.011,ICD10CM,myositis
+45543615,"Infective myositis, left hand",M60.042,ICD10CM,myositis
+45596601,"Interstitial myositis, right shoulder",M60.111,ICD10CM,myositis
+1570614,Dermatopolymyositis,M33,ICD10CM,myositis
+45596598,"Infective myositis, right finger(s)",M60.044,ICD10CM,myositis
+45596599,"Infective myositis, left thigh",M60.052,ICD10CM,myositis
+45543617,"Interstitial myositis, unspecified upper arm",M60.129,ICD10CM,myositis
+1570707,Myositis,M60,ICD10CM,myositis
+45591869,"Infective myositis, unspecified finger(s)",M60.046,ICD10CM,myositis
+45557907,Interstitial myositis of unspecified site,M60.10,ICD10CM,myositis
+45591871,"Interstitial myositis, left thigh",M60.152,ICD10CM,myositis
+45596597,"Infective myositis, unspecified upper arm",M60.029,ICD10CM,myositis
+45538794,"Infective myositis, left ankle",M60.071,ICD10CM,myositis
+1570737,"Other myositis, hand",M60.84,ICD10CM,myositis
+45586996,"Interstitial myositis, left upper arm",M60.122,ICD10CM,myositis
+1570710,"Infective myositis, shoulder",M60.01,ICD10CM,myositis
+45548452,"Other myositis, right forearm",M60.831,ICD10CM,myositis
+45548445,"Infective myositis, unspecified left arm",M60.001,ICD10CM,myositis
+45572472,"Infective myositis, left toe(s)",M60.077,ICD10CM,myositis
+45572475,"Other myositis, right hand",M60.841,ICD10CM,myositis
+45543621,"Other myositis, unspecified hand",M60.849,ICD10CM,myositis
+45582179,"Interstitial myositis, right thigh",M60.151,ICD10CM,myositis
+1570715,"Infective myositis, lower leg",M60.06,ICD10CM,myositis
+45572473,"Interstitial myositis, left ankle and foot",M60.172,ICD10CM,myositis
+1570733,Other myositis,M60.8,ICD10CM,myositis
+45562752,"Infective myositis, unspecified thigh",M60.059,ICD10CM,myositis
+45577292,"Infective myositis, unspecified lower leg",M60.069,ICD10CM,myositis
+45557910,"Other myositis, right shoulder",M60.811,ICD10CM,myositis
+45548446,"Infective myositis, left foot",M60.074,ICD10CM,myositis
+45553209,"Interstitial myositis, unspecified hand",M60.149,ICD10CM,myositis
+45538798,"Other myositis, left upper arm",M60.822,ICD10CM,myositis
+1570711,"Infective myositis, upper arm",M60.02,ICD10CM,myositis
+45596602,"Interstitial myositis, right forearm",M60.131,ICD10CM,myositis
+1570723,"Interstitial myositis, lower leg",M60.16,ICD10CM,myositis
+1570719,"Interstitial myositis, upper arm",M60.12,ICD10CM,myositis
+45567583,"Infective myositis, left upper arm",M60.022,ICD10CM,myositis
+45553212,"Other myositis, left lower leg",M60.862,ICD10CM,myositis
+45572476,"Other myositis, left ankle and foot",M60.872,ICD10CM,myositis
+45533870,"Infective myositis, unspecified ankle",M60.072,ICD10CM,myositis
+1570713,"Infective myositis, hand and fingers",M60.04,ICD10CM,myositis
+45606249,"Infective myositis, right forearm",M60.031,ICD10CM,myositis
+45557911,"Other myositis, right upper arm",M60.821,ICD10CM,myositis
+1570714,"Infective myositis, thigh",M60.05,ICD10CM,myositis
+45586998,"Other myositis, left forearm",M60.832,ICD10CM,myositis
+45538793,"Infective myositis, right thigh",M60.051,ICD10CM,myositis
+45582184,"Other myositis, unspecified thigh",M60.859,ICD10CM,myositis
+45591873,"Other myositis, left thigh",M60.852,ICD10CM,myositis
+45538795,"Infective myositis, right foot",M60.073,ICD10CM,myositis
+35207753,"Acute myocarditis, unspecified",I40.9,ICD10CM,myocarditis
+45581156,Viral myocarditis,B33.22,ICD10CM,myocarditis
+35207752,Other acute myocarditis,I40.8,ICD10CM,myocarditis
+35207750,Infective myocarditis,I40.0,ICD10CM,myocarditis
+35207754,Myocarditis in diseases classified elsewhere,I41,ICD10CM,myocarditis
+45572430,Pain in left hip,M25.552,ICD10CM,musculoskeletal
+45577229,"Stiffness of left shoulder, not elsewhere classified",M25.612,ICD10CM,musculoskeletal
+45548444,Occipital neuralgia,M54.81,ICD10CM,musculoskeletal
+45553157,Pain in left elbow,M25.522,ICD10CM,musculoskeletal
+45577230,"Stiffness of right elbow, not elsewhere classified",M25.621,ICD10CM,musculoskeletal
+1571058,"Pain in limb, hand, foot, fingers and toes",M79.6,ICD10CM,musculoskeletal
+1570567,Pain in hip,M25.55,ICD10CM,musculoskeletal
+1570568,Pain in knee,M25.56,ICD10CM,musculoskeletal
+45557903,Other dorsalgia,M54.89,ICD10CM,musculoskeletal
+1595620,"Myalgia, other site",M79.18,ICD10CM,musculoskeletal
+45582249,Pain in right hand,M79.641,ICD10CM,musculoskeletal
+45572432,"Stiffness of right wrist, not elsewhere classified",M25.631,ICD10CM,musculoskeletal
+45533940,Pain in left forearm,M79.632,ICD10CM,musculoskeletal
+45606202,Pain in wrist,M25.53,ICD10CM,musculoskeletal
+725390,"Stiffness of other specified joint, not elsewhere classified",M25.69,ICD10CM,musculoskeletal
+45591807,Pain in right shoulder,M25.511,ICD10CM,musculoskeletal
+45577227,Pain in unspecified joint,M25.50,ICD10CM,musculoskeletal
+766414,Other low back pain,M54.59,ICD10CM,musculoskeletal
+45538866,Pain in unspecified hand,M79.643,ICD10CM,musculoskeletal
+45557858,"Stiffness of unspecified ankle, not elsewhere classified",M25.673,ICD10CM,musculoskeletal
+45567529,"Stiffness of right shoulder, not elsewhere classified",M25.611,ICD10CM,musculoskeletal
+35208969,Low back pain,M54.5,ICD10CM,musculoskeletal
+45587066,Pain in right lower leg,M79.661,ICD10CM,musculoskeletal
+45587065,Pain in left thigh,M79.652,ICD10CM,musculoskeletal
+1595617,"Myalgia, unspecified site",M79.10,ICD10CM,musculoskeletal
+37200700,Pain in joints of hand,M25.54,ICD10CM,musculoskeletal
+45582116,Pain in left ankle and joints of left foot,M25.572,ICD10CM,musculoskeletal
+45596549,Pain in right knee,M25.561,ICD10CM,musculoskeletal
+45567533,"Stiffness of left foot, not elsewhere classified",M25.675,ICD10CM,musculoskeletal
+37200701,Pain in joints of right hand,M25.541,ICD10CM,musculoskeletal
+45582247,Pain in left leg,M79.605,ICD10CM,musculoskeletal
+45562838,Pain in unspecified limb,M79.609,ICD10CM,musculoskeletal
+45543690,Pain in right forearm,M79.631,ICD10CM,musculoskeletal
+45591935,Pain in right thigh,M79.651,ICD10CM,musculoskeletal
+45572434,"Stiffness of left ankle, not elsewhere classified",M25.672,ICD10CM,musculoskeletal
+766412,"Low back pain, unspecified",M54.50,ICD10CM,musculoskeletal
+45586943,"Stiffness of left wrist, not elsewhere classified",M25.632,ICD10CM,musculoskeletal
+45538740,Pain in right ankle and joints of right foot,M25.571,ICD10CM,musculoskeletal
+45562839,Pain in right upper arm,M79.621,ICD10CM,musculoskeletal
+45567532,"Stiffness of right ankle, not elsewhere classified",M25.671,ICD10CM,musculoskeletal
+45538867,Pain in right finger(s),M79.644,ICD10CM,musculoskeletal
+45557993,Pain in unspecified foot,M79.673,ICD10CM,musculoskeletal
+766413,Vertebrogenic low back pain,M54.51,ICD10CM,musculoskeletal
+45553161,"Stiffness of unspecified hand, not elsewhere classified",M25.649,ICD10CM,musculoskeletal
+45533939,Pain in right leg,M79.604,ICD10CM,musculoskeletal
+45601546,Pain in right toe(s),M79.674,ICD10CM,musculoskeletal
+45587067,Pain in unspecified lower leg,M79.669,ICD10CM,musculoskeletal
+45591934,Pain in unspecified finger(s),M79.646,ICD10CM,musculoskeletal
+45557992,Pain in right arm,M79.601,ICD10CM,musculoskeletal
+35209013,"Soft tissue disorder, unspecified",M79.9,ICD10CM,musculoskeletal
+45572433,"Stiffness of unspecified hip, not elsewhere classified",M25.659,ICD10CM,musculoskeletal
+45572552,Pain in left lower leg,M79.662,ICD10CM,musculoskeletal
+35208970,Pain in thoracic spine,M54.6,ICD10CM,musculoskeletal
+45553159,"Stiffness of unspecified elbow, not elsewhere classified",M25.629,ICD10CM,musculoskeletal
+45587064,"Pain in arm, unspecified",M79.603,ICD10CM,musculoskeletal
+45572431,Pain in unspecified ankle and joints of unspecified foot,M25.579,ICD10CM,musculoskeletal
+45586944,"Stiffness of unspecified wrist, not elsewhere classified",M25.639,ICD10CM,musculoskeletal
+45596550,"Stiffness of left hand, not elsewhere classified",M25.642,ICD10CM,musculoskeletal
+45557857,"Stiffness of right knee, not elsewhere classified",M25.661,ICD10CM,musculoskeletal
+45606201,Pain in unspecified elbow,M25.529,ICD10CM,musculoskeletal
+45577231,"Stiffness of left knee, not elsewhere classified",M25.662,ICD10CM,musculoskeletal
+45553271,Pain in unspecified upper arm,M79.629,ICD10CM,musculoskeletal
+45582118,"Stiffness of unspecified foot, not elsewhere classified",M25.676,ICD10CM,musculoskeletal
+45606200,Pain in unspecified shoulder,M25.519,ICD10CM,musculoskeletal
+37200703,Pain in joints of unspecified hand,M25.549,ICD10CM,musculoskeletal
+45553158,Pain in left wrist,M25.532,ICD10CM,musculoskeletal
+1570569,Pain in ankle and joints of foot,M25.57,ICD10CM,musculoskeletal
+45562840,Pain in right foot,M79.671,ICD10CM,musculoskeletal
+45567531,"Stiffness of unspecified knee, not elsewhere classified",M25.669,ICD10CM,musculoskeletal
+45606323,Pain in left finger(s),M79.645,ICD10CM,musculoskeletal
+45591810,"Stiffness of left hip, not elsewhere classified",M25.652,ICD10CM,musculoskeletal
+45591936,Pain in left toe(s),M79.675,ICD10CM,musculoskeletal
+45562837,Pain in left arm,M79.602,ICD10CM,musculoskeletal
+45591809,Pain in elbow,M25.52,ICD10CM,musculoskeletal
+35208971,"Dorsalgia, unspecified",M54.9,ICD10CM,musculoskeletal
+35209006,Myalgia,M79.1,ICD10CM,musculoskeletal
+45557856,Pain in unspecified wrist,M25.539,ICD10CM,musculoskeletal
+45577228,Pain in unspecified hip,M25.559,ICD10CM,musculoskeletal
+1570565,Pain in joint,M25.5,ICD10CM,musculoskeletal
+45553160,"Stiffness of right hand, not elsewhere classified",M25.641,ICD10CM,musculoskeletal
+45601545,Pain in unspecified thigh,M79.659,ICD10CM,musculoskeletal
+45596551,"Stiffness of right foot, not elsewhere classified",M25.674,ICD10CM,musculoskeletal
+45533816,Pain in left knee,M25.562,ICD10CM,musculoskeletal
+45586942,"Stiffness of unspecified joint, not elsewhere classified",M25.60,ICD10CM,musculoskeletal
+45577358,Pain in unspecified forearm,M79.639,ICD10CM,musculoskeletal
+45543689,"Pain in leg, unspecified",M79.606,ICD10CM,musculoskeletal
+37200702,Pain in joints of left hand,M25.542,ICD10CM,musculoskeletal
+45533941,Pain in unspecified toe(s),M79.676,ICD10CM,musculoskeletal
+45601424,"Stiffness of right hip, not elsewhere classified",M25.651,ICD10CM,musculoskeletal
+1595618,Myalgia of mastication muscle,M79.11,ICD10CM,musculoskeletal
+45548395,Pain in unspecified knee,M25.569,ICD10CM,musculoskeletal
+45557855,Pain in right wrist,M25.531,ICD10CM,musculoskeletal
+45562699,Pain in right hip,M25.551,ICD10CM,musculoskeletal
+45582117,"Stiffness of unspecified shoulder, not elsewhere classified",M25.619,ICD10CM,musculoskeletal
+45538868,Pain in left foot,M79.672,ICD10CM,musculoskeletal
+45567530,"Stiffness of left elbow, not elsewhere classified",M25.622,ICD10CM,musculoskeletal
+45582248,Pain in left upper arm,M79.622,ICD10CM,musculoskeletal
+45601423,Pain in right elbow,M25.521,ICD10CM,musculoskeletal
+45591808,Pain in left shoulder,M25.512,ICD10CM,musculoskeletal
+725389,Pain in other specified joint,M25.59,ICD10CM,musculoskeletal
+45582250,Pain in left hand,M79.642,ICD10CM,musculoskeletal
+1595619,"Myalgia of auxiliary muscles, head and neck",M79.12,ICD10CM,musculoskeletal
+1570566,Pain in shoulder,M25.51,ICD10CM,musculoskeletal
+1569168,Cardiac arrest,I46,ICD10CM,heart_disease
+35207800,Cardiomegaly,I51.7,ICD10CM,heart_disease
+45576878,Chronic systolic (congestive) heart failure,I50.22,ICD10CM,heart_disease
+35207796,"Rupture of papillary muscle, not elsewhere classified",I51.2,ICD10CM,heart_disease
+35207740,Nonrheumatic tricuspid (valve) stenosis with insufficiency,I36.2,ICD10CM,heart_disease
+1326605,Right heart failure due to left heart failure,I50.814,ICD10CM,heart_disease
+45586587,Unspecified systolic (congestive) heart failure,I50.20,ICD10CM,heart_disease
+35207718,"Acute pericarditis, unspecified",I30.9,ICD10CM,heart_disease
+1326606,Biventricular heart failure,I50.82,ICD10CM,heart_disease
+35207724,"Disease of pericardium, unspecified",I31.9,ICD10CM,heart_disease
+1326608,End stage heart failure,I50.84,ICD10CM,heart_disease
+35207739,Nonrheumatic tricuspid (valve) insufficiency,I36.1,ICD10CM,heart_disease
+45538387,Takotsubo syndrome,I51.81,ICD10CM,heart_disease
+35207730,Nonrheumatic mitral (valve) stenosis,I34.2,ICD10CM,heart_disease
+45543182,Acute systolic (congestive) heart failure,I50.21,ICD10CM,heart_disease
+1326601,"Right heart failure, unspecified",I50.810,ICD10CM,heart_disease
+1326607,High output heart failure,I50.83,ICD10CM,heart_disease
+35207731,Other nonrheumatic mitral valve disorders,I34.8,ICD10CM,heart_disease
+35207732,"Nonrheumatic mitral valve disorder, unspecified",I34.9,ICD10CM,heart_disease
+45533457,Unspecified combined systolic (congestive) and diastolic (congestive) heart failure,I50.40,ICD10CM,heart_disease
+1569154,Other diseases of pericardium,I31,ICD10CM,heart_disease
+45591469,Acute combined systolic (congestive) and diastolic (congestive) heart failure,I50.41,ICD10CM,heart_disease
+35207755,Dilated cardiomyopathy,I42.0,ICD10CM,heart_disease
+35207799,Myocardial degeneration,I51.5,ICD10CM,heart_disease
+35207792,"Left ventricular failure, unspecified",I50.1,ICD10CM,heart_disease
+35207756,Obstructive hypertrophic cardiomyopathy,I42.1,ICD10CM,heart_disease
+45601038,Unspecified diastolic (congestive) heart failure,I50.30,ICD10CM,heart_disease
+45567183,Other ill-defined heart diseases,I51.89,ICD10CM,heart_disease
+45567181,Acute on chronic combined systolic (congestive) and diastolic (congestive) heart failure,I50.43,ICD10CM,heart_disease
+35207720,Chronic constrictive pericarditis,I31.1,ICD10CM,heart_disease
+35207738,Nonrheumatic tricuspid (valve) stenosis,I36.0,ICD10CM,heart_disease
+45567180,Acute on chronic systolic (congestive) heart failure,I50.23,ICD10CM,heart_disease
+35207798,"Myocarditis, unspecified",I51.4,ICD10CM,heart_disease
+35207729,Nonrheumatic mitral (valve) prolapse,I34.1,ICD10CM,heart_disease
+35207723,Other specified diseases of pericardium,I31.8,ICD10CM,heart_disease
+45562355,Acute on chronic diastolic (congestive) heart failure,I50.33,ICD10CM,heart_disease
+1326604,Acute on chronic right heart failure,I50.813,ICD10CM,heart_disease
+45548022,Acute diastolic (congestive) heart failure,I50.31,ICD10CM,heart_disease
+1569178,Heart failure,I50,ICD10CM,heart_disease
+35207795,"Rupture of chordae tendineae, not elsewhere classified",I51.1,ICD10CM,heart_disease
+35207719,Chronic adhesive pericarditis,I31.0,ICD10CM,heart_disease
+35207742,"Nonrheumatic tricuspid valve disorder, unspecified",I36.9,ICD10CM,heart_disease
+45586588,Chronic combined systolic (congestive) and diastolic (congestive) heart failure,I50.42,ICD10CM,heart_disease
+35207802,Other heart disorders in diseases classified elsewhere,I52,ICD10CM,heart_disease
+35207757,Other hypertrophic cardiomyopathy,I42.2,ICD10CM,heart_disease
+1326609,Other heart failure,I50.89,ICD10CM,heart_disease
+1569156,Nonrheumatic mitral valve disorders,I34,ICD10CM,heart_disease
+1569182,Complications and ill-defined descriptions of heart disease,I51,ICD10CM,heart_disease
+35207722,Pericardial effusion (noninflammatory),I31.3,ICD10CM,heart_disease
+35207763,Other cardiomyopathies,I42.8,ICD10CM,heart_disease
+35207801,"Heart disease, unspecified",I51.9,ICD10CM,heart_disease
+35207741,Other nonrheumatic tricuspid valve disorders,I36.8,ICD10CM,heart_disease
+35207793,"Heart failure, unspecified",I50.9,ICD10CM,heart_disease
+35207794,"Cardiac septal defect, acquired",I51.0,ICD10CM,heart_disease
+35207728,Nonrheumatic mitral (valve) insufficiency,I34.0,ICD10CM,heart_disease
+1569161,Cardiomyopathy,I42,ICD10CM,heart_disease
+45557538,Coronary artery aneurysm,I25.41,ICD10CM,heart_disease
+35207764,"Cardiomyopathy, unspecified",I42.9,ICD10CM,heart_disease
+35207758,Endomyocardial (eosinophilic) disease,I42.3,ICD10CM,heart_disease
+35207759,Endocardial fibroelastosis,I42.4,ICD10CM,heart_disease
+1326603,Chronic right heart failure,I50.812,ICD10CM,heart_disease
+35207760,Other restrictive cardiomyopathy,I42.5,ICD10CM,heart_disease
+45533456,Chronic diastolic (congestive) heart failure,I50.32,ICD10CM,heart_disease
+1569158,Nonrheumatic tricuspid valve disorders,I36,ICD10CM,heart_disease
+1326602,Acute right heart failure,I50.811,ICD10CM,heart_disease
+45566877,"Ophthalmoplegic migraine, intractable, with status migrainosus",G43.B11,ICD10CM,headache
+45562091,Chronic tension-type headache,G44.22,ICD10CM,headache
+45562088,Hemiplegic migraine,G43.4,ICD10CM,headache
+1568355,"Post-traumatic headache, unspecified",G44.30,ICD10CM,headache
+35207382,Status migrainosus,G43.2,ICD10CM,headache
+45547740,"Drug-induced headache, not elsewhere classified, intractable",G44.41,ICD10CM,headache
+45562090,"Periodic headache syndromes in child or adult, intractable, with status migrainosus",G43.C11,ICD10CM,headache
+45591179,"Cyclical vomiting, not intractable, with status migrainosus",G43.A01,ICD10CM,headache
+45547737,"Chronic paroxysmal hemicrania, not intractable",G44.049,ICD10CM,headache
+1568341,"Other migraine, intractable",G43.81,ICD10CM,headache
+1568342,"Menstrual migraine, not intractable",G43.82,ICD10CM,headache
+35207389,"Other migraine, intractable",G43.891,ICD10CM,headache
+1568352,Tension-type headache,G44.2,ICD10CM,headache
+725459,"Headache, unspecified",R51.9,ICD10CM,headache
+35207384,"Hemiplegic migraine, intractable",G43.41,ICD10CM,headache
+45533136,"Migraine without aura, not intractable, without status migrainosus",G43.009,ICD10CM,headache
+35207385,"Persistent migraine aura without cerebral infarction, not intractable",G43.50,ICD10CM,headache
+1568344,"Migraine, unspecified",G43.9,ICD10CM,headache
+35207390,"Other migraine, not intractable",G43.899,ICD10CM,headache
+45586294,Primary thunderclap headache,G44.53,ICD10CM,headache
+35207381,"Migraine with aura, intractable",G43.11,ICD10CM,headache
+45538119,"Drug-induced headache, not elsewhere classified, not intractable",G44.40,ICD10CM,headache
+1568339,Other migraine,G43.8,ICD10CM,headache
+35207380,"Migraine with aura, not intractable",G43.10,ICD10CM,headache
+45576582,"Post-traumatic headache, unspecified, intractable",G44.301,ICD10CM,headache
+45605550,"Chronic cluster headache, intractable",G44.021,ICD10CM,headache
+1568335,"Persistent migraine aura with cerebral infarction, not intractable",G43.60,ICD10CM,headache
+45566881,"Episodic tension-type headache, not intractable",G44.219,ICD10CM,headache
+45566879,Chronic cluster headache,G44.02,ICD10CM,headache
+45542890,"Chronic tension-type headache, not intractable",G44.229,ICD10CM,headache
+35207391,"Migraine, unspecified, not intractable",G43.90,ICD10CM,headache
+45552531,"Vascular headache, not elsewhere classified, not intractable",G44.10,ICD10CM,headache
+45566876,Ophthalmoplegic migraine,G43.B,ICD10CM,headache
+45591178,"Chronic migraine without aura, not intractable, without status migrainosus",G43.709,ICD10CM,headache
+1568357,"Drug-induced headache, not elsewhere classified",G44.4,ICD10CM,headache
+45562089,"Cyclical vomiting, intractable, with status migrainosus",G43.A11,ICD10CM,headache
+45576585,Primary stabbing headache,G44.85,ICD10CM,headache
+1568358,Complicated headache syndromes,G44.5,ICD10CM,headache
+1568354,Post-traumatic headache,G44.3,ICD10CM,headache
+45591181,"Periodic headache syndromes in child or adult, not intractable",G43.C0,ICD10CM,headache
+35211388,Headache,R51,ICD10CM,headache
+1568347,"Cluster headache syndrome, unspecified",G44.00,ICD10CM,headache
+766354,Cervicogenic headache,G44.86,ICD10CM,headache
+45538112,"Cyclical vomiting, in migraine, not intractable",G43.A0,ICD10CM,headache
+45600790,Primary exertional headache,G44.84,ICD10CM,headache
+45542887,"Migraine, unspecified, not intractable, with status migrainosus",G43.901,ICD10CM,headache
+45552528,"Other migraine, not intractable, with status migrainosus",G43.801,ICD10CM,headache
+45533138,"Chronic migraine without aura, not intractable, with status migrainosus",G43.701,ICD10CM,headache
+1568337,Chronic migraine without aura,G43.7,ICD10CM,headache
+45595944,"Menstrual migraine, not intractable, with status migrainosus",G43.D01,ICD10CM,headache
+45591180,"Ophthalmoplegic migraine, intractable, without status migrainosus",G43.B19,ICD10CM,headache
+1568349,Short lasting unilateral neuralgiform headache with conjunctival injection and tearing (SUNCT),G44.05,ICD10CM,headache
+1568346,Cluster headaches and other trigeminal autonomic cephalgias (TAC),G44.0,ICD10CM,headache
+45542891,"Chronic post-traumatic headache, intractable",G44.321,ICD10CM,headache
+1568359,Other specified headache syndromes,G44.8,ICD10CM,headache
+45605545,"Persistent migraine aura with cerebral infarction, not intractable, without status migrainosus",G43.609,ICD10CM,headache
+45547732,"Hemiplegic migraine, not intractable, with status migrainosus",G43.401,ICD10CM,headache
+45557237,"Other migraine, intractable, with status migrainosus",G43.811,ICD10CM,headache
+45581494,"Periodic headache syndromes in child or adult, not intractable, with status migrainosus",G43.C01,ICD10CM,headache
+45576580,Chronic paroxysmal hemicrania,G44.04,ICD10CM,headache
+45571807,"Chronic cluster headache, not intractable",G44.029,ICD10CM,headache
+45538110,"Hemiplegic migraine, intractable, without status migrainosus",G43.419,ICD10CM,headache
+45586292,"Other migraine, not intractable, without status migrainosus",G43.809,ICD10CM,headache
+45557236,"Migraine without aura, intractable, without status migrainosus",G43.019,ICD10CM,headache
+45533142,"Episodic cluster headache, not intractable",G44.019,ICD10CM,headache
+35207379,"Migraine without aura, intractable",G43.01,ICD10CM,headache
+45576578,"Menstrual migraine, intractable, with status migrainosus",G43.D11,ICD10CM,headache
+45552529,"Ophthalmoplegic migraine, not intractable, with status migrainosus",G43.B01,ICD10CM,headache
+45547735,"Ophthalmoplegic migraine, not intractable",G43.B0,ICD10CM,headache
+1568356,Acute post-traumatic headache,G44.31,ICD10CM,headache
+45591182,"Menstrual migraine, intractable, without status migrainosus",G43.D19,ICD10CM,headache
+35207383,"Hemiplegic migraine, not intractable",G43.40,ICD10CM,headache
+35207388,"Chronic migraine without aura, intractable",G43.71,ICD10CM,headache
+45542888,"Short lasting unilateral neuralgiform headache with conjunctival injection and tearing (SUNCT), intractable",G44.051,ICD10CM,headache
+45605543,"Migraine with aura, not intractable, with status migrainosus",G43.101,ICD10CM,headache
+45566880,"Episodic tension-type headache, intractable",G44.211,ICD10CM,headache
+35207386,"Persistent migraine aura without cerebral infarction, intractable",G43.51,ICD10CM,headache
+1568353,"Tension-type headache, unspecified",G44.20,ICD10CM,headache
+45562087,"Migraine with aura, not intractable, without status migrainosus",G43.109,ICD10CM,headache
+45552533,Hemicrania continua,G44.51,ICD10CM,headache
+45538115,"Periodic headache syndromes in child or adult, intractable",G43.C1,ICD10CM,headache
+45605551,"Chronic paroxysmal hemicrania, intractable",G44.041,ICD10CM,headache
+45552532,Chronic post-traumatic headache,G44.32,ICD10CM,headache
+45586289,"Hemiplegic migraine, intractable, with status migrainosus",G43.411,ICD10CM,headache
+45605547,"Cyclical vomiting, in migraine, intractable",G43.A1,ICD10CM,headache
+45538117,"Acute post-traumatic headache, intractable",G44.311,ICD10CM,headache
+45600786,"Migraine, unspecified, not intractable, without status migrainosus",G43.909,ICD10CM,headache
+45566875,"Migraine with aura, intractable, with status migrainosus",G43.111,ICD10CM,headache
+45547739,Episodic tension-type headache,G44.21,ICD10CM,headache
+45571805,"Migraine, unspecified, intractable, without status migrainosus",G43.919,ICD10CM,headache
+45571804,"Menstrual migraine, intractable, with status migrainosus",G43.831,ICD10CM,headache
+45547734,"Persistent migraine aura with cerebral infarction, intractable, without status migrainosus",G43.619,ICD10CM,headache
+45576584,Primary cough headache,G44.83,ICD10CM,headache
+45581491,"Chronic migraine without aura, intractable, with status migrainosus",G43.711,ICD10CM,headache
+45538118,"Chronic post-traumatic headache, not intractable",G44.329,ICD10CM,headache
+45600788,"Episodic paroxysmal hemicrania, not intractable",G44.039,ICD10CM,headache
+45533139,"Cyclical vomiting, not intractable, without status migrainosus",G43.A09,ICD10CM,headache
+45586291,"Persistent migraine aura without cerebral infarction, intractable, without status migrainosus",G43.519,ICD10CM,headache
+1568336,"Persistent migraine aura with cerebral infarction, intractable",G43.61,ICD10CM,headache
+45538108,"Migraine without aura, intractable, with status migrainosus",G43.011,ICD10CM,headache
+45576577,"Periodic headache syndromes in child or adult, intractable, without status migrainosus",G43.C19,ICD10CM,headache
+45566882,"Post-traumatic headache, unspecified, not intractable",G44.309,ICD10CM,headache
+45571802,"Menstrual migraine, not intractable, with status migrainosus",G43.821,ICD10CM,headache
+1568340,"Other migraine, not intractable",G43.80,ICD10CM,headache
+45586293,Episodic cluster headache,G44.01,ICD10CM,headache
+35207378,"Migraine without aura, not intractable",G43.00,ICD10CM,headache
+45591184,Hypnic headache,G44.81,ICD10CM,headache
+1568331,Migraine without aura,G43.0,ICD10CM,headache
+45600789,Other complicated headache syndrome,G44.59,ICD10CM,headache
+45547738,"Tension-type headache, unspecified, not intractable",G44.209,ICD10CM,headache
+1568332,Migraine with aura,G43.1,ICD10CM,headache
+45605546,"Persistent migraine aura with cerebral infarction, intractable, with status migrainosus",G43.611,ICD10CM,headache
+45576581,"Other trigeminal autonomic cephalgias (TAC), not intractable",G44.099,ICD10CM,headache
+725458,"Headache with orthostatic component, not elsewhere classified",R51.0,ICD10CM,headache
+45605549,"Episodic cluster headache, intractable",G44.011,ICD10CM,headache
+45605553,"Chronic tension-type headache, intractable",G44.221,ICD10CM,headache
+1568350,Other trigeminal autonomic cephalgias (TAC),G44.09,ICD10CM,headache
+45566878,"Cluster headache syndrome, unspecified, intractable",G44.001,ICD10CM,headache
+45538116,"Menstrual migraine, not intractable, without status migrainosus",G43.D09,ICD10CM,headache
+1568345,Other headache syndromes,G44,ICD10CM,headache
+45557238,"Migraine, unspecified, intractable, with status migrainosus",G43.911,ICD10CM,headache
+1568351,"Vascular headache, not elsewhere classified",G44.1,ICD10CM,headache
+45576583,New daily persistent headache (NDPH),G44.52,ICD10CM,headache
+45538109,"Hemiplegic migraine, not intractable, without status migrainosus",G43.409,ICD10CM,headache
+45552527,"Migraine with aura, intractable, without status migrainosus",G43.119,ICD10CM,headache
+45533137,"Persistent migraine aura without cerebral infarction, not intractable, without status migrainosus",G43.509,ICD10CM,headache
+45566874,"Migraine without aura, not intractable, with status migrainosus",G43.001,ICD10CM,headache
+1568348,Episodic paroxysmal hemicrania,G44.03,ICD10CM,headache
+45538114,"Ophthalmoplegic migraine, intractable",G43.B1,ICD10CM,headache
+45605552,"Short lasting unilateral neuralgiform headache with conjunctival injection and tearing (SUNCT), not intractable",G44.059,ICD10CM,headache
+1568333,Persistent migraine aura without cerebral infarction,G43.5,ICD10CM,headache
+45571803,"Menstrual migraine, not intractable, without status migrainosus",G43.829,ICD10CM,headache
+45595945,"Vascular headache, not elsewhere classified, intractable",G44.11,ICD10CM,headache
+45571806,"Periodic headache syndromes in child or adult, not intractable, without status migrainosus",G43.C09,ICD10CM,headache
+1568343,"Menstrual migraine, intractable",G43.83,ICD10CM,headache
+1568334,Persistent migraine aura with cerebral infarction,G43.6,ICD10CM,headache
+35207392,"Migraine, unspecified, intractable",G43.91,ICD10CM,headache
+45605548,"Cluster headache syndrome, unspecified, not intractable",G44.009,ICD10CM,headache
+45600785,"Chronic migraine without aura, intractable, without status migrainosus",G43.719,ICD10CM,headache
+45542889,"Tension-type headache, unspecified, intractable",G44.201,ICD10CM,headache
+35207387,"Chronic migraine without aura, not intractable",G43.70,ICD10CM,headache
+45547733,"Persistent migraine aura with cerebral infarction, not intractable, with status migrainosus",G43.601,ICD10CM,headache
+45586290,"Persistent migraine aura without cerebral infarction, not intractable, with status migrainosus",G43.501,ICD10CM,headache
+45533143,"Other trigeminal autonomic cephalgias (TAC), intractable",G44.091,ICD10CM,headache
+1568330,Migraine,G43,ICD10CM,headache
+45605554,"Acute post-traumatic headache, not intractable",G44.319,ICD10CM,headache
+45595940,"Persistent migraine aura without cerebral infarction, intractable, with status migrainosus",G43.511,ICD10CM,headache
+45591183,"Episodic paroxysmal hemicrania, intractable",G44.031,ICD10CM,headache
+45595942,"Menstrual migraine, intractable, without status migrainosus",G43.839,ICD10CM,headache
+45538111,"Other migraine, intractable, without status migrainosus",G43.819,ICD10CM,headache
+1568338,Periodic headache syndromes in child or adult,G43.C,ICD10CM,headache
+45533144,Other headache syndrome,G44.89,ICD10CM,headache
+45538113,"Ophthalmoplegic migraine, not intractable, without status migrainosus",G43.B09,ICD10CM,headache
+45562109,Chronic pain syndrome,G89.4,ICD10CM,generalized_pain
+35211389,"Pain, unspecified",R52,ICD10CM,generalized_pain
+1568420,"Pain, not elsewhere classified",G89,ICD10CM,generalized_pain
+45566906,Central pain syndrome,G89.0,ICD10CM,generalized_pain
+45542912,Other chronic pain,G89.29,ICD10CM,generalized_pain
+45542780,Transfusion associated circulatory overload,E87.71,ICD10CM,fluid_and_electrolyte
+35207094,Acidosis,E87.2,ICD10CM,fluid_and_electrolyte
+45576480,"Fluid overload, unspecified",E87.70,ICD10CM,fluid_and_electrolyte
+35207099,Fluid overload,E87.7,ICD10CM,fluid_and_electrolyte
+1568078,"Other disorders of fluid, electrolyte and acid-base balance",E87,ICD10CM,fluid_and_electrolyte
+35207100,"Other disorders of electrolyte and fluid balance, not elsewhere classified",E87.8,ICD10CM,fluid_and_electrolyte
+35207093,Hypo-osmolality and hyponatremia,E87.1,ICD10CM,fluid_and_electrolyte
+35207095,Alkalosis,E87.3,ICD10CM,fluid_and_electrolyte
+35207096,Mixed disorder of acid-base balance,E87.4,ICD10CM,fluid_and_electrolyte
+35207098,Hypokalemia,E87.6,ICD10CM,fluid_and_electrolyte
+45542781,Other fluid overload,E87.79,ICD10CM,fluid_and_electrolyte
+35207097,Hyperkalemia,E87.5,ICD10CM,fluid_and_electrolyte
+35207092,Hyperosmolality and hypernatremia,E87.0,ICD10CM,fluid_and_electrolyte
+45587018,Muscle weakness (generalized),M62.81,ICD10CM,fatigue_and_malaise
+45582718,Other malaise,R53.81,ICD10CM,fatigue_and_malaise
+45534458,Other fatigue,R53.83,ICD10CM,fatigue_and_malaise
+35207505,Postviral fatigue syndrome,G93.3,ICD10CM,fatigue_and_malaise
+1572256,Other malaise and fatigue,R53.8,ICD10CM,fatigue_and_malaise
+45573032,"Chronic fatigue, unspecified",R53.82,ICD10CM,fatigue_and_malaise
+35211275,Cough,R05,ICD10CM,respiratory_signs_and_sx
+766424,Acute cough,R05.1,ICD10CM,respiratory_signs_and_sx
+766427,Cough syncope,R05.4,ICD10CM,respiratory_signs_and_sx
+766428,Other specified cough,R05.8,ICD10CM,respiratory_signs_and_sx
+766429,"Cough, unspecified",R05.9,ICD10CM,respiratory_signs_and_sx
+766425,Subacute cough,R05.2,ICD10CM,respiratory_signs_and_sx
+766426,Chronic cough,R05.3,ICD10CM,respiratory_signs_and_sx
+45534424,"Chest pain, unspecified",R07.9,ICD10CM,chest_pain
+35211284,Chest pain on breathing,R07.1,ICD10CM,chest_pain
+45597167,Intercostal pain,R07.82,ICD10CM,chest_pain
+45602002,Other chest pain,R07.89,ICD10CM,chest_pain
+1572194,Other chest pain,R07.8,ICD10CM,chest_pain
+35211283,Pain in throat,R07.0,ICD10CM,chest_pain
+45587497,Pleurodynia,R07.81,ICD10CM,chest_pain
+35211285,Precordial pain,R07.2,ICD10CM,chest_pain
+1572193,Pain in throat and chest,R07,ICD10CM,chest_pain
+35211352,Parosmia,R43.1,ICD10CM,changes_in_taste_and_smell
+35211353,Parageusia,R43.2,ICD10CM,changes_in_taste_and_smell
+45573025,Unspecified disturbances of smell and taste,R43.9,ICD10CM,changes_in_taste_and_smell
+35211351,Anosmia,R43.0,ICD10CM,changes_in_taste_and_smell
+35211354,Other disturbances of smell and taste,R43.8,ICD10CM,changes_in_taste_and_smell
+1572242,Disturbances of smell and taste,R43,ICD10CM,changes_in_taste_and_smell
+45534422,Shortness of breath,R06.02,ICD10CM,respiratory_signs_and_sx
+35211286,Pleurisy,R09.1,ICD10CM,respiratory_signs_and_sx
+35211265,Benign and innocent cardiac murmurs,R01.0,ICD10CM,cardiovascular_signs_and_sx
+35211272,Hemoptysis,R04.2,ICD10CM,respiratory_signs_and_sx
+35211278,Periodic breathing,R06.3,ICD10CM,respiratory_signs_and_sx
+45573007,Hypoxemia,R09.02,ICD10CM,respiratory_signs_and_sx
+35211273,Hemorrhage from other sites in respiratory passages,R04.8,ICD10CM,respiratory_signs_and_sx
+1572196,Asphyxia and hypoxemia,R09.0,ICD10CM,respiratory_signs_and_sx
+35211287,Respiratory arrest,R09.2,ICD10CM,respiratory_signs_and_sx
+35211276,Stridor,R06.1,ICD10CM,respiratory_signs_and_sx
+1572187,Cardiac murmurs and other cardiac sounds,R01,ICD10CM,cardiovascular_signs_and_sx
+45558453,Other specified symptoms and signs involving the circulatory and respiratory systems,R09.89,ICD10CM,respiratory_signs_and_sx
+45563287,Hemorrhage from other sites in respiratory passages,R04.89,ICD10CM,respiratory_signs_and_sx
+35211274,"Hemorrhage from respiratory passages, unspecified",R04.9,ICD10CM,respiratory_signs_and_sx
+35211267,Other cardiac sounds,R01.2,ICD10CM,cardiovascular_signs_and_sx
+35211268,"Elevated blood-pressure reading, without diagnosis of hypertension",R03.0,ICD10CM,cardiovascular_signs_and_sx
+35211269,Nonspecific low blood-pressure reading,R03.1,ICD10CM,cardiovascular_signs_and_sx
+35211280,Mouth breathing,R06.5,ICD10CM,respiratory_signs_and_sx
+35211282,Sneezing,R06.7,ICD10CM,respiratory_signs_and_sx
+1572192,Other abnormalities of breathing,R06.8,ICD10CM,respiratory_signs_and_sx
+45558447,Acute idiopathic pulmonary hemorrhage in infants,R04.81,ICD10CM,cardiovascular_signs_and_sx
+45587496,"Dyspnea, unspecified",R06.00,ICD10CM,respiratory_signs_and_sx
+35211279,Hyperventilation,R06.4,ICD10CM,respiratory_signs_and_sx
+35211277,Wheezing,R06.2,ICD10CM,respiratory_signs_and_sx
+1572190,Abnormalities of breathing,R06,ICD10CM,respiratory_signs_and_sx
+35211271,Hemorrhage from throat,R04.1,ICD10CM,respiratory_signs_and_sx
+45606793,"Apnea, not elsewhere classified",R06.81,ICD10CM,respiratory_signs_and_sx
+1572189,Hemorrhage from respiratory passages,R04,ICD10CM,respiratory_signs_and_sx
+45597165,Orthopnea,R06.01,ICD10CM,respiratory_signs_and_sx
+35211288,Abnormal sputum,R09.3,ICD10CM,respiratory_signs_and_sx
+45553714,Snoring,R06.83,ICD10CM,respiratory_signs_and_sx
+45568110,Asphyxia,R09.01,ICD10CM,respiratory_signs_and_sx
+35211270,Epistaxis,R04.0,ICD10CM,respiratory_signs_and_sx
+1326788,Acute respiratory distress,R06.03,ICD10CM,respiratory_signs_and_sx
+1572191,Dyspnea,R06.0,ICD10CM,respiratory_signs_and_sx
+1572195,Other symptoms and signs involving the circulatory and respiratory system,R09,ICD10CM,respiratory_signs_and_sx
+45539314,"Tachypnea, not elsewhere classified",R06.82,ICD10CM,respiratory_signs_and_sx
+1572197,Other specified symptoms and signs involving the circulatory and respiratory systems,R09.8,ICD10CM,respiratory_signs_and_sx
+35211266,"Cardiac murmur, unspecified",R01.1,ICD10CM,cardiovascular_signs_and_sx
+45563288,Unspecified abnormalities of breathing,R06.9,ICD10CM,respiratory_signs_and_sx
+1572188,"Abnormal blood-pressure reading, without diagnosis",R03,ICD10CM,cardiovascular_signs_and_sx
+35211281,Hiccough,R06.6,ICD10CM,respiratory_signs_and_sx
+45602003,Nasal congestion,R09.81,ICD10CM,respiratory_signs_and_sx
+35211314,Cyanosis,R23.0,ICD10CM,cardiovascular_signs_and_sx
+45577778,Other abnormalities of breathing,R06.89,ICD10CM,respiratory_signs_and_sx
+45548944,Other forms of dyspnea,R06.09,ICD10CM,respiratory_signs_and_sx
+45606794,Postnasal drip,R09.82,ICD10CM,respiratory_signs_and_sx
+35207769,Left anterior fascicular block,I44.4,ICD10CM,arrythmias
+1553751,Longstanding persistent atrial fibrillation,I48.11,ICD10CM,arrythmias
+1569162,Atrioventricular and left bundle-branch block,I44,ICD10CM,arrythmias
+35207790,Other specified cardiac arrhythmias,I49.8,ICD10CM,arrythmias
+45547315,Encounter for checking and testing of cardiac pacemaker pulse generator [battery],Z45.010,ICD10CM,arrythmias
+1569173,Atypical atrial flutter,I48.4,ICD10CM,arrythmias
+35225413,Presence of cardiac pacemaker,Z95.0,ICD10CM,arrythmias
+35207774,Trifascicular block,I45.3,ICD10CM,arrythmias
+1569170,Atrial fibrillation and flutter,I48,ICD10CM,arrythmias
+35207771,"Left bundle-branch block, unspecified",I44.7,ICD10CM,arrythmias
+35207775,Nonspecific intraventricular block,I45.4,ICD10CM,arrythmias
+1569168,Cardiac arrest,I46,ICD10CM,arrythmias
+35207772,Right fascicular block,I45.0,ICD10CM,arrythmias
+35207780,Re-entry ventricular arrhythmia,I47.0,ICD10CM,arrythmias
+35207785,Persistent atrial fibrillation,I48.1,ICD10CM,arrythmias
+1569172,Typical atrial flutter,I48.3,ICD10CM,arrythmias
+35207791,"Cardiac arrhythmia, unspecified",I49.9,ICD10CM,arrythmias
+45562352,Long QT syndrome,I45.81,ICD10CM,arrythmias
+35207781,Supraventricular tachycardia,I47.1,ICD10CM,arrythmias
+1569171,Chronic atrial fibrillation,I48.2,ICD10CM,arrythmias
+1569175,Other cardiac arrhythmias,I49,ICD10CM,arrythmias
+1569163,Other and unspecified atrioventricular block,I44.3,ICD10CM,arrythmias
+35207782,Ventricular tachycardia,I47.2,ICD10CM,arrythmias
+35207776,Other specified heart block,I45.5,ICD10CM,arrythmias
+35207777,Pre-excitation syndrome,I45.6,ICD10CM,arrythmias
+45562353,Ventricular fibrillation,I49.01,ICD10CM,arrythmias
+35207786,Atrial premature depolarization,I49.1,ICD10CM,arrythmias
+45576876,Unspecified atrial fibrillation,I48.91,ICD10CM,arrythmias
+35207773,Bifascicular block,I45.2,ICD10CM,arrythmias
+45591468,Other premature depolarization,I49.49,ICD10CM,arrythmias
+35207789,Sick sinus syndrome,I49.5,ICD10CM,arrythmias
+45557544,Unspecified right bundle-branch block,I45.10,ICD10CM,arrythmias
+45581775,Other fascicular block,I44.69,ICD10CM,arrythmias
+1572186,Abnormalities of heart beat,R00,ICD10CM,arrythmias
+45572094,Unspecified atrial flutter,I48.92,ICD10CM,arrythmias
+1569174,Unspecified atrial fibrillation and atrial flutter,I48.9,ICD10CM,arrythmias
+1569177,Other and unspecified premature depolarization,I49.4,ICD10CM,arrythmias
+45605798,Other specified conduction disorders,I45.89,ICD10CM,arrythmias
+1569166,Other and unspecified right bundle-branch block,I45.1,ICD10CM,arrythmias
+45595516,Encounter for adjustment and management of other part of cardiac pacemaker,Z45.018,ICD10CM,arrythmias
+1569165,Other conduction disorders,I45,ICD10CM,arrythmias
+1553753,"Chronic atrial fibrillation, unspecified",I48.20,ICD10CM,arrythmias
+35207787,Junctional premature depolarization,I49.2,ICD10CM,arrythmias
+45596205,Other right bundle-branch block,I45.19,ICD10CM,arrythmias
+35207783,"Paroxysmal tachycardia, unspecified",I47.9,ICD10CM,arrythmias
+35207768,"Atrioventricular block, complete",I44.2,ICD10CM,arrythmias
+45562351,Unspecified fascicular block,I44.60,ICD10CM,arrythmias
+35211263,Palpitations,R00.2,ICD10CM,arrythmias
+35207778,"Conduction disorder, unspecified",I45.9,ICD10CM,arrythmias
+35211264,Other abnormalities of heart beat,R00.8,ICD10CM,arrythmias
+1569176,Ventricular fibrillation and flutter,I49.0,ICD10CM,arrythmias
+45552792,Other atrioventricular block,I44.39,ICD10CM,arrythmias
+35207766,"Atrioventricular block, first degree",I44.0,ICD10CM,arrythmias
+35207767,"Atrioventricular block, second degree",I44.1,ICD10CM,arrythmias
+1569169,Paroxysmal tachycardia,I47,ICD10CM,arrythmias
+35211261,"Tachycardia, unspecified",R00.0,ICD10CM,arrythmias
+35207770,Left posterior fascicular block,I44.5,ICD10CM,arrythmias
+1553754,Permanent atrial fibrillation,I48.21,ICD10CM,arrythmias
+35211262,"Bradycardia, unspecified",R00.1,ICD10CM,arrythmias
+1569167,Other specified conduction disorders,I45.8,ICD10CM,arrythmias
+45577776,Unspecified abnormalities of heart beat,R00.9,ICD10CM,arrythmias
+45552796,Unspecified premature depolarization,I49.40,ICD10CM,arrythmias
+45596204,Unspecified atrioventricular block,I44.30,ICD10CM,arrythmias
+1553752,Other persistent atrial fibrillation,I48.19,ICD10CM,arrythmias
+45533455,Ventricular flutter,I49.02,ICD10CM,arrythmias
+1569164,Other and unspecified fascicular block,I44.6,ICD10CM,arrythmias
+35207784,Paroxysmal atrial fibrillation,I48.0,ICD10CM,arrythmias
+35207788,Ventricular premature depolarization,I49.3,ICD10CM,arrythmias
+35208069,Acute respiratory distress syndrome,J80,ICD10CM,acute_respiratory_distress_syndrome
+1571485,Acute kidney failure,N17,ICD10CM,acute_kidney_injury
+35209269,Acute kidney failure with tubular necrosis,N17.0,ICD10CM,acute_kidney_injury
+35209272,Other acute kidney failure,N17.8,ICD10CM,acute_kidney_injury
+35209271,Acute kidney failure with medullary necrosis,N17.2,ICD10CM,acute_kidney_injury
+35209273,"Acute kidney failure, unspecified",N17.9,ICD10CM,acute_kidney_injury
+35209270,Acute kidney failure with acute cortical necrosis,N17.1,ICD10CM,acute_kidney_injury
+35211421,Nonspecific elevation of levels of transaminase and lactic acid dehydrogenase [LDH],R74.0,ICD10CM,abnormal_liver_enzymes
+725460,Elevation of levels of liver transaminase levels,R74.01,ICD10CM,abnormal_liver_enzymes
+725461,Elevation of levels of lactic acid dehydrogenase [LDH],R74.02,ICD10CM,abnormal_liver_enzymes
+35211524,Abnormal results of liver function studies,R94.5,ICD10CM,abnormal_liver_enzymes
+45602005,Left lower quadrant rebound abdominal tenderness,R10.824,ICD10CM,abdominal_pain
+45553715,Left lower quadrant pain,R10.32,ICD10CM,abdominal_pain
+45597170,Right lower quadrant rebound abdominal tenderness,R10.823,ICD10CM,abdominal_pain
+45582694,Right lower quadrant pain,R10.31,ICD10CM,abdominal_pain
+45568114,Unspecified abdominal pain,R10.9,ICD10CM,abdominal_pain
+45577782,Generalized abdominal tenderness,R10.817,ICD10CM,abdominal_pain
+45597169,Left upper quadrant rebound abdominal tenderness,R10.822,ICD10CM,abdominal_pain
+1572201,Other abdominal pain,R10.8,ICD10CM,abdominal_pain
+45573010,"Abdominal tenderness, unspecified site",R10.819,ICD10CM,abdominal_pain
+45544130,Right lower quadrant abdominal tenderness,R10.813,ICD10CM,abdominal_pain
+1572198,Abdominal and pelvic pain,R10,ICD10CM,abdominal_pain
+45582695,Right upper quadrant rebound abdominal tenderness,R10.821,ICD10CM,abdominal_pain
+45602006,Epigastric rebound abdominal tenderness,R10.826,ICD10CM,abdominal_pain
+45592408,Abdominal tenderness,R10.81,ICD10CM,abdominal_pain
+45577783,Periumbilic rebound abdominal tenderness,R10.825,ICD10CM,abdominal_pain
+45606795,Left lower quadrant abdominal tenderness,R10.814,ICD10CM,abdominal_pain
+45548948,Generalized rebound abdominal tenderness,R10.827,ICD10CM,abdominal_pain
+45602004,Periumbilic abdominal tenderness,R10.815,ICD10CM,abdominal_pain
+45592407,Periumbilical pain,R10.33,ICD10CM,abdominal_pain
+1572202,Rebound abdominal tenderness,R10.82,ICD10CM,abdominal_pain
+45553716,"Rebound abdominal tenderness, unspecified site",R10.829,ICD10CM,abdominal_pain
+35211289,Acute abdomen,R10.0,ICD10CM,abdominal_pain
+45573009,Right upper quadrant abdominal tenderness,R10.811,ICD10CM,abdominal_pain
+45563290,"Lower abdominal pain, unspecified",R10.30,ICD10CM,abdominal_pain
+45558455,Generalized abdominal pain,R10.84,ICD10CM,abdominal_pain
+45602007,Colic,R10.83,ICD10CM,abdominal_pain
+45577781,"Upper abdominal pain, unspecified",R10.10,ICD10CM,abdominal_pain
+45558454,Epigastric pain,R10.13,ICD10CM,abdominal_pain
+45534427,Left upper quadrant abdominal tenderness,R10.812,ICD10CM,abdominal_pain
+45597168,Left upper quadrant pain,R10.12,ICD10CM,abdominal_pain
+45534428,Epigastric abdominal tenderness,R10.816,ICD10CM,abdominal_pain
+45568112,Right upper quadrant pain,R10.11,ICD10CM,abdominal_pain
+45552530,"Abdominal migraine, not intractable",G43.D0,ICD10CM,abdominal_pain
+45533140,"Abdominal migraine, intractable",G43.D1,ICD10CM,abdominal_pain
+45536984,"Chilblains, subsequent encounter",T69.1XXD,ICD10CM,skin
+45599694,"Chilblains, sequela",T69.1XXS,ICD10CM,skin
+45551429,"Chilblains, initial encounter",T69.1XXA,ICD10CM,skin
+19160,Chilblains,T69.1,ICD10CM,skin
+35208481,"Unspecified contact dermatitis, unspecified cause",L25.9,ICD10CM,skin
+35208496,"Pruritus, unspecified",L29.9,ICD10CM,skin
+35208495,Other pruritus,L29.8,ICD10CM,skin
+35208510,Other psoriasis,L40.8,ICD10CM,skin
+35208516,Large plaque parapsoriasis,L41.4,ICD10CM,skin
+35208509,Guttate psoriasis,L40.4,ICD10CM,skin
+35208515,Small plaque parapsoriasis,L41.3,ICD10CM,skin
+45586768,Psoriatic spondylitis,L40.53,ICD10CM,skin
+35208507,Acrodermatitis continua,L40.2,ICD10CM,skin
+1569777,Psoriasis,L40,ICD10CM,skin
+35208517,Retiform parapsoriasis,L41.5,ICD10CM,skin
+1569779,Parapsoriasis,L41,ICD10CM,skin
+45548197,Psoriatic arthritis mutilans,L40.52,ICD10CM,skin
+45596373,Other psoriatic arthropathy,L40.59,ICD10CM,skin
+35208508,Pustulosis palmaris et plantaris,L40.3,ICD10CM,skin
+45548196,"Arthropathic psoriasis, unspecified",L40.50,ICD10CM,skin
+35208505,Psoriasis vulgaris,L40.0,ICD10CM,skin
+45601222,Distal interphalangeal psoriatic arthropathy,L40.51,ICD10CM,skin
+45533640,Psoriatic juvenile arthropathy,L40.54,ICD10CM,skin
+35208511,"Psoriasis, unspecified",L40.9,ICD10CM,skin
+35208506,Generalized pustular psoriasis,L40.1,ICD10CM,skin
+35208519,"Parapsoriasis, unspecified",L41.9,ICD10CM,skin
+1569778,Arthropathic psoriasis,L40.5,ICD10CM,skin
+35208518,Other parapsoriasis,L41.8,ICD10CM,skin
+35211315,Pallor,R23.1,ICD10CM,skin
+35211305,Hypoesthesia of skin,R20.1,ICD10CM,skin
+35211304,Anesthesia of skin,R20.0,ICD10CM,skin
+45586344,Vitiligo of right upper eyelid and periocular area,H02.731,ICD10CM,skin
+45552568,Vitiligo of left lower eyelid and periocular area,H02.735,ICD10CM,skin
+45566930,Vitiligo of right lower eyelid and periocular area,H02.732,ICD10CM,skin
+45538173,"Vitiligo of right eye, unspecified eyelid and periocular area",H02.733,ICD10CM,skin
+1568479,Vitiligo of eyelid and periocular area,H02.73,ICD10CM,skin
+45605586,"Vitiligo of left eye, unspecified eyelid and periocular area",H02.736,ICD10CM,skin
+45557286,Vitiligo of left upper eyelid and periocular area,H02.734,ICD10CM,skin
+45542944,"Vitiligo of unspecified eye, unspecified eyelid and periocular area",H02.739,ICD10CM,skin
+35208655,Vitiligo,L80,ICD10CM,skin
+35207245,Expressive language disorder,F80.1,ICD10CM,cognitive_function
+1572239,Other symptoms and signs involving cognitive functions and awareness,R41,ICD10CM,cognitive_function
+35211349,Other amnesia,R41.3,ICD10CM,cognitive_function
+35225170,"Problems related to education and literacy, unspecified",Z55.9,ICD10CM,cognitive_function
+35207115,Amnestic disorder due to known physiological condition,F04,ICD10CM,mental_health
+35207116,Delirium due to known physiological condition,F05,ICD10CM,mental_health
+35207117,Psychotic disorder with hallucinations due to known physiological condition,F06.0,ICD10CM,mental_health
+35207118,Catatonic disorder due to known physiological condition,F06.1,ICD10CM,mental_health
+35207119,Psychotic disorder with delusions due to known physiological condition,F06.2,ICD10CM,mental_health
+1568092,Mood disorder due to known physiological condition,F06.3,ICD10CM,mental_health
+45557151,"Mood disorder due to known physiological condition, unspecified",F06.30,ICD10CM,mental_health
+45561998,Mood disorder due to known physiological condition with depressive features,F06.31,ICD10CM,mental_health
+45581399,Mood disorder due to known physiological condition with major depressive-like episode,F06.32,ICD10CM,mental_health
+45600688,Mood disorder due to known physiological condition with manic features,F06.33,ICD10CM,mental_health
+45576490,Mood disorder due to known physiological condition with mixed features,F06.34,ICD10CM,mental_health
+35207120,Anxiety disorder due to known physiological condition,F06.4,ICD10CM,mental_health
+35207121,Other specified mental disorders due to known physiological condition,F06.8,ICD10CM,mental_health
+35207122,Unspecified mental disorder due to known physiological condition,F06.9,ICD10CM,mental_health
+1568093,Personality and behavioral disorders due to known physiological condition,F07,ICD10CM,mental_health
+35207123,Personality change due to known physiological condition,F07.0,ICD10CM,mental_health
+1568094,Other personality and behavioral disorders due to known physiological condition,F07.8,ICD10CM,mental_health
+45571706,Postconcussional syndrome,F07.81,ICD10CM,mental_health
+45542788,Other personality and behavioral disorders due to known physiological condition,F07.89,ICD10CM,mental_health
+35207124,Unspecified personality and behavioral disorder due to known physiological condition,F07.9,ICD10CM,mental_health
+35207139,"Schizoaffective disorder, unspecified",F25.9,ICD10CM,mental_health
+1568206,Schizophrenia,F20,ICD10CM,mental_health
+35207126,Paranoid schizophrenia,F20.0,ICD10CM,mental_health
+35207127,Disorganized schizophrenia,F20.1,ICD10CM,mental_health
+35207128,Catatonic schizophrenia,F20.2,ICD10CM,mental_health
+35207129,Undifferentiated schizophrenia,F20.3,ICD10CM,mental_health
+35207130,Residual schizophrenia,F20.5,ICD10CM,mental_health
+1568207,Other schizophrenia,F20.8,ICD10CM,mental_health
+45562038,Schizophreniform disorder,F20.81,ICD10CM,mental_health
+45547696,Other schizophrenia,F20.89,ICD10CM,mental_health
+35207131,"Schizophrenia, unspecified",F20.9,ICD10CM,mental_health
+35207132,Schizotypal disorder,F21,ICD10CM,mental_health
+35207133,Delusional disorders,F22,ICD10CM,mental_health
+35207134,Brief psychotic disorder,F23,ICD10CM,mental_health
+35207135,Shared psychotic disorder,F24,ICD10CM,mental_health
+1568208,Schizoaffective disorders,F25,ICD10CM,mental_health
+35207136,"Schizoaffective disorder, bipolar type",F25.0,ICD10CM,mental_health
+35207137,"Schizoaffective disorder, depressive type",F25.1,ICD10CM,mental_health
+35207138,Other schizoaffective disorders,F25.8,ICD10CM,mental_health
+35207140,Other psychotic disorder not due to a substance or known physiological condition,F28,ICD10CM,mental_health
+35207141,Unspecified psychosis not due to a substance or known physiological condition,F29,ICD10CM,mental_health
+1568209,Manic episode,F30,ICD10CM,mental_health
+1568210,Manic episode without psychotic symptoms,F30.1,ICD10CM,mental_health
+45542838,"Manic episode without psychotic symptoms, unspecified",F30.10,ICD10CM,mental_health
+45595901,"Manic episode without psychotic symptoms, mild",F30.11,ICD10CM,mental_health
+45586235,"Manic episode without psychotic symptoms, moderate",F30.12,ICD10CM,mental_health
+45581455,"Manic episode, severe, without psychotic symptoms",F30.13,ICD10CM,mental_health
+35207142,"Manic episode, severe with psychotic symptoms",F30.2,ICD10CM,mental_health
+45542839,Manic episode in partial remission,F30.3,ICD10CM,mental_health
+45557200,Manic episode in full remission,F30.4,ICD10CM,mental_health
+35207143,Other manic episodes,F30.8,ICD10CM,mental_health
+35207144,"Manic episode, unspecified",F30.9,ICD10CM,mental_health
+35207148,"Bipolar disorder, current episode depressed, severe, with psychotic features",F31.5,ICD10CM,mental_health
+1568217,Depressive episode,F32,ICD10CM,mental_health
+35207150,"Major depressive disorder, single episode, mild",F32.0,ICD10CM,mental_health
+35207151,"Major depressive disorder, single episode, moderate",F32.1,ICD10CM,mental_health
+35207152,"Major depressive disorder, single episode, severe without psychotic features",F32.2,ICD10CM,mental_health
+35207153,"Major depressive disorder, single episode, severe with psychotic features",F32.3,ICD10CM,mental_health
+45576541,"Major depressive disorder, single episode, in partial remission",F32.4,ICD10CM,mental_health
+45547704,"Major depressive disorder, single episode, in full remission",F32.5,ICD10CM,mental_health
+35207154,Other depressive episodes,F32.8,ICD10CM,mental_health
+37200319,Premenstrual dysphoric disorder,F32.81,ICD10CM,mental_health
+37200320,Other specified depressive episodes,F32.89,ICD10CM,mental_health
+35207155,"Major depressive disorder, single episode, unspecified",F32.9,ICD10CM,mental_health
+766349,"Depression, unspecified",F32.A,ICD10CM,mental_health
+1568218,"Major depressive disorder, recurrent",F33,ICD10CM,mental_health
+35207156,"Major depressive disorder, recurrent, mild",F33.0,ICD10CM,mental_health
+35207157,"Major depressive disorder, recurrent, moderate",F33.1,ICD10CM,mental_health
+35207158,"Major depressive disorder, recurrent severe without psychotic features",F33.2,ICD10CM,mental_health
+35207159,"Major depressive disorder, recurrent, severe with psychotic symptoms",F33.3,ICD10CM,mental_health
+1568219,"Major depressive disorder, recurrent, in remission",F33.4,ICD10CM,mental_health
+45547706,"Major depressive disorder, recurrent, in remission, unspecified",F33.40,ICD10CM,mental_health
+45552479,"Major depressive disorder, recurrent, in partial remission",F33.41,ICD10CM,mental_health
+45571761,"Major depressive disorder, recurrent, in full remission",F33.42,ICD10CM,mental_health
+35207160,Other recurrent depressive disorders,F33.8,ICD10CM,mental_health
+35207161,"Major depressive disorder, recurrent, unspecified",F33.9,ICD10CM,mental_health
+1568220,Persistent mood [affective] disorders,F34,ICD10CM,mental_health
+35207162,Cyclothymic disorder,F34.0,ICD10CM,mental_health
+35207163,Dysthymic disorder,F34.1,ICD10CM,mental_health
+35207164,Other persistent mood [affective] disorders,F34.8,ICD10CM,mental_health
+37200321,Disruptive mood dysregulation disorder,F34.81,ICD10CM,mental_health
+37200322,Other specified persistent mood disorders,F34.89,ICD10CM,mental_health
+35207165,"Persistent mood [affective] disorder, unspecified",F34.9,ICD10CM,mental_health
+35207166,Unspecified mood [affective] disorder,F39,ICD10CM,mental_health
+1568221,Phobic anxiety disorders,F40,ICD10CM,mental_health
+1568222,Agoraphobia,F40.0,ICD10CM,mental_health
+45552480,"Agoraphobia, unspecified",F40.00,ICD10CM,mental_health
+45581459,Agoraphobia with panic disorder,F40.01,ICD10CM,mental_health
+45542847,Agoraphobia without panic disorder,F40.02,ICD10CM,mental_health
+1568223,Social phobias,F40.1,ICD10CM,mental_health
+45557205,"Social phobia, unspecified",F40.10,ICD10CM,mental_health
+45600742,"Social phobia, generalized",F40.11,ICD10CM,mental_health
+1568224,Specific (isolated) phobias,F40.2,ICD10CM,mental_health
+1568225,Animal type phobia,F40.21,ICD10CM,mental_health
+45562045,Arachnophobia,F40.210,ICD10CM,mental_health
+45586241,Other animal type phobia,F40.218,ICD10CM,mental_health
+1568226,Natural environment type phobia,F40.22,ICD10CM,mental_health
+45533102,Fear of thunderstorms,F40.220,ICD10CM,mental_health
+45566843,Other natural environment type phobia,F40.228,ICD10CM,mental_health
+1568227,"Blood, injection, injury type phobia",F40.23,ICD10CM,mental_health
+45600743,Fear of blood,F40.230,ICD10CM,mental_health
+45562046,Fear of injections and transfusions,F40.231,ICD10CM,mental_health
+45600744,Fear of other medical care,F40.232,ICD10CM,mental_health
+45571762,Fear of injury,F40.233,ICD10CM,mental_health
+1568228,Situational type phobia,F40.24,ICD10CM,mental_health
+45576544,Claustrophobia,F40.240,ICD10CM,mental_health
+45566844,Acrophobia,F40.241,ICD10CM,mental_health
+45533103,Fear of bridges,F40.242,ICD10CM,mental_health
+45538067,Fear of flying,F40.243,ICD10CM,mental_health
+45538068,Other situational type phobia,F40.248,ICD10CM,mental_health
+1568229,Other specified phobia,F40.29,ICD10CM,mental_health
+45552481,Androphobia,F40.290,ICD10CM,mental_health
+45586242,Gynephobia,F40.291,ICD10CM,mental_health
+45533104,Other specified phobia,F40.298,ICD10CM,mental_health
+35207167,Other phobic anxiety disorders,F40.8,ICD10CM,mental_health
+35207168,"Phobic anxiety disorder, unspecified",F40.9,ICD10CM,mental_health
+1568230,Other anxiety disorders,F41,ICD10CM,mental_health
+35207169,Panic disorder [episodic paroxysmal anxiety],F41.0,ICD10CM,mental_health
+35207170,Generalized anxiety disorder,F41.1,ICD10CM,mental_health
+35207171,Other mixed anxiety disorders,F41.3,ICD10CM,mental_health
+35207172,Other specified anxiety disorders,F41.8,ICD10CM,mental_health
+35207173,"Anxiety disorder, unspecified",F41.9,ICD10CM,mental_health
+35207174,Obsessive-compulsive disorder,F42,ICD10CM,mental_health
+37200323,Mixed obsessional thoughts and acts,F42.2,ICD10CM,mental_health
+37200324,Hoarding disorder,F42.3,ICD10CM,mental_health
+37200325,Excoriation (skin-picking) disorder,F42.4,ICD10CM,mental_health
+37200326,Other obsessive-compulsive disorder,F42.8,ICD10CM,mental_health
+37200327,"Obsessive-compulsive disorder, unspecified",F42.9,ICD10CM,mental_health
+1568231,"Reaction to severe stress, and adjustment disorders",F43,ICD10CM,mental_health
+35207175,Acute stress reaction,F43.0,ICD10CM,mental_health
+1568232,Post-traumatic stress disorder (PTSD),F43.1,ICD10CM,mental_health
+45600746,"Post-traumatic stress disorder, unspecified",F43.10,ICD10CM,mental_health
+45576545,"Post-traumatic stress disorder, acute",F43.11,ICD10CM,mental_health
+45586243,"Post-traumatic stress disorder, chronic",F43.12,ICD10CM,mental_health
+1568233,Adjustment disorders,F43.2,ICD10CM,mental_health
+45576546,"Adjustment disorder, unspecified",F43.20,ICD10CM,mental_health
+45581461,Adjustment disorder with depressed mood,F43.21,ICD10CM,mental_health
+45547707,Adjustment disorder with anxiety,F43.22,ICD10CM,mental_health
+45538069,Adjustment disorder with mixed anxiety and depressed mood,F43.23,ICD10CM,mental_health
+45600747,Adjustment disorder with disturbance of conduct,F43.24,ICD10CM,mental_health
+45547708,Adjustment disorder with mixed disturbance of emotions and conduct,F43.25,ICD10CM,mental_health
+45576547,Adjustment disorder with other symptoms,F43.29,ICD10CM,mental_health
+35207176,Other reactions to severe stress,F43.8,ICD10CM,mental_health
+35207177,"Reaction to severe stress, unspecified",F43.9,ICD10CM,mental_health
+1568234,Dissociative and conversion disorders,F44,ICD10CM,mental_health
+35207178,Dissociative amnesia,F44.0,ICD10CM,mental_health
+35207179,Dissociative fugue,F44.1,ICD10CM,mental_health
+35207180,Dissociative stupor,F44.2,ICD10CM,mental_health
+35207181,Conversion disorder with motor symptom or deficit,F44.4,ICD10CM,mental_health
+35207182,Conversion disorder with seizures or convulsions,F44.5,ICD10CM,mental_health
+35207183,Conversion disorder with sensory symptom or deficit,F44.6,ICD10CM,mental_health
+35207184,Conversion disorder with mixed symptom presentation,F44.7,ICD10CM,mental_health
+1568235,Other dissociative and conversion disorders,F44.8,ICD10CM,mental_health
+45557208,Dissociative identity disorder,F44.81,ICD10CM,mental_health
+45595910,Other dissociative and conversion disorders,F44.89,ICD10CM,mental_health
+35207185,"Dissociative and conversion disorder, unspecified",F44.9,ICD10CM,mental_health
+1568236,Somatoform disorders,F45,ICD10CM,mental_health
+35207186,Somatization disorder,F45.0,ICD10CM,mental_health
+35207187,Undifferentiated somatoform disorder,F45.1,ICD10CM,mental_health
+1568237,Hypochondriacal disorders,F45.2,ICD10CM,mental_health
+45533110,"Hypochondriacal disorder, unspecified",F45.20,ICD10CM,mental_health
+45566846,Hypochondriasis,F45.21,ICD10CM,mental_health
+45533111,Body dysmorphic disorder,F45.22,ICD10CM,mental_health
+45600749,Other hypochondriacal disorders,F45.29,ICD10CM,mental_health
+1568238,Pain disorders related to psychological factors,F45.4,ICD10CM,mental_health
+45547711,Pain disorder exclusively related to psychological factors,F45.41,ICD10CM,mental_health
+45542852,Pain disorder with related psychological factors,F45.42,ICD10CM,mental_health
+35207188,Other somatoform disorders,F45.8,ICD10CM,mental_health
+35207189,"Somatoform disorder, unspecified",F45.9,ICD10CM,mental_health
+1568239,Other nonpsychotic mental disorders,F48,ICD10CM,mental_health
+35207190,Depersonalization-derealization syndrome,F48.1,ICD10CM,mental_health
+45552489,Pseudobulbar affect,F48.2,ICD10CM,mental_health
+35207191,Other specified nonpsychotic mental disorders,F48.8,ICD10CM,mental_health
+35207192,"Nonpsychotic mental disorder, unspecified",F48.9,ICD10CM,mental_health
+1568240,Eating disorders,F50,ICD10CM,mental_health
+1568241,Anorexia nervosa,F50.0,ICD10CM,mental_health
+45581463,"Anorexia nervosa, unspecified",F50.00,ICD10CM,mental_health
+45552490,"Anorexia nervosa, restricting type",F50.01,ICD10CM,mental_health
+45605500,"Anorexia nervosa, binge eating/purging type",F50.02,ICD10CM,mental_health
+35207193,Bulimia nervosa,F50.2,ICD10CM,mental_health
+35207194,Other eating disorders,F50.8,ICD10CM,mental_health
+37200328,Binge eating disorder,F50.81,ICD10CM,mental_health
+1326506,Avoidant/restrictive food intake disorder,F50.82,ICD10CM,mental_health
+37200329,Other specified eating disorder,F50.89,ICD10CM,mental_health
+35207195,"Eating disorder, unspecified",F50.9,ICD10CM,mental_health
+1568243,Insomnia not due to a substance or known physiological condition,F51.0,ICD10CM,mental_health
+45600753,Primary insomnia,F51.01,ICD10CM,mental_health
+45566847,Adjustment insomnia,F51.02,ICD10CM,mental_health
+45538071,Paradoxical insomnia,F51.03,ICD10CM,mental_health
+45562054,Psychophysiologic insomnia,F51.04,ICD10CM,mental_health
+45562055,Insomnia due to other mental disorder,F51.05,ICD10CM,mental_health
+45566848,Other insomnia not due to a substance or known physiological condition,F51.09,ICD10CM,mental_health
+1568244,Hypersomnia not due to a substance or known physiological condition,F51.1,ICD10CM,mental_health
+45571766,Primary hypersomnia,F51.11,ICD10CM,mental_health
+45595911,Insufficient sleep syndrome,F51.12,ICD10CM,mental_health
+45566849,Hypersomnia due to other mental disorder,F51.13,ICD10CM,mental_health
+45605502,Other hypersomnia not due to a substance or known physiological condition,F51.19,ICD10CM,mental_health
+35207196,Sleepwalking [somnambulism],F51.3,ICD10CM,mental_health
+35207197,Sleep terrors [night terrors],F51.4,ICD10CM,mental_health
+35207198,Nightmare disorder,F51.5,ICD10CM,mental_health
+35207204,Vaginismus not due to a substance or known physiological condition,F52.5,ICD10CM,mental_health
+35207205,Dyspareunia not due to a substance or known physiological condition,F52.6,ICD10CM,mental_health
+1595539,Postpartum depression,F53.0,ICD10CM,mental_health
+1595540,Puerperal psychosis,F53.1,ICD10CM,mental_health
+35207209,Psychological and behavioral factors associated with disorders or diseases classified elsewhere,F54,ICD10CM,mental_health
+1568249,Specific personality disorders,F60,ICD10CM,mental_health
+35207211,Paranoid personality disorder,F60.0,ICD10CM,mental_health
+35207212,Schizoid personality disorder,F60.1,ICD10CM,mental_health
+35207213,Antisocial personality disorder,F60.2,ICD10CM,mental_health
+35207214,Borderline personality disorder,F60.3,ICD10CM,mental_health
+35207215,Histrionic personality disorder,F60.4,ICD10CM,mental_health
+35207216,Obsessive-compulsive personality disorder,F60.5,ICD10CM,mental_health
+35207217,Avoidant personality disorder,F60.6,ICD10CM,mental_health
+35207218,Dependent personality disorder,F60.7,ICD10CM,mental_health
+1568250,Other specific personality disorders,F60.8,ICD10CM,mental_health
+45581467,Narcissistic personality disorder,F60.81,ICD10CM,mental_health
+45557214,Other specific personality disorders,F60.89,ICD10CM,mental_health
+35207219,"Personality disorder, unspecified",F60.9,ICD10CM,mental_health
+1568251,Impulse disorders,F63,ICD10CM,mental_health
+35207220,Pathological gambling,F63.0,ICD10CM,mental_health
+35207221,Pyromania,F63.1,ICD10CM,mental_health
+35207222,Kleptomania,F63.2,ICD10CM,mental_health
+35207223,Trichotillomania,F63.3,ICD10CM,mental_health
+1568252,Other impulse disorders,F63.8,ICD10CM,mental_health
+45605507,Intermittent explosive disorder,F63.81,ICD10CM,mental_health
+45605508,Other impulse disorders,F63.89,ICD10CM,mental_health
+35207224,"Impulse disorder, unspecified",F63.9,ICD10CM,mental_health
+1568258,Factitious disorder imposed on self,F68.1,ICD10CM,mental_health
+45586255,"Factitious disorder imposed on self, unspecified",F68.10,ICD10CM,mental_health
+45547719,"Factitious disorder imposed on self, with predominantly psychological signs and symptoms",F68.11,ICD10CM,mental_health
+45571774,"Factitious disorder imposed on self, with predominantly physical signs and symptoms",F68.12,ICD10CM,mental_health
+45562065,"Factitious disorder imposed on self, with combined psychological and physical signs and symptoms",F68.13,ICD10CM,mental_health
+35207236,Other specified disorders of adult personality and behavior,F68.8,ICD10CM,mental_health
+35207238,Mild intellectual disabilities,F70,ICD10CM,mental_health
+35207239,Moderate intellectual disabilities,F71,ICD10CM,mental_health
+35207240,Severe intellectual disabilities,F72,ICD10CM,mental_health
+35207241,Profound intellectual disabilities,F73,ICD10CM,mental_health
+35207242,Other intellectual disabilities,F78,ICD10CM,mental_health
+766350,Other genetic related intellectual disabilities,F78.A,ICD10CM,mental_health
+766351,SYNGAP1-related intellectual disability,F78.A1,ICD10CM,mental_health
+766352,Other genetic related intellectual disability,F78.A9,ICD10CM,mental_health
+35207243,Unspecified intellectual disabilities,F79,ICD10CM,mental_health
+1568259,Specific developmental disorders of speech and language,F80,ICD10CM,mental_health
+35207244,Phonological disorder,F80.0,ICD10CM,mental_health
+35207245,Expressive language disorder,F80.1,ICD10CM,mental_health
+35207246,Mixed receptive-expressive language disorder,F80.2,ICD10CM,mental_health
+35207247,Acquired aphasia with epilepsy [Landau-Kleffner],F80.3,ICD10CM,mental_health
+45605514,Speech and language development delay due to hearing loss,F80.4,ICD10CM,mental_health
+35207248,Other developmental disorders of speech and language,F80.8,ICD10CM,mental_health
+45591155,Childhood onset fluency disorder,F80.81,ICD10CM,mental_health
+37200331,Social pragmatic communication disorder,F80.82,ICD10CM,mental_health
+45538086,Other developmental disorders of speech and language,F80.89,ICD10CM,mental_health
+35207249,"Developmental disorder of speech and language, unspecified",F80.9,ICD10CM,mental_health
+1568260,Specific developmental disorders of scholastic skills,F81,ICD10CM,mental_health
+35207250,Specific reading disorder,F81.0,ICD10CM,mental_health
+35207251,Mathematics disorder,F81.2,ICD10CM,mental_health
+1568261,Other developmental disorders of scholastic skills,F81.8,ICD10CM,mental_health
+45552504,Disorder of written expression,F81.81,ICD10CM,mental_health
+45547723,Other developmental disorders of scholastic skills,F81.89,ICD10CM,mental_health
+35207252,"Developmental disorder of scholastic skills, unspecified",F81.9,ICD10CM,mental_health
+35207253,Specific developmental disorder of motor function,F82,ICD10CM,mental_health
+1568262,Pervasive developmental disorders,F84,ICD10CM,mental_health
+35207254,Autistic disorder,F84.0,ICD10CM,mental_health
+35207255,Rett's syndrome,F84.2,ICD10CM,mental_health
+35207256,Other childhood disintegrative disorder,F84.3,ICD10CM,mental_health
+35207257,Asperger's syndrome,F84.5,ICD10CM,mental_health
+35207258,Other pervasive developmental disorders,F84.8,ICD10CM,mental_health
+35207259,"Pervasive developmental disorder, unspecified",F84.9,ICD10CM,mental_health
+1568263,Attention-deficit hyperactivity disorders,F90,ICD10CM,mental_health
+35207262,"Attention-deficit hyperactivity disorder, predominantly inattentive type",F90.0,ICD10CM,mental_health
+35207263,"Attention-deficit hyperactivity disorder, predominantly hyperactive type",F90.1,ICD10CM,mental_health
+45552506,"Attention-deficit hyperactivity disorder, combined type",F90.2,ICD10CM,mental_health
+35207264,"Attention-deficit hyperactivity disorder, other type",F90.8,ICD10CM,mental_health
+35207265,"Attention-deficit hyperactivity disorder, unspecified type",F90.9,ICD10CM,mental_health
+1568264,Conduct disorders,F91,ICD10CM,mental_health
+35207266,Conduct disorder confined to family context,F91.0,ICD10CM,mental_health
+35207267,"Conduct disorder, childhood-onset type",F91.1,ICD10CM,mental_health
+35207268,"Conduct disorder, adolescent-onset type",F91.2,ICD10CM,mental_health
+35207269,Oppositional defiant disorder,F91.3,ICD10CM,mental_health
+35207270,Other conduct disorders,F91.8,ICD10CM,mental_health
+35207271,"Conduct disorder, unspecified",F91.9,ICD10CM,mental_health
+35207272,Separation anxiety disorder of childhood,F93.0,ICD10CM,mental_health
+1568266,Disorders of social functioning with onset specific to childhood and adolescence,F94,ICD10CM,mental_health
+35207275,Selective mutism,F94.0,ICD10CM,mental_health
+35207276,Reactive attachment disorder of childhood,F94.1,ICD10CM,mental_health
+35207277,Disinhibited attachment disorder of childhood,F94.2,ICD10CM,mental_health
+35207278,Other childhood disorders of social functioning,F94.8,ICD10CM,mental_health
+35207279,"Childhood disorder of social functioning, unspecified",F94.9,ICD10CM,mental_health
+1568267,Tic disorder,F95,ICD10CM,mental_health
+35207280,Transient tic disorder,F95.0,ICD10CM,mental_health
+35207281,Chronic motor or vocal tic disorder,F95.1,ICD10CM,mental_health
+35207282,Tourette's disorder,F95.2,ICD10CM,mental_health
+35207283,Other tic disorders,F95.8,ICD10CM,mental_health
+35207284,"Tic disorder, unspecified",F95.9,ICD10CM,mental_health
+1568268,Other behavioral and emotional disorders with onset usually occurring in childhood and adolescence,F98,ICD10CM,mental_health
+35207285,Enuresis not due to a substance or known physiological condition,F98.0,ICD10CM,mental_health
+35207286,Encopresis not due to a substance or known physiological condition,F98.1,ICD10CM,mental_health
+1568269,Other feeding disorders of infancy and childhood,F98.2,ICD10CM,mental_health
+45542873,Rumination disorder of infancy,F98.21,ICD10CM,mental_health
+45586267,Other feeding disorders of infancy and early childhood,F98.29,ICD10CM,mental_health
+35207287,Pica of infancy and childhood,F98.3,ICD10CM,mental_health
+35207288,Stereotyped movement disorders,F98.4,ICD10CM,mental_health
+35207289,Adult onset fluency disorder,F98.5,ICD10CM,mental_health
+35207290,Other specified behavioral and emotional disorders with onset usually occurring in childhood and adolescence,F98.8,ICD10CM,mental_health
+35207291,Unspecified behavioral and emotional disorders with onset usually occurring in childhood and adolescence,F98.9,ICD10CM,mental_health
+1568273,Acute disseminated encephalitis and encephalomyelitis (ADEM),G04.0,ICD10CM,mental_health
+45533127,"Acute disseminated encephalitis and encephalomyelitis, unspecified",G04.00,ICD10CM,mental_health
+45566859,Postinfectious acute disseminated encephalitis and encephalomyelitis (postinfectious ADEM),G04.01,ICD10CM,mental_health
+45586270,"Postimmunization acute disseminated encephalitis, myelitis and encephalomyelitis",G04.02,ICD10CM,mental_health
+35207332,Postencephalitic parkinsonism,G21.3,ICD10CM,mental_health
+1568352,Tension-type headache,G44.2,ICD10CM,mental_health
+1568353,"Tension-type headache, unspecified",G44.20,ICD10CM,mental_health
+45542889,"Tension-type headache, unspecified, intractable",G44.201,ICD10CM,mental_health
+45547738,"Tension-type headache, unspecified, not intractable",G44.209,ICD10CM,mental_health
+45547739,Episodic tension-type headache,G44.21,ICD10CM,mental_health
+45566880,"Episodic tension-type headache, intractable",G44.211,ICD10CM,mental_health
+45566881,"Episodic tension-type headache, not intractable",G44.219,ICD10CM,mental_health
+45562091,Chronic tension-type headache,G44.22,ICD10CM,mental_health
+45605553,"Chronic tension-type headache, intractable",G44.221,ICD10CM,mental_health
+45542890,"Chronic tension-type headache, not intractable",G44.229,ICD10CM,mental_health
+1568367,Narcolepsy and cataplexy,G47.4,ICD10CM,mental_health
+45538123,Narcolepsy,G47.41,ICD10CM,mental_health
+45586297,Narcolepsy with cataplexy,G47.411,ICD10CM,mental_health
+45605559,Narcolepsy without cataplexy,G47.419,ICD10CM,mental_health
+1568368,Narcolepsy in conditions classified elsewhere,G47.42,ICD10CM,mental_health
+45576592,Narcolepsy in conditions classified elsewhere with cataplexy,G47.421,ICD10CM,mental_health
+45547744,Narcolepsy in conditions classified elsewhere without cataplexy,G47.429,ICD10CM,mental_health
+35208716,Factitial dermatitis,L98.1,ICD10CM,mental_health
+45538616,Direct infection of right knee in infectious and parasitic diseases classified elsewhere,M01.X61,ICD10CM,mental_health
+45591677,Direct infection of left knee in infectious and parasitic diseases classified elsewhere,M01.X62,ICD10CM,mental_health
+45596416,Direct infection of unspecified knee in infectious and parasitic diseases classified elsewhere,M01.X69,ICD10CM,mental_health
+45572317,Direct infection of right ankle and foot in infectious and parasitic diseases classified elsewhere,M01.X71,ICD10CM,mental_health
+45577082,Direct infection of left ankle and foot in infectious and parasitic diseases classified elsewhere,M01.X72,ICD10CM,mental_health
+45606033,Direct infection of unspecified ankle and foot in infectious and parasitic diseases classified elsewhere,M01.X79,ICD10CM,mental_health
+1572233,"Somnolence, stupor and coma",R40,ICD10CM,mental_health
+35211344,Somnolence,R40.0,ICD10CM,mental_health
+35211345,Stupor,R40.1,ICD10CM,mental_health
+1572234,Coma,R40.2,ICD10CM,mental_health
+45606806,Unspecified coma,R40.20,ICD10CM,mental_health
+1572235,"Coma scale, eyes open",R40.21,ICD10CM,mental_health
+10165,"Coma scale, eyes open, never",R40.211,ICD10CM,mental_health
+45597179,"Coma scale, eyes open, never, unspecified time",R40.2110,ICD10CM,mental_health
+45558464,"Coma scale, eyes open, never, in the field [EMT or ambulance]",R40.2111,ICD10CM,mental_health
+45568127,"Coma scale, eyes open, never, at arrival to emergency department",R40.2112,ICD10CM,mental_health
+45539333,"Coma scale, eyes open, never, at hospital admission",R40.2113,ICD10CM,mental_health
+45539334,"Coma scale, eyes open, never, 24 hours or more after hospital admission",R40.2114,ICD10CM,mental_health
+10166,"Coma scale, eyes open, to pain",R40.212,ICD10CM,mental_health
+45592417,"Coma scale, eyes open, to pain, unspecified time",R40.2120,ICD10CM,mental_health
+45539335,"Coma scale, eyes open, to pain, in the field [EMT or ambulance]",R40.2121,ICD10CM,mental_health
+45534444,"Coma scale, eyes open, to pain, at arrival to emergency department",R40.2122,ICD10CM,mental_health
+45553731,"Coma scale, eyes open, to pain, at hospital admission",R40.2123,ICD10CM,mental_health
+45582705,"Coma scale, eyes open, to pain, 24 hours or more after hospital admission",R40.2124,ICD10CM,mental_health
+10167,"Coma scale, eyes open, to sound",R40.213,ICD10CM,mental_health
+45558465,"Coma scale, eyes open, to sound, unspecified time",R40.2130,ICD10CM,mental_health
+45568128,"Coma scale, eyes open, to sound, in the field [EMT or ambulance]",R40.2131,ICD10CM,mental_health
+45553732,"Coma scale, eyes open, to sound, at arrival to emergency department",R40.2132,ICD10CM,mental_health
+45587512,"Coma scale, eyes open, to sound, at hospital admission",R40.2133,ICD10CM,mental_health
+45539336,"Coma scale, eyes open, to sound, 24 hours or more after hospital admission",R40.2134,ICD10CM,mental_health
+10168,"Coma scale, eyes open, spontaneous",R40.214,ICD10CM,mental_health
+45534445,"Coma scale, eyes open, spontaneous, unspecified time",R40.2140,ICD10CM,mental_health
+45548963,"Coma scale, eyes open, spontaneous, in the field [EMT or ambulance]",R40.2141,ICD10CM,mental_health
+45539337,"Coma scale, eyes open, spontaneous, at arrival to emergency department",R40.2142,ICD10CM,mental_health
+45568129,"Coma scale, eyes open, spontaneous, at hospital admission",R40.2143,ICD10CM,mental_health
+45534446,"Coma scale, eyes open, spontaneous, 24 hours or more after hospital admission",R40.2144,ICD10CM,mental_health
+1572236,"Coma scale, best verbal response",R40.22,ICD10CM,mental_health
+10169,"Coma scale, best verbal response, none",R40.221,ICD10CM,mental_health
+45587513,"Coma scale, best verbal response, none, unspecified time",R40.2210,ICD10CM,mental_health
+45534447,"Coma scale, best verbal response, none, in the field [EMT or ambulance]",R40.2211,ICD10CM,mental_health
+45548964,"Coma scale, best verbal response, none, at arrival to emergency department",R40.2212,ICD10CM,mental_health
+45606807,"Coma scale, best verbal response, none, at hospital admission",R40.2213,ICD10CM,mental_health
+45602021,"Coma scale, best verbal response, none, 24 hours or more after hospital admission",R40.2214,ICD10CM,mental_health
+10170,"Coma scale, best verbal response, incomprehensible words",R40.222,ICD10CM,mental_health
+45606808,"Coma scale, best verbal response, incomprehensible words, unspecified time",R40.2220,ICD10CM,mental_health
+45539338,"Coma scale, best verbal response, incomprehensible words, in the field [EMT or ambulance]",R40.2221,ICD10CM,mental_health
+45548965,"Coma scale, best verbal response, incomprehensible words, at arrival to emergency department",R40.2222,ICD10CM,mental_health
+45606809,"Coma scale, best verbal response, incomprehensible words, at hospital admission",R40.2223,ICD10CM,mental_health
+45597180,"Coma scale, best verbal response, incomprehensible words, 24 hours or more after hospital admission",R40.2224,ICD10CM,mental_health
+10171,"Coma scale, best verbal response, inappropriate words",R40.223,ICD10CM,mental_health
+45582706,"Coma scale, best verbal response, inappropriate words, unspecified time",R40.2230,ICD10CM,mental_health
+45577793,"Coma scale, best verbal response, inappropriate words, in the field [EMT or ambulance]",R40.2231,ICD10CM,mental_health
+45539339,"Coma scale, best verbal response, inappropriate words, at arrival to emergency department",R40.2232,ICD10CM,mental_health
+45544141,"Coma scale, best verbal response, inappropriate words, at hospital admission",R40.2233,ICD10CM,mental_health
+45553733,"Coma scale, best verbal response, inappropriate words, 24 hours or more after hospital admission",R40.2234,ICD10CM,mental_health
+10172,"Coma scale, best verbal response, confused conversation",R40.224,ICD10CM,mental_health
+45558466,"Coma scale, best verbal response, confused conversation, unspecified time",R40.2240,ICD10CM,mental_health
+45597181,"Coma scale, best verbal response, confused conversation, in the field [EMT or ambulance]",R40.2241,ICD10CM,mental_health
+45563301,"Coma scale, best verbal response, confused conversation, at arrival to emergency department",R40.2242,ICD10CM,mental_health
+45597182,"Coma scale, best verbal response, confused conversation, at hospital admission",R40.2243,ICD10CM,mental_health
+45592418,"Coma scale, best verbal response, confused conversation, 24 hours or more after hospital admission",R40.2244,ICD10CM,mental_health
+10173,"Coma scale, best verbal response, oriented",R40.225,ICD10CM,mental_health
+45558467,"Coma scale, best verbal response, oriented, unspecified time",R40.2250,ICD10CM,mental_health
+45587514,"Coma scale, best verbal response, oriented, in the field [EMT or ambulance]",R40.2251,ICD10CM,mental_health
+45553734,"Coma scale, best verbal response, oriented, at arrival to emergency department",R40.2252,ICD10CM,mental_health
+45606810,"Coma scale, best verbal response, oriented, at hospital admission",R40.2253,ICD10CM,mental_health
+45534448,"Coma scale, best verbal response, oriented, 24 hours or more after hospital admission",R40.2254,ICD10CM,mental_health
+1572237,"Coma scale, best motor response",R40.23,ICD10CM,mental_health
+10174,"Coma scale, best motor response, none",R40.231,ICD10CM,mental_health
+45534449,"Coma scale, best motor response, none, unspecified time",R40.2310,ICD10CM,mental_health
+45587515,"Coma scale, best motor response, none, in the field [EMT or ambulance]",R40.2311,ICD10CM,mental_health
+45539340,"Coma scale, best motor response, none, at arrival to emergency department",R40.2312,ICD10CM,mental_health
+45602022,"Coma scale, best motor response, none, at hospital admission",R40.2313,ICD10CM,mental_health
+45544142,"Coma scale, best motor response, none, 24 hours or more after hospital admission",R40.2314,ICD10CM,mental_health
+10175,"Coma scale, best motor response, extension",R40.232,ICD10CM,mental_health
+45582707,"Coma scale, best motor response, extension, unspecified time",R40.2320,ICD10CM,mental_health
+45563302,"Coma scale, best motor response, extension, in the field [EMT or ambulance]",R40.2321,ICD10CM,mental_health
+45602023,"Coma scale, best motor response, extension, at arrival to emergency department",R40.2322,ICD10CM,mental_health
+45544143,"Coma scale, best motor response, extension, at hospital admission",R40.2323,ICD10CM,mental_health
+45544144,"Coma scale, best motor response, extension, 24 hours or more after hospital admission",R40.2324,ICD10CM,mental_health
+10176,"Coma scale, best motor response, abnormal flexion",R40.233,ICD10CM,mental_health
+45602024,"Coma scale, best motor response, abnormal flexion, unspecified time",R40.2330,ICD10CM,mental_health
+45573023,"Coma scale, best motor response, abnormal flexion, in the field [EMT or ambulance]",R40.2331,ICD10CM,mental_health
+45582708,"Coma scale, best motor response, abnormal flexion, at arrival to emergency department",R40.2332,ICD10CM,mental_health
+45577794,"Coma scale, best motor response, abnormal flexion, at hospital admission",R40.2333,ICD10CM,mental_health
+45563303,"Coma scale, best motor response, abnormal flexion, 24 hours or more after hospital admission",R40.2334,ICD10CM,mental_health
+10177,"Coma scale, best motor response, flexion withdrawal",R40.234,ICD10CM,mental_health
+45548966,"Coma scale, best motor response, flexion withdrawal, unspecified time",R40.2340,ICD10CM,mental_health
+45606811,"Coma scale, best motor response, flexion withdrawal, in the field [EMT or ambulance]",R40.2341,ICD10CM,mental_health
+45558468,"Coma scale, best motor response, flexion withdrawal, at arrival to emergency department",R40.2342,ICD10CM,mental_health
+45587516,"Coma scale, best motor response, flexion withdrawal, at hospital admission",R40.2343,ICD10CM,mental_health
+45568130,"Coma scale, best motor response, flexion withdrawal, 24 hours or more after hospital admission",R40.2344,ICD10CM,mental_health
+10178,"Coma scale, best motor response, localizes pain",R40.235,ICD10CM,mental_health
+45602025,"Coma scale, best motor response, localizes pain, unspecified time",R40.2350,ICD10CM,mental_health
+45573024,"Coma scale, best motor response, localizes pain, in the field [EMT or ambulance]",R40.2351,ICD10CM,mental_health
+45602026,"Coma scale, best motor response, localizes pain, at arrival to emergency department",R40.2352,ICD10CM,mental_health
+45587517,"Coma scale, best motor response, localizes pain, at hospital admission",R40.2353,ICD10CM,mental_health
+45548967,"Coma scale, best motor response, localizes pain, 24 hours or more after hospital admission",R40.2354,ICD10CM,mental_health
+10179,"Coma scale, best motor response, obeys commands",R40.236,ICD10CM,mental_health
+45544145,"Coma scale, best motor response, obeys commands, unspecified time",R40.2360,ICD10CM,mental_health
+45597183,"Coma scale, best motor response, obeys commands, in the field [EMT or ambulance]",R40.2361,ICD10CM,mental_health
+45563304,"Coma scale, best motor response, obeys commands, at arrival to emergency department",R40.2362,ICD10CM,mental_health
+45602027,"Coma scale, best motor response, obeys commands, at hospital admission",R40.2363,ICD10CM,mental_health
+45597184,"Coma scale, best motor response, obeys commands, 24 hours or more after hospital admission",R40.2364,ICD10CM,mental_health
+1572238,"Glasgow coma scale, total score",R40.24,ICD10CM,mental_health
+45534450,Glasgow coma scale score 13-15,R40.241,ICD10CM,mental_health
+37201093,"Glasgow coma scale score 13-15, unspecified time",R40.2410,ICD10CM,mental_health
+37201094,"Glasgow coma scale score 13-15, in the field [EMT or ambulance]",R40.2411,ICD10CM,mental_health
+37201095,"Glasgow coma scale score 13-15, at arrival to emergency department",R40.2412,ICD10CM,mental_health
+37201096,"Glasgow coma scale score 13-15, at hospital admission",R40.2413,ICD10CM,mental_health
+37201097,"Glasgow coma scale score 13-15, 24 hours or more after hospital admission",R40.2414,ICD10CM,mental_health
+45539341,Glasgow coma scale score 9-12,R40.242,ICD10CM,mental_health
+37201098,"Glasgow coma scale score 9-12, unspecified time",R40.2420,ICD10CM,mental_health
+37201099,"Glasgow coma scale score 9-12, in the field [EMT or ambulance]",R40.2421,ICD10CM,mental_health
+37201100,"Glasgow coma scale score 9-12, at arrival to emergency department",R40.2422,ICD10CM,mental_health
+37201101,"Glasgow coma scale score 9-12, at hospital admission",R40.2423,ICD10CM,mental_health
+37201102,"Glasgow coma scale score 9-12, 24 hours or more after hospital admission",R40.2424,ICD10CM,mental_health
+45563305,Glasgow coma scale score 3-8,R40.243,ICD10CM,mental_health
+37201103,"Glasgow coma scale score 3-8, unspecified time",R40.2430,ICD10CM,mental_health
+37201104,"Glasgow coma scale score 3-8, in the field [EMT or ambulance]",R40.2431,ICD10CM,mental_health
+37201105,"Glasgow coma scale score 3-8, at arrival to emergency department",R40.2432,ICD10CM,mental_health
+37201106,"Glasgow coma scale score 3-8, at hospital admission",R40.2433,ICD10CM,mental_health
+37201107,"Glasgow coma scale score 3-8, 24 hours or more after hospital admission",R40.2434,ICD10CM,mental_health
+45563306,"Other coma, without documented Glasgow coma scale score, or with partial score reported",R40.244,ICD10CM,mental_health
+37201108,"Other coma, without documented Glasgow coma scale score, or with partial score reported, unspecified time",R40.2440,ICD10CM,mental_health
+37201109,"Other coma, without documented Glasgow coma scale score, or with partial score reported, in the field [EMT or ambulance]",R40.2441,ICD10CM,mental_health
+37201110,"Other coma, without documented Glasgow coma scale score, or with partial score reported, at arrival to emergency department",R40.2442,ICD10CM,mental_health
+37201111,"Other coma, without documented Glasgow coma scale score, or with partial score reported, at hospital admission",R40.2443,ICD10CM,mental_health
+37201112,"Other coma, without documented Glasgow coma scale score, or with partial score reported, 24 hours or more after hospital admission",R40.2444,ICD10CM,mental_health
+45534451,Persistent vegetative state,R40.3,ICD10CM,mental_health
+45587518,Transient alteration of awareness,R40.4,ICD10CM,mental_health
+1572239,Other symptoms and signs involving cognitive functions and awareness,R41,ICD10CM,mental_health
+35211346,"Disorientation, unspecified",R41.0,ICD10CM,mental_health
+35211347,Anterograde amnesia,R41.1,ICD10CM,mental_health
+35211348,Retrograde amnesia,R41.2,ICD10CM,mental_health
+35211349,Other amnesia,R41.3,ICD10CM,mental_health
+45539343,Neurologic neglect syndrome,R41.4,ICD10CM,mental_health
+1572240,Other symptoms and signs involving cognitive functions and awareness,R41.8,ICD10CM,mental_health
+45553736,Age-related cognitive decline,R41.81,ICD10CM,mental_health
+45534453,"Altered mental status, unspecified",R41.82,ICD10CM,mental_health
+45582709,Borderline intellectual functioning,R41.83,ICD10CM,mental_health
+1572241,Other specified cognitive deficit,R41.84,ICD10CM,mental_health
+45582710,Attention and concentration deficit,R41.840,ICD10CM,mental_health
+45534454,Cognitive communication deficit,R41.841,ICD10CM,mental_health
+45548968,Visuospatial deficit,R41.842,ICD10CM,mental_health
+45568131,Psychomotor deficit,R41.843,ICD10CM,mental_health
+45539344,Frontal lobe and executive function deficit,R41.844,ICD10CM,mental_health
+45553737,Other symptoms and signs involving cognitive functions and awareness,R41.89,ICD10CM,mental_health
+45539345,Unspecified symptoms and signs involving cognitive functions and awareness,R41.9,ICD10CM,mental_health
+35211355,Auditory hallucinations,R44.0,ICD10CM,mental_health
+35211356,Visual hallucinations,R44.1,ICD10CM,mental_health
+35211357,Other hallucinations,R44.2,ICD10CM,mental_health
+35211358,"Hallucinations, unspecified",R44.3,ICD10CM,mental_health
+35211360,Nervousness,R45.0,ICD10CM,mental_health
+35211361,Restlessness and agitation,R45.1,ICD10CM,mental_health
+35211362,Unhappiness,R45.2,ICD10CM,mental_health
+35211363,Demoralization and apathy,R45.3,ICD10CM,mental_health
+35211364,Irritability and anger,R45.4,ICD10CM,mental_health
+35211365,Hostility,R45.5,ICD10CM,mental_health
+35211366,Violent behavior,R45.6,ICD10CM,mental_health
+35211367,"State of emotional shock and stress, unspecified",R45.7,ICD10CM,mental_health
+45539346,Low self-esteem,R45.81,ICD10CM,mental_health
+45568135,Worries,R45.82,ICD10CM,mental_health
+45577796,"Excessive crying of child, adolescent or adult",R45.83,ICD10CM,mental_health
+45534456,Anhedonia,R45.84,ICD10CM,mental_health
+35211368,Homicidal and suicidal ideations,R45.85,ICD10CM,mental_health
+45592419,Homicidal ideations,R45.850,ICD10CM,mental_health
+45582713,Suicidal ideations,R45.851,ICD10CM,mental_health
+45539347,Emotional lability,R45.86,ICD10CM,mental_health
+45568136,Impulsiveness,R45.87,ICD10CM,mental_health
+766432,Nonsuicidal self-harm,R45.88,ICD10CM,mental_health
+35211372,Overactivity,R46.3,ICD10CM,mental_health
+35211405,Anorexia,R63.0,ICD10CM,mental_health
+35211406,Polydipsia,R63.1,ICD10CM,mental_health
+45541247,Suicide attempt,T14.91,ICD10CM,mental_health
+1326800,"Suicide attempt, initial encounter",T14.91XA,ICD10CM,mental_health
+1326801,"Suicide attempt, subsequent encounter",T14.91XD,ICD10CM,mental_health
+1326802,"Suicide attempt, sequela",T14.91XS,ICD10CM,mental_health
+35223831,-X69 deactivated. See categories T36-T65 with sixth-character 2,X60,ICD10CM,mental_health
+35223832,deactivated. See T71,X70,ICD10CM,mental_health
+1575705,Intentional self-harm by drowning and submersion,X71,ICD10CM,mental_health
+45566261,Intentional self-harm by drowning and submersion while in bathtub,X71.0,ICD10CM,mental_health
+45551944,"Intentional self-harm by drowning and submersion while in bathtub, initial encounter",X71.0XXA,ICD10CM,mental_health
+45537469,"Intentional self-harm by drowning and submersion while in bathtub, subsequent encounter",X71.0XXD,ICD10CM,mental_health
+45590546,"Intentional self-harm by drowning and submersion while in bathtub, sequela",X71.0XXS,ICD10CM,mental_health
+45604953,Intentional self-harm by drowning and submersion while in swimming pool,X71.1,ICD10CM,mental_health
+45537470,"Intentional self-harm by drowning and submersion while in swimming pool, initial encounter",X71.1XXA,ICD10CM,mental_health
+45542262,"Intentional self-harm by drowning and submersion while in swimming pool, subsequent encounter",X71.1XXD,ICD10CM,mental_health
+45580865,"Intentional self-harm by drowning and submersion while in swimming pool, sequela",X71.1XXS,ICD10CM,mental_health
+45595331,Intentional self-harm by drowning and submersion after jump into swimming pool,X71.2,ICD10CM,mental_health
+45561466,"Intentional self-harm by drowning and submersion after jump into swimming pool, initial encounter",X71.2XXA,ICD10CM,mental_health
+45566262,"Intentional self-harm by drowning and submersion after jump into swimming pool, subsequent encounter",X71.2XXD,ICD10CM,mental_health
+45542263,"Intentional self-harm by drowning and submersion after jump into swimming pool, sequela",X71.2XXS,ICD10CM,mental_health
+45604954,Intentional self-harm by drowning and submersion in natural water,X71.3,ICD10CM,mental_health
+45600200,"Intentional self-harm by drowning and submersion in natural water, initial encounter",X71.3XXA,ICD10CM,mental_health
+45566263,"Intentional self-harm by drowning and submersion in natural water, subsequent encounter",X71.3XXD,ICD10CM,mental_health
+45571182,"Intentional self-harm by drowning and submersion in natural water, sequela",X71.3XXS,ICD10CM,mental_health
+45580866,Other intentional self-harm by drowning and submersion,X71.8,ICD10CM,mental_health
+45609786,"Other intentional self-harm by drowning and submersion, initial encounter",X71.8XXA,ICD10CM,mental_health
+45600201,"Other intentional self-harm by drowning and submersion, subsequent encounter",X71.8XXD,ICD10CM,mental_health
+45595332,"Other intentional self-harm by drowning and submersion, sequela",X71.8XXS,ICD10CM,mental_health
+45551945,"Intentional self-harm by drowning and submersion, unspecified",X71.9,ICD10CM,mental_health
+45561467,"Intentional self-harm by drowning and submersion, unspecified, initial encounter",X71.9XXA,ICD10CM,mental_health
+45575994,"Intentional self-harm by drowning and submersion, unspecified, subsequent encounter",X71.9XXD,ICD10CM,mental_health
+45585662,"Intentional self-harm by drowning and submersion, unspecified, sequela",X71.9XXS,ICD10CM,mental_health
+21300,Intentional self-harm by handgun discharge,X72,ICD10CM,mental_health
+45585663,"Intentional self-harm by handgun discharge, initial encounter",X72.XXXA,ICD10CM,mental_health
+45566264,"Intentional self-harm by handgun discharge, subsequent encounter",X72.XXXD,ICD10CM,mental_health
+45609787,"Intentional self-harm by handgun discharge, sequela",X72.XXXS,ICD10CM,mental_health
+1575706,"Intentional self-harm by rifle, shotgun and larger firearm discharge",X73,ICD10CM,mental_health
+45556675,Intentional self-harm by shotgun discharge,X73.0,ICD10CM,mental_health
+45547148,"Intentional self-harm by shotgun discharge, initial encounter",X73.0XXA,ICD10CM,mental_health
+45580867,"Intentional self-harm by shotgun discharge, subsequent encounter",X73.0XXD,ICD10CM,mental_health
+45580868,"Intentional self-harm by shotgun discharge, sequela",X73.0XXS,ICD10CM,mental_health
+21301,Intentional self-harm by hunting rifle discharge,X73.1,ICD10CM,mental_health
+45566265,"Intentional self-harm by hunting rifle discharge, initial encounter",X73.1XXA,ICD10CM,mental_health
+45604955,"Intentional self-harm by hunting rifle discharge, subsequent encounter",X73.1XXD,ICD10CM,mental_health
+45566266,"Intentional self-harm by hunting rifle discharge, sequela",X73.1XXS,ICD10CM,mental_health
+45547149,Intentional self-harm by machine gun discharge,X73.2,ICD10CM,mental_health
+45585664,"Intentional self-harm by machine gun discharge, initial encounter",X73.2XXA,ICD10CM,mental_health
+45547150,"Intentional self-harm by machine gun discharge, subsequent encounter",X73.2XXD,ICD10CM,mental_health
+45551946,"Intentional self-harm by machine gun discharge, sequela",X73.2XXS,ICD10CM,mental_health
+45537471,Intentional self-harm by other larger firearm discharge,X73.8,ICD10CM,mental_health
+45575995,"Intentional self-harm by other larger firearm discharge, initial encounter",X73.8XXA,ICD10CM,mental_health
+45551947,"Intentional self-harm by other larger firearm discharge, subsequent encounter",X73.8XXD,ICD10CM,mental_health
+45537472,"Intentional self-harm by other larger firearm discharge, sequela",X73.8XXS,ICD10CM,mental_health
+45551948,Intentional self-harm by unspecified larger firearm discharge,X73.9,ICD10CM,mental_health
+45571183,"Intentional self-harm by unspecified larger firearm discharge, initial encounter",X73.9XXA,ICD10CM,mental_health
+45556676,"Intentional self-harm by unspecified larger firearm discharge, subsequent encounter",X73.9XXD,ICD10CM,mental_health
+45566267,"Intentional self-harm by unspecified larger firearm discharge, sequela",X73.9XXS,ICD10CM,mental_health
+1575707,Intentional self-harm by other and unspecified firearm and gun discharge,X74,ICD10CM,mental_health
+45551950,"Intentional self-harm by gas, air or spring-operated guns",X74.0,ICD10CM,mental_health
+21302,Intentional self-harm by airgun,X74.01,ICD10CM,mental_health
+45595333,"Intentional self-harm by airgun, initial encounter",X74.01XA,ICD10CM,mental_health
+45547151,"Intentional self-harm by airgun, subsequent encounter",X74.01XD,ICD10CM,mental_health
+45566268,"Intentional self-harm by airgun, sequela",X74.01XS,ICD10CM,mental_health
+21303,Intentional self-harm by paintball gun,X74.02,ICD10CM,mental_health
+45595334,"Intentional self-harm by paintball gun, initial encounter",X74.02XA,ICD10CM,mental_health
+45580869,"Intentional self-harm by paintball gun, subsequent encounter",X74.02XD,ICD10CM,mental_health
+45566269,"Intentional self-harm by paintball gun, sequela",X74.02XS,ICD10CM,mental_health
+21304,"Intentional self-harm by other gas, air or spring-operated gun",X74.09,ICD10CM,mental_health
+45585665,"Intentional self-harm by other gas, air or spring-operated gun, initial encounter",X74.09XA,ICD10CM,mental_health
+45551951,"Intentional self-harm by other gas, air or spring-operated gun, subsequent encounter",X74.09XD,ICD10CM,mental_health
+45600202,"Intentional self-harm by other gas, air or spring-operated gun, sequela",X74.09XS,ICD10CM,mental_health
+45537473,Intentional self-harm by other firearm discharge,X74.8,ICD10CM,mental_health
+45575996,"Intentional self-harm by other firearm discharge, initial encounter",X74.8XXA,ICD10CM,mental_health
+45547152,"Intentional self-harm by other firearm discharge, subsequent encounter",X74.8XXD,ICD10CM,mental_health
+45604956,"Intentional self-harm by other firearm discharge, sequela",X74.8XXS,ICD10CM,mental_health
+45585666,Intentional self-harm by unspecified firearm discharge,X74.9,ICD10CM,mental_health
+45600203,"Intentional self-harm by unspecified firearm discharge, initial encounter",X74.9XXA,ICD10CM,mental_health
+45590547,"Intentional self-harm by unspecified firearm discharge, subsequent encounter",X74.9XXD,ICD10CM,mental_health
+45551952,"Intentional self-harm by unspecified firearm discharge, sequela",X74.9XXS,ICD10CM,mental_health
+21305,Intentional self-harm by explosive material,X75,ICD10CM,mental_health
+45590548,"Intentional self-harm by explosive material, initial encounter",X75.XXXA,ICD10CM,mental_health
+45561469,"Intentional self-harm by explosive material, subsequent encounter",X75.XXXD,ICD10CM,mental_health
+45571184,"Intentional self-harm by explosive material, sequela",X75.XXXS,ICD10CM,mental_health
+21306,"Intentional self-harm by smoke, fire and flames",X76,ICD10CM,mental_health
+45595335,"Intentional self-harm by smoke, fire and flames, initial encounter",X76.XXXA,ICD10CM,mental_health
+45609788,"Intentional self-harm by smoke, fire and flames, subsequent encounter",X76.XXXD,ICD10CM,mental_health
+45556677,"Intentional self-harm by smoke, fire and flames, sequela",X76.XXXS,ICD10CM,mental_health
+1575708,"Intentional self-harm by steam, hot vapors and hot objects",X77,ICD10CM,mental_health
+45580870,Intentional self-harm by steam or hot vapors,X77.0,ICD10CM,mental_health
+45571185,"Intentional self-harm by steam or hot vapors, initial encounter",X77.0XXA,ICD10CM,mental_health
+45609789,"Intentional self-harm by steam or hot vapors, subsequent encounter",X77.0XXD,ICD10CM,mental_health
+45556678,"Intentional self-harm by steam or hot vapors, sequela",X77.0XXS,ICD10CM,mental_health
+45595336,Intentional self-harm by hot tap water,X77.1,ICD10CM,mental_health
+45561470,"Intentional self-harm by hot tap water, initial encounter",X77.1XXA,ICD10CM,mental_health
+45575997,"Intentional self-harm by hot tap water, subsequent encounter",X77.1XXD,ICD10CM,mental_health
+45595337,"Intentional self-harm by hot tap water, sequela",X77.1XXS,ICD10CM,mental_health
+45600204,Intentional self-harm by other hot fluids,X77.2,ICD10CM,mental_health
+45542264,"Intentional self-harm by other hot fluids, initial encounter",X77.2XXA,ICD10CM,mental_health
+45551954,"Intentional self-harm by other hot fluids, subsequent encounter",X77.2XXD,ICD10CM,mental_health
+45551955,"Intentional self-harm by other hot fluids, sequela",X77.2XXS,ICD10CM,mental_health
+45561471,Intentional self-harm by hot household appliances,X77.3,ICD10CM,mental_health
+45575998,"Intentional self-harm by hot household appliances, initial encounter",X77.3XXA,ICD10CM,mental_health
+45585667,"Intentional self-harm by hot household appliances, subsequent encounter",X77.3XXD,ICD10CM,mental_health
+45604957,"Intentional self-harm by hot household appliances, sequela",X77.3XXS,ICD10CM,mental_health
+21307,Intentional self-harm by other hot objects,X77.8,ICD10CM,mental_health
+45600205,"Intentional self-harm by other hot objects, initial encounter",X77.8XXA,ICD10CM,mental_health
+45600206,"Intentional self-harm by other hot objects, subsequent encounter",X77.8XXD,ICD10CM,mental_health
+45595338,"Intentional self-harm by other hot objects, sequela",X77.8XXS,ICD10CM,mental_health
+45537474,Intentional self-harm by unspecified hot objects,X77.9,ICD10CM,mental_health
+45571186,"Intentional self-harm by unspecified hot objects, initial encounter",X77.9XXA,ICD10CM,mental_health
+45585668,"Intentional self-harm by unspecified hot objects, subsequent encounter",X77.9XXD,ICD10CM,mental_health
+45537475,"Intentional self-harm by unspecified hot objects, sequela",X77.9XXS,ICD10CM,mental_health
+1575709,Intentional self-harm by sharp object,X78,ICD10CM,mental_health
+45556679,Intentional self-harm by sharp glass,X78.0,ICD10CM,mental_health
+45595339,"Intentional self-harm by sharp glass, initial encounter",X78.0XXA,ICD10CM,mental_health
+45561472,"Intentional self-harm by sharp glass, subsequent encounter",X78.0XXD,ICD10CM,mental_health
+45590549,"Intentional self-harm by sharp glass, sequela",X78.0XXS,ICD10CM,mental_health
+45585669,Intentional self-harm by knife,X78.1,ICD10CM,mental_health
+45547153,"Intentional self-harm by knife, initial encounter",X78.1XXA,ICD10CM,mental_health
+45537476,"Intentional self-harm by knife, subsequent encounter",X78.1XXD,ICD10CM,mental_health
+45600207,"Intentional self-harm by knife, sequela",X78.1XXS,ICD10CM,mental_health
+45561473,Intentional self-harm by sword or dagger,X78.2,ICD10CM,mental_health
+45585670,"Intentional self-harm by sword or dagger, initial encounter",X78.2XXA,ICD10CM,mental_health
+45571187,"Intentional self-harm by sword or dagger, subsequent encounter",X78.2XXD,ICD10CM,mental_health
+45571188,"Intentional self-harm by sword or dagger, sequela",X78.2XXS,ICD10CM,mental_health
+45537477,Intentional self-harm by other sharp object,X78.8,ICD10CM,mental_health
+45537478,"Intentional self-harm by other sharp object, initial encounter",X78.8XXA,ICD10CM,mental_health
+45551956,"Intentional self-harm by other sharp object, subsequent encounter",X78.8XXD,ICD10CM,mental_health
+45566270,"Intentional self-harm by other sharp object, sequela",X78.8XXS,ICD10CM,mental_health
+45590550,Intentional self-harm by unspecified sharp object,X78.9,ICD10CM,mental_health
+45585671,"Intentional self-harm by unspecified sharp object, initial encounter",X78.9XXA,ICD10CM,mental_health
+45571189,"Intentional self-harm by unspecified sharp object, subsequent encounter",X78.9XXD,ICD10CM,mental_health
+45595340,"Intentional self-harm by unspecified sharp object, sequela",X78.9XXS,ICD10CM,mental_health
+21308,Intentional self-harm by blunt object,X79,ICD10CM,mental_health
+45575999,"Intentional self-harm by blunt object, initial encounter",X79.XXXA,ICD10CM,mental_health
+45604958,"Intentional self-harm by blunt object, subsequent encounter",X79.XXXD,ICD10CM,mental_health
+45580871,"Intentional self-harm by blunt object, sequela",X79.XXXS,ICD10CM,mental_health
+21309,Intentional self-harm by jumping from a high place,X80,ICD10CM,mental_health
+45551957,"Intentional self-harm by jumping from a high place, initial encounter",X80.XXXA,ICD10CM,mental_health
+45576000,"Intentional self-harm by jumping from a high place, subsequent encounter",X80.XXXD,ICD10CM,mental_health
+45590552,"Intentional self-harm by jumping from a high place, sequela",X80.XXXS,ICD10CM,mental_health
+1575710,Intentional self-harm by jumping or lying in front of moving object,X81,ICD10CM,mental_health
+21310,Intentional self-harm by jumping or lying in front of motor vehicle,X81.0,ICD10CM,mental_health
+45576001,"Intentional self-harm by jumping or lying in front of motor vehicle, initial encounter",X81.0XXA,ICD10CM,mental_health
+45537479,"Intentional self-harm by jumping or lying in front of motor vehicle, subsequent encounter",X81.0XXD,ICD10CM,mental_health
+45571190,"Intentional self-harm by jumping or lying in front of motor vehicle, sequela",X81.0XXS,ICD10CM,mental_health
+21311,Intentional self-harm by jumping or lying in front of (subway) train,X81.1,ICD10CM,mental_health
+45576002,"Intentional self-harm by jumping or lying in front of (subway) train, initial encounter",X81.1XXA,ICD10CM,mental_health
+45571191,"Intentional self-harm by jumping or lying in front of (subway) train, subsequent encounter",X81.1XXD,ICD10CM,mental_health
+45590553,"Intentional self-harm by jumping or lying in front of (subway) train, sequela",X81.1XXS,ICD10CM,mental_health
+45556680,Intentional self-harm by jumping or lying in front of other moving object,X81.8,ICD10CM,mental_health
+45537480,"Intentional self-harm by jumping or lying in front of other moving object, initial encounter",X81.8XXA,ICD10CM,mental_health
+45576003,"Intentional self-harm by jumping or lying in front of other moving object, subsequent encounter",X81.8XXD,ICD10CM,mental_health
+45580872,"Intentional self-harm by jumping or lying in front of other moving object, sequela",X81.8XXS,ICD10CM,mental_health
+1575711,Intentional self-harm by crashing of motor vehicle,X82,ICD10CM,mental_health
+45609790,Intentional collision of motor vehicle with other motor vehicle,X82.0,ICD10CM,mental_health
+45561474,"Intentional collision of motor vehicle with other motor vehicle, initial encounter",X82.0XXA,ICD10CM,mental_health
+45576004,"Intentional collision of motor vehicle with other motor vehicle, subsequent encounter",X82.0XXD,ICD10CM,mental_health
+45566271,"Intentional collision of motor vehicle with other motor vehicle, sequela",X82.0XXS,ICD10CM,mental_health
+21312,Intentional collision of motor vehicle with train,X82.1,ICD10CM,mental_health
+45547155,"Intentional collision of motor vehicle with train, initial encounter",X82.1XXA,ICD10CM,mental_health
+45551958,"Intentional collision of motor vehicle with train, subsequent encounter",X82.1XXD,ICD10CM,mental_health
+45580873,"Intentional collision of motor vehicle with train, sequela",X82.1XXS,ICD10CM,mental_health
+21313,Intentional collision of motor vehicle with tree,X82.2,ICD10CM,mental_health
+45571192,"Intentional collision of motor vehicle with tree, initial encounter",X82.2XXA,ICD10CM,mental_health
+45590554,"Intentional collision of motor vehicle with tree, subsequent encounter",X82.2XXD,ICD10CM,mental_health
+45604959,"Intentional collision of motor vehicle with tree, sequela",X82.2XXS,ICD10CM,mental_health
+45595341,Other intentional self-harm by crashing of motor vehicle,X82.8,ICD10CM,mental_health
+45566272,"Other intentional self-harm by crashing of motor vehicle, initial encounter",X82.8XXA,ICD10CM,mental_health
+45609791,"Other intentional self-harm by crashing of motor vehicle, subsequent encounter",X82.8XXD,ICD10CM,mental_health
+45571193,"Other intentional self-harm by crashing of motor vehicle, sequela",X82.8XXS,ICD10CM,mental_health
+1575712,Intentional self-harm by other specified means,X83,ICD10CM,mental_health
+45566273,Intentional self-harm by crashing of aircraft,X83.0,ICD10CM,mental_health
+45561475,"Intentional self-harm by crashing of aircraft, initial encounter",X83.0XXA,ICD10CM,mental_health
+45537481,"Intentional self-harm by crashing of aircraft, subsequent encounter",X83.0XXD,ICD10CM,mental_health
+45551959,"Intentional self-harm by crashing of aircraft, sequela",X83.0XXS,ICD10CM,mental_health
+45604960,Intentional self-harm by electrocution,X83.1,ICD10CM,mental_health
+45566274,"Intentional self-harm by electrocution, initial encounter",X83.1XXA,ICD10CM,mental_health
+45547156,"Intentional self-harm by electrocution, subsequent encounter",X83.1XXD,ICD10CM,mental_health
+45576005,"Intentional self-harm by electrocution, sequela",X83.1XXS,ICD10CM,mental_health
+45551960,Intentional self-harm by exposure to extremes of cold,X83.2,ICD10CM,mental_health
+45604961,"Intentional self-harm by exposure to extremes of cold, initial encounter",X83.2XXA,ICD10CM,mental_health
+45566275,"Intentional self-harm by exposure to extremes of cold, subsequent encounter",X83.2XXD,ICD10CM,mental_health
+45566276,"Intentional self-harm by exposure to extremes of cold, sequela",X83.2XXS,ICD10CM,mental_health
+45595342,Intentional self-harm by other specified means,X83.8,ICD10CM,mental_health
+45542265,"Intentional self-harm by other specified means, initial encounter",X83.8XXA,ICD10CM,mental_health
+45609792,"Intentional self-harm by other specified means, subsequent encounter",X83.8XXD,ICD10CM,mental_health
+45585672,"Intentional self-harm by other specified means, sequela",X83.8XXS,ICD10CM,mental_health
+35223962,deactivated. See T14,X84,ICD10CM,mental_health
+35225264,Person with feared health complaint in whom no diagnosis is made,Z71.1,ICD10CM,mental_health
+35225276,Burn-out,Z73.0,ICD10CM,mental_health
+35225279,"Stress, not elsewhere classified",Z73.3,ICD10CM,mental_health
+45547413,Syphilitic alopecia,A51.32,ICD10CM,hair_loss
+1569792,Alopecia areata,L63,ICD10CM,hair_loss
+35208591,Alopecia (capitis) totalis,L63.0,ICD10CM,hair_loss
+35208592,Alopecia universalis,L63.1,ICD10CM,hair_loss
+35208593,Ophiasis,L63.2,ICD10CM,hair_loss
+35208594,Other alopecia areata,L63.8,ICD10CM,hair_loss
+35208595,"Alopecia areata, unspecified",L63.9,ICD10CM,hair_loss
+1569793,Androgenic alopecia,L64,ICD10CM,hair_loss
+35208596,Drug-induced androgenic alopecia,L64.0,ICD10CM,hair_loss
+35208597,Other androgenic alopecia,L64.8,ICD10CM,hair_loss
+35208598,"Androgenic alopecia, unspecified",L64.9,ICD10CM,hair_loss
+1569794,Other nonscarring hair loss,L65,ICD10CM,hair_loss
+35208599,Telogen effluvium,L65.0,ICD10CM,hair_loss
+35208600,Anagen effluvium,L65.1,ICD10CM,hair_loss
+35208601,Alopecia mucinosa,L65.2,ICD10CM,hair_loss
+35208602,Other specified nonscarring hair loss,L65.8,ICD10CM,hair_loss
+35208603,"Nonscarring hair loss, unspecified",L65.9,ICD10CM,hair_loss
+1569795,Cicatricial alopecia [scarring hair loss],L66,ICD10CM,hair_loss
+35208604,Pseudopelade,L66.0,ICD10CM,hair_loss
+35208605,Lichen planopilaris,L66.1,ICD10CM,hair_loss
+35208606,Folliculitis decalvans,L66.2,ICD10CM,hair_loss
+35208607,Perifolliculitis capitis abscedens,L66.3,ICD10CM,hair_loss
+35208608,Folliculitis ulerythematosa reticulata,L66.4,ICD10CM,hair_loss
+35208609,Other cicatricial alopecia,L66.8,ICD10CM,hair_loss
+35208610,"Cicatricial alopecia, unspecified",L66.9,ICD10CM,hair_loss
+35207636,Acute rheumatic pericarditis,I01.0,ICD10CM,heart_disease
+45571465,Viral pericarditis,B33.23,ICD10CM,heart_disease
+1569153,Acute pericarditis,I30,ICD10CM,heart_disease
+35207715,Acute nonspecific idiopathic pericarditis,I30.0,ICD10CM,heart_disease
+35207716,Infective pericarditis,I30.1,ICD10CM,heart_disease
+35207717,Other forms of acute pericarditis,I30.8,ICD10CM,heart_disease
+35207725,Pericarditis in diseases classified elsewhere,I32,ICD10CM,heart_disease
+35207666,Chronic rheumatic pericarditis,I09.2,ICD10CM,heart_disease
+35207919,Postcardiotomy syndrome,I97.0,ICD10CM,heart_disease

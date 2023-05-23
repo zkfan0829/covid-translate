@@ -1,0 +1,120 @@
+﻿descendant_concept_id,descendant_concept_name,descendant_concept_code,ancestor_concept_code,ancestor_concept_name,n,n_persons,include? 
+766354,Cervicogenic headache,G44.86,G44,Other headache syndromes,1030,286,y
+766354,Cervicogenic headache,G44.86,G44.8,Other specified headache syndromes,1030,286,y
+766412,"Low back pain, unspecified",M54.50,M54.5,Low back pain,62582,15091,y
+766413,Vertebrogenic low back pain,M54.51,M54.5,Low back pain,16,4,y
+766414,Other low back pain,M54.59,M54.5,Low back pain,762,299,y
+1326601,"Right heart failure, unspecified",I50.810,I50,Heart failure,5634,383,y
+1326602,Acute right heart failure,I50.811,I50,Heart failure,985,111,y
+1326603,Chronic right heart failure,I50.812,I50,Heart failure,468,83,y
+1326604,Acute on chronic right heart failure,I50.813,I50,Heart failure,689,77,y
+1326605,Right heart failure due to left heart failure,I50.814,I50,Heart failure,59,28,y
+1326606,Biventricular heart failure,I50.82,I50,Heart failure,6082,596,y
+1326607,High output heart failure,I50.83,I50,Heart failure,522,67,y
+1326608,End stage heart failure,I50.84,I50,Heart failure,2789,133,y
+1326609,Other heart failure,I50.89,I50,Heart failure,3005,310,y
+1326704,Juvenile dermatomyositis without myopathy,M33.03,M33,Dermatopolymyositis,46,17,
+1326705,Other dermatomyositis without myopathy,M33.13,M33,Dermatopolymyositis,18,14,
+35207719,Chronic adhesive pericarditis,I31.0,I31,Other diseases of pericardium,274,43,y
+35207720,Chronic constrictive pericarditis,I31.1,I31,Other diseases of pericardium,314,30,y
+35207721,"Hemopericardium, not elsewhere classified",I31.2,I31,Other diseases of pericardium,183,25,
+35207722,Pericardial effusion (noninflammatory),I31.3,I31,Other diseases of pericardium,26766,2289,y
+35207723,Other specified diseases of pericardium,I31.8,I31,Other diseases of pericardium,251,95,y
+35207724,"Disease of pericardium, unspecified",I31.9,I31,Other diseases of pericardium,3736,477,y
+35207728,Nonrheumatic mitral (valve) insufficiency,I34.0,I34,Nonrheumatic mitral valve disorders,30285,5931,y
+35207729,Nonrheumatic mitral (valve) prolapse,I34.1,I34,Nonrheumatic mitral valve disorders,9736,1493,y
+35207730,Nonrheumatic mitral (valve) stenosis,I34.2,I34,Nonrheumatic mitral valve disorders,3727,694,y
+35207731,Other nonrheumatic mitral valve disorders,I34.8,I34,Nonrheumatic mitral valve disorders,585,224,y
+35207732,"Nonrheumatic mitral valve disorder, unspecified",I34.9,I34,Nonrheumatic mitral valve disorders,62,32,y
+35207738,Nonrheumatic tricuspid (valve) stenosis,I36.0,I36,Nonrheumatic tricuspid valve disorders,261,83,y
+35207739,Nonrheumatic tricuspid (valve) insufficiency,I36.1,I36,Nonrheumatic tricuspid valve disorders,25781,5812,y
+35207740,Nonrheumatic tricuspid (valve) stenosis with insufficiency,I36.2,I36,Nonrheumatic tricuspid valve disorders,306,96,y
+35207741,Other nonrheumatic tricuspid valve disorders,I36.8,I36,Nonrheumatic tricuspid valve disorders,551,171,y
+35207742,"Nonrheumatic tricuspid valve disorder, unspecified",I36.9,I36,Nonrheumatic tricuspid valve disorders,195,55,y
+35207755,Dilated cardiomyopathy,I42.0,I42,Cardiomyopathy,21757,1152,y
+35207756,Obstructive hypertrophic cardiomyopathy,I42.1,I42,Cardiomyopathy,3002,334,y
+35207757,Other hypertrophic cardiomyopathy,I42.2,I42,Cardiomyopathy,19091,1959,y
+35207758,Endomyocardial (eosinophilic) disease,I42.3,I42,Cardiomyopathy,62,11,y
+35207759,Endocardial fibroelastosis,I42.4,I42,Cardiomyopathy,2007,179,y
+35207760,Other restrictive cardiomyopathy,I42.5,I42,Cardiomyopathy,2597,152,y
+35207762,Cardiomyopathy due to drug and external agent,I42.7,I42,Cardiomyopathy,3318,303,
+35207763,Other cardiomyopathies,I42.8,I42,Cardiomyopathy,11363,1351,y
+35207764,"Cardiomyopathy, unspecified",I42.9,I42,Cardiomyopathy,7356,1394,y
+35207779,"Cardiac arrest, cause unspecified",I46.9,I46,Cardiac arrest,44824,1699,
+35207792,"Left ventricular failure, unspecified",I50.1,I50,Heart failure,4276,635,y
+35207793,"Heart failure, unspecified",I50.9,I50,Heart failure,27080,2230,y
+35207798,"Myocarditis, unspecified",I51.4,I51,Complications and ill-defined descriptions of heart disease,5146,732,y
+35209269,Acute kidney failure with tubular necrosis,N17.0,N17,Acute kidney failure,7675,396,y
+35209270,Acute kidney failure with acute cortical necrosis,N17.1,N17,Acute kidney failure,874,64,y
+35209271,Acute kidney failure with medullary necrosis,N17.2,N17,Acute kidney failure,95,19,y
+35209272,Other acute kidney failure,N17.8,N17,Acute kidney failure,5670,518,y
+35209273,"Acute kidney failure, unspecified",N17.9,N17,Acute kidney failure,150478,11615,y
+35211283,Pain in throat,R07.0,R07,Pain in throat and chest,9769,5716,y
+35211290,Pelvic and perineal pain,R10.2,R10,Abdominal and pelvic pain,17831,6020,
+35211304,Anesthesia of skin,R20.0,R20,Disturbances of skin sensation,18791,4335,
+35211305,Hypoesthesia of skin,R20.1,R20,Disturbances of skin sensation,120,48,
+35211315,Pallor,R23.1,R23,Other skin changes,3681,1838,
+45533140,"Abdominal migraine, intractable",G43.D1,G43,Migraine,295,89,need to reclassify as abdominal pain 
+45533456,Chronic diastolic (congestive) heart failure,I50.32,I50,Heart failure,2754,210,y
+45533457,Unspecified combined systolic (congestive) and diastolic (congestive) heart failure,I50.40,I50,Heart failure,3598,96,y
+45533827,Juvenile dermatomyositis with other organ involvement,M33.09,M33,Dermatopolymyositis,56,31,
+45538143,Other acute postprocedural pain,G89.18,G89,"Pain, not elsewhere classified",70535,17030,
+45538383,Cardiac arrest due to other underlying condition,I46.8,I46,Cardiac arrest,8266,400,
+45538387,Takotsubo syndrome,I51.81,I51,Complications and ill-defined descriptions of heart disease,201,39,y
+45542911,Acute pain due to trauma,G89.11,G89,"Pain, not elsewhere classified",1241,268,
+45543182,Acute systolic (congestive) heart failure,I50.21,I50,Heart failure,7493,446,y
+45543620,"Foreign body granuloma of soft tissue, not elsewhere classified, left hand",M60.242,M60,Myositis,2,2,
+45547763,Chronic pain due to trauma,G89.21,G89,"Pain, not elsewhere classified",239,66,
+45548022,Acute diastolic (congestive) heart failure,I50.31,I50,Heart failure,1768,239,y
+45548402,"Polymyositis, organ involvement unspecified",M33.20,M33,Dermatopolymyositis,385,35,y
+45548450,"Foreign body granuloma of soft tissue, not elsewhere classified, other site",M60.28,M60,Myositis,9,7,
+45552530,"Abdominal migraine, not intractable",G43.D0,G43,Migraine,4553,713,need to reclassify as abdominal pain 
+45552551,Acute post-thoracotomy pain,G89.12,G89,"Pain, not elsewhere classified",308,57,
+45553157,Pain in left elbow,M25.522,M25.5,Pain in joint,14402,3711,y
+45553157,Pain in left elbow,M25.522,M25.52,Pain in elbow,14402,3711,y
+45553168,Other dermatomyositis with other organ involvement,M33.19,M33,Dermatopolymyositis,3,3,
+45553170,"Dermatopolymyositis, unspecified, organ involvement unspecified",M33.90,M33,Dermatopolymyositis,2624,194,
+45557864,Juvenile dermatomyositis with respiratory involvement,M33.01,M33,Dermatopolymyositis,199,10,
+45557865,Polymyositis with myopathy,M33.22,M33,Dermatopolymyositis,38,7,
+45557909,"Foreign body granuloma of soft tissue, not elsewhere classified, right ankle and foot",M60.271,M60,Myositis,28,6,
+45558453,Other specified symptoms and signs involving the circulatory and respiratory systems,R09.89,R09,Other symptoms and signs involving the circulatory and respiratory system,74020,23791,y
+45558453,Other specified symptoms and signs involving the circulatory and respiratory systems,R09.89,R09.8,Other specified symptoms and signs involving the circulatory and respiratory systems,74020,23791,y
+45562109,Chronic pain syndrome,G89.4,G89,"Pain, not elsewhere classified",16399,1512,y
+45562355,Acute on chronic diastolic (congestive) heart failure,I50.33,I50,Heart failure,1163,182,y
+45562710,"Other dermatomyositis, organ involvement unspecified",M33.10,M33,Dermatopolymyositis,243,32,
+45562753,"Foreign body granuloma of soft tissue, not elsewhere classified, right lower leg",M60.261,M60,Myositis,12,1,
+45562754,"Foreign body granuloma of soft tissue, not elsewhere classified, left lower leg",M60.262,M60,Myositis,5,3,
+45566906,Central pain syndrome,G89.0,G89,"Pain, not elsewhere classified",273,60,y
+45566907,Chronic post-thoracotomy pain,G89.22,G89,"Pain, not elsewhere classified",2,1,
+45567180,Acute on chronic systolic (congestive) heart failure,I50.23,I50,Heart failure,6833,251,y
+45567181,Acute on chronic combined systolic (congestive) and diastolic (congestive) heart failure,I50.43,I50,Heart failure,4071,212,y
+45567183,Other ill-defined heart diseases,I51.89,I51,Complications and ill-defined descriptions of heart disease,15088,3309,y
+45567547,"Juvenile dermatomyositis, organ involvement unspecified",M33.00,M33,Dermatopolymyositis,14140,321,
+45567586,"Foreign body granuloma of soft tissue, not elsewhere classified, unspecified site",M60.20,M60,Myositis,32,12,
+45572091,Cardiac arrest due to underlying cardiac condition,I46.2,I46,Cardiac arrest,6232,187,
+45572446,Other dermatomyositis with respiratory involvement,M33.11,M33,Dermatopolymyositis,5,2,
+45572447,"Dermatopolymyositis, unspecified with respiratory involvement",M33.91,M33,Dermatopolymyositis,13,5,
+45572474,"Foreign body granuloma of soft tissue, not elsewhere classified, left ankle and foot",M60.272,M60,Myositis,18,7,
+45576878,Chronic systolic (congestive) heart failure,I50.22,I50,Heart failure,4677,294,y
+45581519,Other chronic postprocedural pain,G89.28,G89,"Pain, not elsewhere classified",487,106,
+45581770,Cardiac tamponade,I31.4,I31,Other diseases of pericardium,5704,181,
+45582182,"Foreign body granuloma of soft tissue, not elsewhere classified, right hand",M60.241,M60,Myositis,20,7,
+45582183,"Foreign body granuloma of soft tissue, not elsewhere classified, right thigh",M60.251,M60,Myositis,5,2,
+45586295,Headache associated with sexual activity,G44.82,G44,Other headache syndromes,17,8,
+45586295,Headache associated with sexual activity,G44.82,G44.8,Other specified headache syndromes,17,8,
+45586587,Unspecified systolic (congestive) heart failure,I50.20,I50,Heart failure,9538,504,y
+45586588,Chronic combined systolic (congestive) and diastolic (congestive) heart failure,I50.42,I50,Heart failure,3000,155,y
+45586956,"Dermatopolymyositis, unspecified with other organ involvement",M33.99,M33,Dermatopolymyositis,6,3,
+45591201,Neoplasm related pain (acute) (chronic),G89.3,G89,"Pain, not elsewhere classified",8887,817,
+45591469,Acute combined systolic (congestive) and diastolic (congestive) heart failure,I50.41,I50,Heart failure,8345,753,y
+45591821,Juvenile dermatomyositis with myopathy,M33.02,M33,Dermatopolymyositis,865,51,
+45591822,Other dermatomyositis with myopathy,M33.12,M33,Dermatopolymyositis,3,3,
+45591823,Polymyositis with other organ involvement,M33.29,M33,Dermatopolymyositis,1,1,
+45596564,Polymyositis with respiratory involvement,M33.21,M33,Dermatopolymyositis,4,1,
+45601038,Unspecified diastolic (congestive) heart failure,I50.30,I50,Heart failure,6181,241,y
+45601482,"Foreign body granuloma of soft tissue, not elsewhere classified, left forearm",M60.232,M60,Myositis,1,1,
+45602003,Nasal congestion,R09.81,R09,Other symptoms and signs involving the circulatory and respiratory system,231859,121226,y
+45602003,Nasal congestion,R09.81,R09.8,Other specified symptoms and signs involving the circulatory and respiratory systems,231859,121226,y
+45606254,"Foreign body granuloma of soft tissue, not elsewhere classified, unspecified ankle and foot",M60.279,M60,Myositis,27,7,
+45606794,Postnasal drip,R09.82,R09,Other symptoms and signs involving the circulatory and respiratory system,7215,4581,y
+45606794,Postnasal drip,R09.82,R09.8,Other specified symptoms and signs involving the circulatory and respiratory systems,7215,4581,y
