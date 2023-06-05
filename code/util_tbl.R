@@ -372,10 +372,13 @@ compute_new <- function(tblx,
       name <- intermed_name(name, temporary)
     }
     con <- dbi_con(tblx)
+    print(con)
+    print(name)
+    print(db_exists_table(con, name))
     if (db_exists_table(con, name)) db_remove_table(con, name)
     if (config('db_trace')) {
       show_query(tblx)
-      #explain(tblx)
+      # explain(tblx)
       message(' -> ',
               base::ifelse(packageVersion('dbplyr') < '2.0.0',
                            dbplyr::as.sql(name),

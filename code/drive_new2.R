@@ -7,7 +7,7 @@ library(lubridate)
 library(ks)
 library(srcr)
 
-setwd("/Users/fanz/Desktop/123/Vaccine-Effectiveness-Trial-Emulation/")
+setwd("/Users/hexing/Desktop/covid-translate")
 
 #############################################################################################
 ## ------ Step 1: load functions & libraries --------
@@ -63,7 +63,10 @@ rslt$birth_date_cohort <- rslt$full_cohort %>%
 
 
 rslt$age_cohort <- rslt$birth_date_cohort  %>% 
-  mutate(age_study_start = (as.Date(study_date_start)-birth_date)/365.25 )%>%
+  # mutate(age_study_start = (as.Date(study_date_start)-birth_date)/365.25 )%>%
+  mutate(age_study_start = sql("
+      DATEDIFF(day, birth_date, CAST(study_date_start AS DATE)) / 365.25
+    "))%>%
   filter(age_study_start>=min_age & age_study_start <max_age) #make sure the min age <= age-study-start <= max day
 
 

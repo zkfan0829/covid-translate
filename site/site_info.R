@@ -48,7 +48,7 @@ config('db_src', {
     server = "idr01.shands.ufl.edu",
     user = "omopdev",
     password = "v3dp0mo#22prf!1A",
-    pathToDriver = '/opt/homebrew/Cellar/msodbcsql17/17.10.2.1/lib/libmsodbcsql.17.dylib'
+    pathToDriver = '/usr/local/Cellar/msodbcsql17/17.10.2.1/lib/libmsodbcsql.17.dylib'
   )
   
   con <- dbConnect(

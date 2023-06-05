@@ -43,7 +43,12 @@ get_covid_negatives<-function(observation_derivation_recover=cdm_tbl("observatio
     filter(observation_concept_id==2000001529L, value_as_concept_id %in% c(9189L))
   serology_negative<-obs_der_tbl %>%
     filter(observation_concept_id==2000001528L, value_as_concept_id %in% c(9189L)) %>%
-    mutate(observation_date=observation_date-weeks(4))
+    # mutate(observation_date=observation_date-weeks(4))
+    mutate(
+      observation_date = sql("
+      DATEADD(WEEK, -4, observation_date)
+    ")
+    )
   
   negatives<-pcr_negative %>% 
     dplyr::union(antigen_negative) %>%
@@ -86,7 +91,12 @@ compute_negative_tests<-function(pos_cohort = rslt$cohort_prior_visits,
     filter(observation_concept_id==2000001529L, value_as_concept_id %in% c(9189L))
   serology_negative<-obs_der_tbl %>%
     filter(observation_concept_id==2000001528L, value_as_concept_id %in% c(9189L)) %>%
-    mutate(observation_date=observation_date-weeks(4))
+    # mutate(observation_date=observation_date-weeks(4))
+    mutate(
+      observation_date = sql("
+      DATEADD(WEEK, -4, observation_date)
+    ")
+    )
   
   negatives<-pcr_negative %>% 
     dplyr::union(antigen_negative) %>%
@@ -307,7 +317,10 @@ compute_first_imm <- function(imm_tbl_narrowed,
     inner_join(person_tbl_narrowed,by='person_id') %>%
     left_join(visit_occurrence_tbl_narrowed, by='visit_occurrence_id') %>%
     left_join(location_tbl_narrowed,by='location_id') %>%
-    mutate(imm_age_first=round((imm_date_first-birth_date)/365.25,2)) %>%
+    # mutate(imm_age_first=round((imm_date_first-birth_date)/365.25,2)) %>%
+    mutate(imm_age_first = sql("
+      ROUND(DATEDIFF(day, birth_date, imm_date_first) / 365.25, 2)
+    ")) %>%
     mutate(
       imm_age_first_cat=
         case_when(imm_age_first < 1 ~ '<1',
@@ -360,11 +373,22 @@ compute_first_imm <- function(imm_tbl_narrowed,
                   visit_concept_id %in% c(9203L) ~ 'ED',
                   TRUE ~ 'Other')
     ) %>%
+    # mutate(
+    #   state_reg = case_when(nchar(state)==2 ~ state,
+    #                         str_detect(lower(state),'pennsylvania') ~ 'PA',
+    #                         str_detect(lower(state),'new jersey') ~ 'NJ',
+    #                         str_detect(lower(state),'delaware') ~ 'DE')
+    # ) %>%
     mutate(
-      state_reg = case_when(nchar(state)==2 ~ state,
-                            str_detect(lower(state),'pennsylvania') ~ 'PA',
-                            str_detect(lower(state),'new jersey') ~ 'NJ',
-                            str_detect(lower(state),'delaware') ~ 'DE')
+      state_reg = sql("
+      CASE 
+        WHEN length(state) = 2 THEN state
+        WHEN lower(state) LIKE '%pennsylvania%' THEN 'PA'
+        WHEN lower(state) LIKE '%new jersey%' THEN 'NJ'
+        WHEN lower(state) LIKE '%delaware%' THEN 'DE'
+        ELSE state
+      END
+    ")
     ) %>%
     mutate(
       cnty_reg = case_when(nchar(county)>0 ~ str_replace(county," County","") %>%
@@ -548,7 +572,12 @@ compute_first_imm <- function(imm_tbl_narrowed,
     inner_join(person_tbl_narrowed,by='person_id') %>%
     left_join(visit_occurrence_tbl_narrowed, by='visit_occurrence_id') %>%
     left_join(location_tbl_narrowed,by='location_id') %>%
-    mutate(imm_age_first=round((imm_date_first-birth_date)/365.25,2)) %>%
+    # mutate(imm_age_first=round((imm_date_first-birth_date)/365.25,2)) %>%
+    mutate(
+      imm_age_first = sql("
+      ROUND(DATEDIFF(day, birth_date, imm_date_first) / 365.25, 2)
+    ")
+    ) %>%
     mutate(
       imm_age_first_cat=
         case_when(imm_age_first < 1 ~ '<1',
@@ -601,11 +630,22 @@ compute_first_imm <- function(imm_tbl_narrowed,
                   visit_concept_id %in% c(9203L) ~ 'ED',
                   TRUE ~ 'Other')
     ) %>%
+    # mutate(
+    #   state_reg = case_when(nchar(state)==2 ~ state,
+    #                         str_detect(lower(state),'pennsylvania') ~ 'PA',
+    #                         str_detect(lower(state),'new jersey') ~ 'NJ',
+    #                         str_detect(lower(state),'delaware') ~ 'DE')
+    # ) %>%
     mutate(
-      state_reg = case_when(nchar(state)==2 ~ state,
-                            str_detect(lower(state),'pennsylvania') ~ 'PA',
-                            str_detect(lower(state),'new jersey') ~ 'NJ',
-                            str_detect(lower(state),'delaware') ~ 'DE')
+      state_reg = sql("
+      CASE 
+        WHEN length(state) = 2 THEN state
+        WHEN lower(state) LIKE '%pennsylvania%' THEN 'PA'
+        WHEN lower(state) LIKE '%new jersey%' THEN 'NJ'
+        WHEN lower(state) LIKE '%delaware%' THEN 'DE'
+        ELSE state
+      END
+    ")
     ) %>%
     mutate(
       cnty_reg = case_when(nchar(county)>0 ~ str_replace(county," County","") %>%
@@ -929,19 +969,29 @@ get_serology_positives<-function(observation_derivation_recover=cdm_tbl("observa
     select(person_id, birth_datetime) %>%
     mutate(birth_date = as.Date(birth_datetime))
   
-  person_tbl <-  person_tbl %>% rename( birth_date = birth_datetime) # changed birth_datetime to birth_date
+  # person_tbl <-  person_tbl %>% rename( birth_date = birth_datetime) # changed birth_datetime to birth_date
   
   serology<-serology_meas %>% left_join(person_tbl,by='person_id') %>%
-    mutate(measurement_age = (measurement_date - birth_date)/365.25) %>%
+    # mutate(measurement_age = (measurement_date - birth_date)/365.25) %>%
+    mutate(measurement_age = sql("
+      DATEDIFF(day, birth_date, measurement_date) / 365.25
+    ")) %>%
     filter(measurement_age >= 0, measurement_age < 21) %>%
     mutate(age_range = case_when(measurement_age < 5 ~ "<5",
                                  measurement_age >= 5 & measurement_age < 12 ~ "5-11",
                                  measurement_age >= 12 & measurement_age < 16 ~ "12-15",
                                  measurement_age >= 16 ~ "16+"))%>%
     mutate(sv_lower = tolower(measurement_source_value)) %>%
-    mutate(measurement_concept = case_when(str_detect(sv_lower, 'nucleocapsid') ~ 2000001501,
-                                           str_detect(sv_lower, 'spike') ~ 2000001502,
-                                           TRUE ~ measurement_concept_id))%>%
+    # mutate(measurement_concept = case_when(str_detect(sv_lower, 'nucleocapsid') ~ 2000001501,
+    #                                        str_detect(sv_lower, 'spike') ~ 2000001502,
+    #                                        TRUE ~ measurement_concept_id))%>%
+    mutate(measurement_concept = sql("
+      CASE 
+        WHEN CHARINDEX('nucleocapsid', sv_lower) > 0 THEN 2000001501
+        WHEN CHARINDEX('spike', sv_lower) > 0 THEN 2000001502
+        ELSE measurement_concept_id
+      END
+    "))%>%
     mutate(serology_type = case_when(measurement_concept == 2000001501L ~ 'IgG N protein',
                                      measurement_concept %in% c(723474L, 706177L, 706181L) ~ 'IgG undifferentiated',
                                      measurement_concept %in% c(723475L, 706178L) ~ 'IgM',
@@ -967,7 +1017,12 @@ get_serology_positives<-function(observation_derivation_recover=cdm_tbl("observa
     filter(test_result=="positive") %>%
     select(-test_result) %>%
     inner_join(serology_filtered, by="observation_id") %>%
-    mutate(observation_date=observation_date-weeks(4)) %>%
+    # mutate(observation_date=observation_date-weeks(4)) %>%
+    mutate(
+      observation_date = sql("
+      DATEADD(WEEK, -4, observation_date)
+    ")
+    ) %>%
     compute_new(indices=c("person_id", "visit_occurrence_id", "observation_source_concept_id")) %>%
     return()
 }
@@ -1009,7 +1064,11 @@ join_cohort_demo<-function(cohort, max_date="2022-11-30"){
     inner_join(cdm_tbl("person") %>% dplyr::select(person_id, birth_date,
                                                    gender_concept_id, race_concept_id,
                                                    ethnicity_concept_id), by="person_id") %>%
-    mutate(entry_age=floor((cohort_entry_date-birth_date)/365.25)) %>%
+    # mutate(entry_age=floor((cohort_entry_date-birth_date)/365.25)) %>%
+    mutate(entry_age = sql("
+      FLOOR(DATEDIFF(day, birth_date, cohort_entry_date) / 365.25)
+    ")) %>%
+    
     filter(entry_age<21) %>%
     mutate(obs_age_cat = case_when(entry_age < 1 ~ '<1',
                                    entry_age <  5 ~ '1-4',
@@ -1068,7 +1127,12 @@ get_b94_dx<-function(
       TRUE ~ 'Other/Unknown'
     )) %>%
     mutate(event_type="b94_8_dx") %>% 
-    mutate(cohort_entry_date=visit_start_date-weeks(4)) %>% 
+    # mutate(cohort_entry_date=visit_start_date-weeks(4)) %>% 
+    mutate(
+      cohort_entry_date = sql("
+      DATEADD(WEEK, -4, visit_start_date)
+    ")
+    ) %>% 
     distinct(person_id, cohort_entry_date, site, event_type, event_loc) %>%
     compute_new(index="person_id")
   
@@ -1230,7 +1294,9 @@ get_util<-function(cohort,
 
 get_covid_positives_impute<-function(observation_derivation_recover=cdm_tbl("observation_derivation_recover"),
                                      require_covid_inpatient_ed=FALSE, max_date="2022-11-30"){
-  
+  observation_derivation_recover=cdm_tbl("observation_derivation_recover")
+  require_covid_inpatient_ed=FALSE
+  max_date="2022-11-30"
   #(1)
   obs_der_tbl<-observation_derivation_recover%>% filter(observation_date<max_date)
   pcr_positive<-obs_der_tbl %>%
@@ -1251,6 +1317,8 @@ get_covid_positives_impute<-function(observation_derivation_recover=cdm_tbl("obs
     dplyr::union(covid_dx_history) %>%
     compute_new(indices=c("person_id", "visit_occurrence_id", "observation_id"))
   
+  print("covid_dx_temp")
+  
   if (require_covid_inpatient_ed==TRUE){
     covid_dx<-covid_dx_temp %>% 
       inner_join(cdm_tbl("visit_occurrence") %>% 
@@ -1270,7 +1338,10 @@ get_covid_positives_impute<-function(observation_derivation_recover=cdm_tbl("obs
                       dplyr::union(serology_positive) %>% 
                       dplyr::union(covid_dx)) %>%
     get_test_type_and_loc() %>%
-    compute_new(indices=list(c("person_id", "visit_occurrence_id", "observation_id")))
+    compute_new(indices=c("person_id", "visit_occurrence_id", "observation_id"))
+  
+  print("positive_cohort")
+  print(positive_cohort)
   
   # (1.1) get earliest occurence of covid 
   positive_first<-positive_cohort %>% 
@@ -1280,6 +1351,8 @@ get_covid_positives_impute<-function(observation_derivation_recover=cdm_tbl("obs
     rename(cohort_entry_date=observation_date) %>% 
     distinct(person_id, cohort_entry_date, site, event_type, event_loc) %>%
     compute_new(indices=c("person_id", "visit_occurrence_id"))
+  
+  print("positive_first")
   
   # (2) cohort with pasc, misc diagnosis
   pasc_dx<-obs_der_tbl %>%
@@ -1291,6 +1364,7 @@ get_covid_positives_impute<-function(observation_derivation_recover=cdm_tbl("obs
   b94_dx= get_b94_dx() %>%filter(!is.na(cohort_entry_date))%>% # removing missing date
     compute_new(index="person_id")
   
+  print("b94_dx")
   
   pasc_cohort<- pasc_dx %>% 
     dplyr::union(misc_dx) %>% 
@@ -1298,6 +1372,8 @@ get_covid_positives_impute<-function(observation_derivation_recover=cdm_tbl("obs
     rename(cohort_entry_date=observation_date) %>%
     distinct(person_id, cohort_entry_date, site, event_type, event_loc) %>%
     compute_new(indices=list(c("person_id", "visit_occurrence_id")))
+  
+  print("pasc_cohort")
   
   pasc_cohort <- pasc_cohort%>%dplyr::union(b94_dx)
   
@@ -1309,6 +1385,8 @@ get_covid_positives_impute<-function(observation_derivation_recover=cdm_tbl("obs
     rename(observation_date = cohort_entry_date)%>%
     distinct(person_id, observation_date, site, event_type, event_loc) %>%
     compute_new(indices=c("person_id", "visit_occurrence_id"))
+  
+  print("pasc_first_date")
   
   # check if missing date
   #pasc_first_date%>%filter(is.na(observation_date))
@@ -1421,7 +1499,11 @@ get_covid_negatives_test_negative<-function(observation_derivation_recover=cdm_t
     filter(observation_concept_id==2000001529L, value_as_concept_id %in% c(9189L))
   serology_negative<-obs_der_tbl %>%
     filter(observation_concept_id==2000001528L, value_as_concept_id %in% c(9189L)) %>%
-    mutate(observation_date=observation_date-weeks(4))
+    # mutate(observation_date=observation_date-weeks(4))
+    mutate(observation_date = sql("
+      DATEADD(WEEK, -4, observation_date)
+    ")
+    )
   
   negatives<-pcr_negative %>% 
     dplyr::union(antigen_negative) %>%
