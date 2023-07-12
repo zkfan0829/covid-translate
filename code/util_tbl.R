@@ -123,6 +123,7 @@ results_tbl <- function(name, db = config('db_src'),
               'results_schema', db)
 }
 
+
 #' Construct a (possibly schema-qualified) intermediate result table name
 #'
 #' If the name passed in is already the result of a call to
@@ -411,7 +412,7 @@ collect_new <- function(tblx, ...) {
   if (config('db_trace')) {
     if (inherits(tblx, 'tbl_sql')) {
       show_query(tblx)
-      explain(tblx)
+      #explain(tblx)
     }
     message(' -> collect')
     start <- Sys.time()
@@ -469,11 +470,10 @@ copy_to_new <- function(dest = config('db_src'), df,
     message('Data elements: ', paste(tbl_vars(df), collapse = ','))
     message('Rows: ', NROW(df))
   }
-  
-  if (overwrite &&
-      db_exists_table(dest, name)) {
-    db_remove_table(dest, name)
-  }
+  #if (overwrite &&
+      #db_exists_table(dest, name)) {
+    #db_remove_table(dest, name)
+  #}
   rslt <- dplyr::copy_to(dest = dest, df = df, name = name,
                          overwrite = overwrite, temporary = temporary,
                          ...)
@@ -551,11 +551,11 @@ output_tbl <- function(data, name = NA, local = FALSE,
                                   'distribution') config('db_src') else NA,
                        results_tag = TRUE, ...) {
   if (is.na(name)) name <- quo_name(enquo(data))
+  
 
   if (file) {
     rslt <- .output_csv(data, name, local)
   }
-
   # Conditional logic is a little convoluted here to allow for legacy behavior
   # of allowing Boolean value for db
   if ( is.object(db) || (!is.na(db) && db)) {
@@ -567,6 +567,7 @@ output_tbl <- function(data, name = NA, local = FALSE,
       rslt <- compute_new(data, rname, temporary = FALSE, db = db, ...)
     }
     else {
+
       rslt <- copy_to_new(db, collect_new(data), rname,
                           temporary = FALSE, overwrite = TRUE, ...)
     }

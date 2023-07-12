@@ -20,7 +20,7 @@ get_covid_positives<-function(observation_derivation_recover=cdm_tbl("observatio
     dplyr::union(covid_dx_complication) %>%
     dplyr::union(covid_dx_history) %>%
     compute_new(indices=c("person_id", "visit_occurrence_id", "observation_id"))
-  
+  #could delete
   if (require_covid_inpatient_ed==TRUE){
     covid_dx<-covid_dx_temp %>% 
       inner_join(cdm_tbl("visit_occurrence") %>% 
@@ -32,10 +32,10 @@ get_covid_positives<-function(observation_derivation_recover=cdm_tbl("observatio
     covid_dx=covid_dx_temp
   }
   
-  
+  #delete
   pasc_dx<-obs_der_tbl %>%
     filter(observation_concept_id==2000001527L, value_as_concept_id==2000001520L)
-  
+  #delete
   misc_dx<-obs_der_tbl %>%
     filter(observation_concept_id==2000001527L, value_as_concept_id==703578L)
   
@@ -55,11 +55,11 @@ get_covid_positives<-function(observation_derivation_recover=cdm_tbl("observatio
     rename(cohort_entry_date=observation_date) %>% 
     distinct(person_id, cohort_entry_date, site, event_type, event_loc) %>%
     compute_new(indices=c("person_id", "visit_occurrence_id"))
-  
+  #delete
   b94_dx=(get_b94_dx() %>% anti_join(positive_first, by="person_id")) %>% 
     anti_join(misc_dx, by="person_id") %>% 
     compute_new(index="person_id")
-  
+  #delete
   # include misc, make PASC observation date - 28 days as cohort entry date (covid infection date)
   pasc_misc_positive_first <- (pasc_dx %>% left_join(misc_dx)) %>%
     anti_join(positive_first, by="person_id") %>% 

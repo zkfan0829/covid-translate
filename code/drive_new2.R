@@ -7,7 +7,7 @@ library(lubridate)
 library(ks)
 library(srcr)
 
-setwd("/Users/hexing/Desktop/covid-translate")
+setwd("/Users/fanz/Desktop/covid-translate//")
 
 #############################################################################################
 ## ------ Step 1: load functions & libraries --------
@@ -46,8 +46,8 @@ rslt <- list()
 
 ## ------ Step 3: start the cohort extraction --------
 ### all positive patients omicron
-# `get_covid_positives_impute` function is the 
-rslt$positive_all<-get_covid_positives_impute(max_date = max_date) 
+# `get_covid_positives` function is the 
+rslt$positive_all<-get_covid_positives(max_date = max_date) 
 #rslt$positive_all <- results_tbl("vaccine_positives_imputed") ###!!!!!
 
 ### all patients  (positive + negative)
@@ -59,22 +59,27 @@ rslt$full_cohort <- make_cohort(positive_cohort = rslt$positive_all,
 ### age group
 rslt$birth_date_cohort <- rslt$full_cohort %>%
   inner_join(cdm_tbl("person") %>% 
-               dplyr::select(person_id, birth_date), by="person_id")
+               mutate(birth_date = as.Date(birth_datetime)) %>%
+               dplyr::select(person_id, birth_date), by="person_id")%>%
+  compute_new(index="person_id")
 
+# create a new column in table as study_date_start
+rslt$birth_date_cohort <- rslt$birth_date_cohort %>%
+  mutate(study_date_start = as.Date(study_date_start))
 
 rslt$age_cohort <- rslt$birth_date_cohort  %>% 
   # mutate(age_study_start = (as.Date(study_date_start)-birth_date)/365.25 )%>%
   mutate(age_study_start = sql("
       DATEDIFF(day, birth_date, CAST(study_date_start AS DATE)) / 365.25
     "))%>%
-  filter(age_study_start>=min_age & age_study_start <max_age) #make sure the min age <= age-study-start <= max day
-
+  dplyr::select(-study_date_start) %>%
+  filter(age_study_start>=min_age & age_study_start < max_age) #make sure the min age <= age-study-start <= max day
 
 # above this point, all of the positives & negative (cases & control) have been extracted & combined
 #############################################################################################
 ### add immunization info for each age group in column imm_index_date
 ### since we need to input the vaccination date for unvaccinated patients which differs across age group
-immu <- find_all_immunizations() #extract corresponding immunization records
+immu <- find_all_immunizations_omop() #extract corresponding immunization records
 immu_rslt <- immu%>%inner_join(rslt$age_cohort %>% select(person_id), by  = "person_id") #join the extracted immunization records back to the previous table by matching their id
 immu_rslt_clean <- immu_rslt %>% filter(immunization_date >= "2021-03-17") # based on Vitaly's definition of Date: ages 18+ eligible'
 # immu_meta <- compute_imm_metadata(immu_rslt) # meta data, dont need to run at this time point
@@ -114,8 +119,9 @@ rslt$cohort_prior_visits<-rslt$cohort_demo%>%
   get_prior_visits()
   #%>%get_drug_history()
 
+
 #add number of covid tests 
-rslt$final <-compute_negative_tests()
+rslt$final <-compute_negative_tests() 
 
 
 #############################################################################################

@@ -82,41 +82,47 @@ compute_negative_tests<-function(pos_cohort = rslt$cohort_prior_visits,
                                  observation_derivation_recover=cdm_tbl("observation_derivation_recover"),
                                  require_covid_inpatient_ed=FALSE, max_date="2022-11-30"){
   
-  obs_der_tbl<-observation_derivation_recover %>% filter(observation_date<max_date)
+  #obs_der_tbl<-observation_derivation_recover %>% filter(observation_date<max_date)
   
   # identify test records
-  pcr_negative<-obs_der_tbl %>%
-    filter(observation_concept_id==2000001530L, value_as_concept_id %in% c(9189L))
-  antigen_negative<-obs_der_tbl %>%
-    filter(observation_concept_id==2000001529L, value_as_concept_id %in% c(9189L))
-  serology_negative<-obs_der_tbl %>%
-    filter(observation_concept_id==2000001528L, value_as_concept_id %in% c(9189L)) %>%
+  #pcr_negative<-obs_der_tbl %>%
+  #  filter(observation_concept_id==2000001530L, value_as_concept_id %in% c(9189L))
+  #antigen_negative<-obs_der_tbl %>%
+  #  filter(observation_concept_id==2000001529L, value_as_concept_id %in% c(9189L))
+  #serology_negative<-obs_der_tbl %>%
+  #  filter(observation_concept_id==2000001528L, value_as_concept_id %in% c(9189L)) %>%
     # mutate(observation_date=observation_date-weeks(4))
-    mutate(
-      observation_date = sql("
-      DATEADD(WEEK, -4, observation_date)
-    ")
-    )
+  #  mutate(
+  #    observation_date = sql("
+  #    DATEADD(WEEK, -4, observation_date)
+  # ")
+  #  )
   
-  negatives<-pcr_negative %>% 
-    dplyr::union(antigen_negative) %>%
-    dplyr::union(serology_negative) %>% 
-    filter(observation_date>"2020-03-01")
+  #negatives<-pcr_negative %>% 
+  #  dplyr::union(antigen_negative) %>%
+  # dplyr::union(serology_negative) %>% 
+  # filter(observation_date>"2020-03-01")
+  
+  negatives<- get_covid_lab_negatives(max_date="2022-11-30", positive_cohort = rslt$positive_all)
   
   negative_records <- pos_cohort %>% 
-    left_join(negatives %>% select(person_id, observation_date), by = 'person_id') %>%  # 384824, 129700
-    filter(observation_date<cohort_entry_date - days(179), 
-           observation_date>=cohort_entry_date - months(18)) # 90760, 30691
-  
+    left_join(negatives %>% select(person_id, measurement_date), by = 'person_id') %>%  # 384824, 129700
+    #filter(observation_date<cohort_entry_date - days(179), 
+    #       observation_date>=cohort_entry_date - months(18)) # 90760, 30691
+    filter(measurement_date< sql("DATEADD(DAY, -179, cohort_entry_date)"), 
+           measurement_date> sql("DATEADD(MONTH, -18, cohort_entry_date)")) 
+    
   negative_tests_num <- negative_records %>%
-    group_by(site,person_id) %>%
-    summarise(n_negative_tests=n_distinct(observation_date)) %>%
+    group_by(person_id) %>%
+    summarise(n_negative_tests=n_distinct(measurement_date)) %>%
     ungroup()
   
   negative_tests_num_total <- pos_cohort %>%
-    left_join(negative_tests_num %>% select(-site), by = 'person_id') %>% 
-    mutate(n_negative_tests = if_else(is.na(n_negative_tests), 0L, n_negative_tests)) %>%
-    mutate(n_negative_tests = if_else(n_negative_tests %in% c(0L,1L,2L), paste0(n_negative_tests), "2+"))
+    left_join(negative_tests_num, by = 'person_id') %>% 
+    #mutate(n_negative_tests = if_else(is.na(n_negative_tests), 0L, n_negative_tests)) %>%
+    #mutate(n_negative_tests = if_else(n_negative_tests %in% c(0L,1L,2L), paste0(n_negative_tests), "2+"))
+    mutate(n_negative_tests = if_else(is.na(n_negative_tests), 0L, n_negative_tests),
+           n_negative_tests = case_when(n_negative_tests %in% c(0L,1L,2L) ~ as.character(n_negative_tests), TRUE ~ "2+"))
   
   return(negative_tests_num_total)
 }
@@ -125,25 +131,28 @@ compute_negative_tests<-function(pos_cohort = rslt$cohort_prior_visits,
 
 
 get_prior_visits<-function(cohort){
+  cohort = rslt$cohort_demo
   condition_visit_tbl<-cdm_tbl("condition_occurrence") %>% 
     dplyr::select(person_id, condition_source_concept_id, visit_occurrence_id) %>%
-    inner_join(cdm_tbl("visit_occurrence") %>% filter(visit_concept_id %in% c(9202L,9201L,9203L,
+    inner_join(cdm_tbl("visit_occurrence") %>% filter(visit_concept_id %in% c(9202L,9201L,9203L,801340L,
                                                                               2000000048L,2000000088L,581399L)) %>%
-                 dplyr::select(visit_occurrence_id, visit_start_date, visit_end_date, visit_concept_id, visit_concept_name)) %>%
+                 dplyr::select(visit_occurrence_id, visit_start_date, visit_end_date, visit_concept_id)) %>%# deletet visit_concept_name
     dplyr::select(-visit_occurrence_id)
   
   prior_visits<-cohort %>% distinct(person_id, cohort_entry_date) %>%
     inner_join(condition_visit_tbl, by="person_id") %>%
     #inner_join(cluster_master, by=c("cluster", "condition_source_concept_id"="concept_id")) %>%
-    filter(visit_start_date<cohort_entry_date-days(7) & visit_start_date> cohort_entry_date-months(18)) %>%
+    #filter(visit_start_date<cohort_entry_date-days(7) & visit_start_date> cohort_entry_date-months(18)) %>%
+    filter(visit_start_date< sql("DATEADD(DAY, -7, cohort_entry_date)"), 
+           visit_start_date>sql("DATEADD(MONTH, -18, cohort_entry_date)")) %>%
     mutate(
       visit_loc =case_when(
-        visit_concept_id %in% c(9201L,2000000088L,2000000048L) ~ 'Inpatient',
+        visit_concept_id %in% c(9201L,801340L) ~ 'Inpatient',
         visit_concept_id %in% c(9202L,581399L) ~ 'Outpatient',
         visit_concept_id %in% c(9203L) ~ 'ED'
       )
     )%>%
-    dplyr::select(-visit_concept_id, visit_concept_name) %>%
+    dplyr::select(-visit_concept_id) %>% # delete visit_concept_name
     compute_new(index="person_id")
   
   ED_visits<-prior_visits %>% filter(visit_loc=="ED") %>% group_by(person_id) %>% 
@@ -159,13 +168,21 @@ get_prior_visits<-function(cohort){
   cohort_utility <- cohort %>% left_join(ED_visits, by="person_id") %>%
     left_join(Inpatient_visits, by="person_id") %>%
     left_join(Outpatient_visits, by="person_id") %>%
-    mutate(n_ED = if_else(is.na(n_ED), 0L, n_ED)) %>%
-    mutate(n_inpatient = if_else(is.na(n_inpatient), 0L, n_inpatient)) %>%
-    mutate(n_outpatient = if_else(is.na(n_outpatient), 0L, n_outpatient)) %>%
-    mutate(n_ED = if_else(n_ED %in% c(0L,1L,2L), paste0(n_ED), "2+")) %>%
-    mutate(n_inpatient = if_else(n_inpatient %in% c(0L,1L,2L), paste0(n_inpatient), "2+")) %>%
-    mutate(n_outpatient = if_else(n_outpatient %in% c(0L,1L,2L), paste0(n_outpatient), "2+")) %>%
+    mutate(n_ED = if_else(is.na(n_ED), 0L, n_ED),
+           n_inpatient = if_else(is.na(n_inpatient), 0L, n_inpatient),
+           n_outpatient = if_else(is.na(n_outpatient), 0L, n_outpatient),
+           n_ED = case_when(n_ED %in% c(0L,1L,2L) ~ as.character(n_ED), TRUE ~ "2+"),
+           n_inpatient = case_when(n_inpatient %in% c(0L,1L,2L) ~ as.character(n_inpatient), TRUE ~ "2+"),
+           n_outpatient = case_when(n_outpatient %in% c(0L,1L,2L) ~ as.character(n_outpatient), TRUE ~ "2+")
+    )%>%
     compute_new(index="person_id")
+    #mutate(n_ED = if_else(is.na(n_ED), 0L, n_ED)) %>%
+    #mutate(n_inpatient = if_else(is.na(n_inpatient), 0L, n_inpatient)) %>%
+    #mutate(n_outpatient = if_else(is.na(n_outpatient), 0L, n_outpatient)) %>%
+    #mutate(n_ED = if_else(n_ED %in% c(0L,1L,2L), paste0(n_ED), "2+")) %>%
+    #mutate(n_inpatient = if_else(n_inpatient %in% c(0L,1L,2L), paste0(n_inpatient), "2+")) %>%
+    #mutate(n_outpatient = if_else(n_outpatient %in% c(0L,1L,2L), paste0(n_outpatient), "2+")) %>%
+   
   
   return(cohort_utility)
 }
@@ -264,7 +281,7 @@ find_all_immunizations <- function(imm_codeset=load_codeset('covid_vx_codeset'),
   
   imm_coded <- immunization_tbl %>%
     inner_join(imm_codeset,
-               by=c('immunization_concept_id'='concept_id')) %>%. ## need change name
+               by=c('immunization_concept_id'='concept_id')) %>% ## need change name
     mutate(
       code_flag = 'Coded'
     ) %>%
@@ -274,6 +291,25 @@ find_all_immunizations <- function(imm_codeset=load_codeset('covid_vx_codeset'),
   
 }
 
+find_all_immunizations_omop <- function(immunization_tbl=cdm_tbl('immunization')) {
+  immunization_tbl <-  immunization_tbl %>% rename(immunization_date = drug_exposure_start_date)  # change column name
+  immunization_tbl <-  immunization_tbl %>% rename(immunization_concept_id = drug_concept_id)
+  immunization_tbl <-  immunization_tbl %>% rename(immunization_id = drug_exposure_id)
+  
+  # loading imm code set
+  imm_codeset = read_codeset('covid_vx_codeset_omoptest', 'iccc')
+  imm_codes <- c(imm_codeset['concept_id'])$concept_id
+
+    imm_coded <- immunization_tbl %>%
+    filter(immunization_concept_id %in% imm_codes)%>%
+    mutate(
+      code_flag = 'Coded'
+    ) %>%
+    compute_new(indexes = list('person_id'))
+  
+  imm_coded
+  
+}
 
 
 
@@ -290,17 +326,17 @@ compute_first_imm <- function(imm_tbl_narrowed,
                               person_tbl=cdm_tbl('person'),
                               visit_occurrence_tbl=cdm_tbl('visit_occurrence'),
                               location_tbl=cdm_tbl('location')) {
-  
+  imm_tbl_narrowed = immu_rslt_clean 
   person_tbl_narrowed <- select(person_tbl,person_id,provider_id,birth_datetime,location_id)   # loading birth_datetime
   visit_occurrence_tbl_narrowed <- select(visit_occurrence_tbl,visit_occurrence_id,visit_concept_id)
   location_tbl_narrowed <- select(location_tbl,location_id,state,county)
   
-  person_tbl_narrowed <-  person_tbl_narrowed %>% rename( birth_date = birth_datetime) # changed birth_datetime to birth_date
+  person_tbl_narrowed <-  person_tbl_narrowed %>% mutate(birth_date = as.Date(birth_datetime)) # changed birth_datetime to birth_date
   
   #Try to get the minimum imm date for each person; if multiple minimum immunization dates, pick the lowest immunization id
   first_imm <-
     imm_tbl_narrowed %>%
-    group_by(person_id,immunization_date) %>%. # date drug_exposure_start_date
+    group_by(person_id,immunization_date) %>% # date drug_exposure_start_date
     mutate(min_imm_id=min(immunization_id)) %>%  # id drug_exposure_id 
     ungroup() %>%
     group_by(person_id) %>%
@@ -462,6 +498,8 @@ compute_imm_metadata <- function(imm_tbl_narrowed) {
 
 compute_second_third_imm <- function(imm_tbl_narrowed,
                                      imm_metadata) {
+  imm_tbl_narrowed = immu_rslt_clean
+  imm_metadata = immu_first
   
   second_imm <- imm_tbl_narrowed %>%
     left_join(select(imm_metadata,
@@ -472,7 +510,10 @@ compute_second_third_imm <- function(imm_tbl_narrowed,
     slice_min(immunization_date, with_ties=FALSE) %>%
     ungroup() %>%
     rename(imm_date_second = immunization_date) %>%
-    mutate(imm_date_diff = imm_date_second - imm_date_first) %>%
+    #mutate(imm_date_diff = imm_date_second - imm_date_first) %>%
+    mutate(imm_date_diff = sql("
+      DATEDIFF(day, imm_date_first, imm_date_second)
+    ")) %>%
     mutate(imm_date_diff_grp = case_when(imm_date_diff < 28 ~ '01_1-27',
                                          imm_date_diff < 61 ~ '02_28-60',
                                          imm_date_diff < 91 ~ '03_61-90',
@@ -502,7 +543,10 @@ compute_second_third_imm <- function(imm_tbl_narrowed,
     slice_min(immunization_date, with_ties=FALSE) %>%
     ungroup() %>%
     rename(imm_date_third = immunization_date) %>%
-    mutate(imm_date_diff2 = imm_date_third - imm_date_second) %>%
+    #mutate(imm_date_diff2 = imm_date_third - imm_date_second) %>%
+    mutate(imm_date_diff2 = sql("
+      DATEDIFF(day, imm_date_second, imm_date_third)
+    ")) %>%
     mutate(imm_date_diff2_grp = case_when(imm_date_diff2 < 28 ~ '01_1-27',
                                           imm_date_diff2 < 61 ~ '02_28-60',
                                           imm_date_diff2 < 91 ~ '03_61-90',
@@ -550,7 +594,7 @@ compute_first_imm <- function(imm_tbl_narrowed,
   visit_occurrence_tbl_narrowed <- select(visit_occurrence_tbl,visit_occurrence_id,visit_concept_id)
   location_tbl_narrowed <- select(location_tbl,location_id,state,county)
   
-  person_tbl_narrowed <-  person_tbl_narrowed %>% rename( birth_date = birth_datetime) # changed birth_datetime to birth_date
+  person_tbl_narrowed <-  person_tbl_narrowed %>% mutate(birth_date = as.Date(birth_datetime))
   
   #Try to get the minimum imm date for each person; if multiple minimum immunization dates, pick the lowest immunization id
   first_imm <-
@@ -563,7 +607,7 @@ compute_first_imm <- function(imm_tbl_narrowed,
     filter(immunization_date==imm_date_first) %>%
     filter(immunization_id==min_imm_id) %>%
     ungroup() %>%
-    select(immunization_id,person_id,imm_date_first,visit_occurrence_id,imm_manufacturer) %>%
+    select(immunization_id,person_id,imm_date_first,visit_occurrence_id) %>%
     compute_new(temporary=TRUE,
                 indexes=list('person_id','visit_occurrence_id'))
   
@@ -613,6 +657,7 @@ compute_first_imm <- function(imm_tbl_narrowed,
                   visit_concept_id == 9202L ~ 'Ambulatory/Outpatient Visit (With a Physician)',
                   visit_concept_id == 9203L ~ 'Emergency Department',
                   visit_concept_id == 581399L ~ 'Interactive Telemedicine Service',
+                  visit_concept_id == 801340L ~ 'observation visits that result in an inpatient admission',
                   visit_concept_id == 42898160L ~ 'Long Term Care Visit',
                   visit_concept_id == 44814710L ~ 'Non-Acute Institutional',
                   visit_concept_id == 44814649L ~ 'Other',
@@ -625,7 +670,7 @@ compute_first_imm <- function(imm_tbl_narrowed,
     ) %>%
     mutate(
       visit_type_flag=
-        case_when(visit_concept_id %in% c(9201L, 2000000048L, 2000000088L) ~ 'Inpatient',
+        case_when(visit_concept_id %in% c(9201L, 801340L) ~ 'Inpatient',
                   visit_concept_id %in% c(9202L, 581399L) ~ 'Outpatient',
                   visit_concept_id %in% c(9203L) ~ 'ED',
                   TRUE ~ 'Other')
@@ -639,7 +684,7 @@ compute_first_imm <- function(imm_tbl_narrowed,
     mutate(
       state_reg = sql("
       CASE 
-        WHEN length(state) = 2 THEN state
+        WHEN LEN(state) = 2 THEN state
         WHEN lower(state) LIKE '%pennsylvania%' THEN 'PA'
         WHEN lower(state) LIKE '%new jersey%' THEN 'NJ'
         WHEN lower(state) LIKE '%delaware%' THEN 'DE'
@@ -647,12 +692,13 @@ compute_first_imm <- function(imm_tbl_narrowed,
       END
     ")
     ) %>%
-    mutate(
-      cnty_reg = case_when(nchar(county)>0 ~ str_replace(county," County","") %>%
-                             paste0(" County") %>%
-                             str_to_title(),
-                           nchar(county)==0 ~ "")
-    ) %>%
+    #mutate(
+    #  cnty_reg = case_when(nchar(county)>0 ~ str_replace(county," County","") %>%
+    #                         paste0(" County") %>%
+    #                         str_to_title(),
+    #                       nchar(county)==0 ~ "")
+    #) %>%
+    mutate(cnty_reg = county)%>%
 
     select(person_id,
            birth_date,
@@ -701,6 +747,7 @@ imput_immu_index <- function(cohort, immu_first, immu_second_third, study_start_
                        visit_concept_id == 9202L ~ 'Ambulatory/Outpatient Visit (With a Physician)',
                        visit_concept_id == 9203L ~ 'Emergency Department',
                        visit_concept_id == 581399L ~ 'Interactive Telemedicine Service',
+                       visit_concept_id == 801340L ~ 'observation visits that result in an inpatient admission',
                        visit_concept_id == 42898160L ~ 'Long Term Care Visit',
                        visit_concept_id == 44814710L ~ 'Non-Acute Institutional',
                        visit_concept_id == 44814649L ~ 'Other',
@@ -712,7 +759,7 @@ imput_immu_index <- function(cohort, immu_first, immu_second_third, study_start_
              ))%>%
     mutate(
       first_visit_type_flag=
-        case_when(visit_concept_id %in% c(9201L, 2000000048L, 2000000088L) ~ 'Inpatient',
+        case_when(visit_concept_id %in% c(9201L, 801340L) ~ 'Inpatient',
                   visit_concept_id %in% c(9202L, 581399L) ~ 'Outpatient',
                   visit_concept_id %in% c(9203L) ~ 'ED',
                   TRUE ~ 'Other')
@@ -1059,9 +1106,9 @@ get_test_type_and_loc<-function(cohort){
 }
 
 join_cohort_demo<-function(cohort, max_date="2022-11-30"){
-  cohort_demo<- cohort %>% select(-birth_date)%>%
+  cohort_demo<- cohort %>% 
     mutate(cohort_entry_date=as.Date(cohort_entry_date)) %>% 
-    inner_join(cdm_tbl("person") %>% dplyr::select(person_id, birth_date,
+    inner_join(cdm_tbl("person") %>% dplyr::select(person_id,
                                                    gender_concept_id, race_concept_id,
                                                    ethnicity_concept_id), by="person_id") %>%
     # mutate(entry_age=floor((cohort_entry_date-birth_date)/365.25)) %>%
@@ -1089,7 +1136,8 @@ join_cohort_demo<-function(cohort, max_date="2022-11-30"){
     dplyr::select(-gender_concept_id, -race_concept_id, -ethnicity_concept_id) %>%
     filter(cohort_entry_date<as.Date(max_date), cohort_entry_date>=as.Date("2020-03-01")) %>%
     #mutate(cohort_entry_month=paste(month(cohort_entry_date), year(cohort_entry_date), sep=",")) %>%
-    mutate(cohort_entry_month=if_else(is.na(imm_date_first), NA, paste(month(cohort_entry_date), year(cohort_entry_date), sep=",")))%>%
+    #mutate(cohort_entry_month=if_else(is.na(imm_date_first), NA, paste(month(cohort_entry_date), year(cohort_entry_date), sep=",")))%>%
+    mutate(cohort_entry_month=sql("IIF((imm_date_first IS NULL), NULL, CAST(DATEPART(MONTH, cohort_entry_date) AS VARCHAR) + ',' + CAST(DATEPART(YEAR, cohort_entry_date) AS VARCHAR))"))%>%
     mutate(cohort_entry_period=case_when(
       year(cohort_entry_date)=="2020" & month(cohort_entry_date) %in% c(3, 4, 5, 6)~"mar_jun_20",
       year(cohort_entry_date)=="2020" & month(cohort_entry_date) %in% c(7, 8, 9, 10)~"jul_oct_20",
@@ -1102,7 +1150,12 @@ join_cohort_demo<-function(cohort, max_date="2022-11-30"){
       year(cohort_entry_date)=="2022" & month(cohort_entry_date) %in% c(3, 4, 5, 6)~"mar_jun_22",
       year(cohort_entry_date)=="2022" & month(cohort_entry_date) %in% c(7, 8)~"jul_aug_22"
     ))  %>%
-    mutate(follow_days=as.numeric(as.Date(max_date)-cohort_entry_date)) %>%
+    #mutate(follow_days=as.numeric(as.Date(max_date)-cohort_entry_date)) %>%
+    mutate(max_date= as.Date(max_date))%>%
+    mutate(follow_days=sql("
+      DATEDIFF(day, cohort_entry_date, max_date) / 365.25
+    ")) %>%
+    dplyr::select(-max_date) %>%
     mutate(follow_months=floor(follow_days/(365.25/12))) %>%
     compute_new(index="person_id")
   return(cohort_demo)
@@ -1112,8 +1165,8 @@ join_cohort_demo<-function(cohort, max_date="2022-11-30"){
 
 get_b94_dx<-function(
     b94_src_val_exclude=results_tbl('b94_src_val_exclude')){
-  b94_code_dx<-vocabulary_tbl("concept") %>% 
-    filter(grepl("B94.8", concept_code), vocabulary_id==("ICD10CM")) %>% 
+  b94_code_dx<-vocabulary_tbl("CONCEPT") %>% 
+    filter(concept_code %like% 'B94.8%', vocabulary_id==("ICD10CM")) %>% 
     select(concept_id) %>%
     inner_join(cdm_tbl("condition_occurrence"), by=c("concept_id"="condition_source_concept_id")) %>%
     anti_join(b94_src_val_exclude, by="condition_source_value") %>%
@@ -1133,19 +1186,16 @@ get_b94_dx<-function(
       DATEADD(WEEK, -4, visit_start_date)
     ")
     ) %>% 
-    distinct(person_id, cohort_entry_date, site, event_type, event_loc) %>%
+    distinct(person_id, cohort_entry_date, event_type, event_loc) %>% # delete site
     compute_new(index="person_id")
-  
-  
-  
-  
 }
 
 
 require_prior_encounter<-function(cohort){
   keep_ids<-cohort %>% 
     inner_join(cdm_tbl("visit_occurrence") %>% distinct(person_id, visit_start_date), by="person_id") %>%
-    filter(visit_start_date<cohort_entry_date-days(7), visit_start_date>cohort_entry_date-months(18)) %>%
+    filter(visit_start_date< sql("DATEADD(DAY, -7, cohort_entry_date)"), 
+           visit_start_date>sql("DATEADD(MONTH, -18, cohort_entry_date)")) %>%
     distinct(person_id) %>%
     compute_new(index="person_id")
   
@@ -1349,10 +1399,11 @@ get_covid_positives_impute<-function(observation_derivation_recover=cdm_tbl("obs
     slice_min(observation_date, with_ties=FALSE) %>%
     ungroup() %>% 
     rename(cohort_entry_date=observation_date) %>% 
-    distinct(person_id, cohort_entry_date, site, event_type, event_loc) %>%
+    distinct(person_id, cohort_entry_date,event_type, event_loc) %>% # dropped 'site'
     compute_new(indices=c("person_id", "visit_occurrence_id"))
   
   print("positive_first")
+  
   
   # (2) cohort with pasc, misc diagnosis
   pasc_dx<-obs_der_tbl %>%
@@ -1370,7 +1421,7 @@ get_covid_positives_impute<-function(observation_derivation_recover=cdm_tbl("obs
     dplyr::union(misc_dx) %>% 
     get_test_type_and_loc() %>%
     rename(cohort_entry_date=observation_date) %>%
-    distinct(person_id, cohort_entry_date, site, event_type, event_loc) %>%
+    distinct(person_id, cohort_entry_date,  event_type, event_loc) %>%
     compute_new(indices=list(c("person_id", "visit_occurrence_id")))
   
   print("pasc_cohort")
@@ -1383,7 +1434,7 @@ get_covid_positives_impute<-function(observation_derivation_recover=cdm_tbl("obs
     slice_min(cohort_entry_date, with_ties=FALSE) %>%
     ungroup() %>% 
     rename(observation_date = cohort_entry_date)%>%
-    distinct(person_id, observation_date, site, event_type, event_loc) %>%
+    distinct(person_id, observation_date,  event_type, event_loc) %>%
     compute_new(indices=c("person_id", "visit_occurrence_id"))
   
   print("pasc_first_date")
@@ -1540,6 +1591,48 @@ get_covid_negatives_test_negative<-function(observation_derivation_recover=cdm_t
   
 }
 
+# Function to get negative patients from all visit
+get_covid_negatives<-function(positive_cohort = FALSE, study_start, study_end, max_date="2022-12-01"){
+  # loading tables
+  condition_occurrence=cdm_tbl("condition_occurrence")
+  visit_occurrence = cdm_tbl("visit_occurrence")
+  measurement = cdm_tbl("measurement")
+  max_date="2022-11-30"
+  
+  # found all visit patient
+  covid_all_visit_cohort <- visit_occurrence %>%
+    filter(visit_start_date < max_date) %>%
+    select(person_id = person_id, cohort_entry_date = visit_start_date , event_loc = visit_source_value)
+  
+  # visit in study period
+  covid_all_visit_cohort<-covid_all_visit_cohort %>% 
+    filter(cohort_entry_date>=study_start)%>% 
+    filter(cohort_entry_date <=study_end)
+  
+  # get positive cohort person_id
+  if (!isFALSE(positive_cohort)){
+    positive_person_id <- positive_cohort%>%select(person_id)
+  }
+  else{
+    positive_person_id <- get_covid_positives()%>%select(person_id)
+  }
+  
+  
+  # Filter covid_all_lab_cohort to exclude positive_person_id
+  negative_all_cohort <- covid_all_visit_cohort %>%
+    anti_join(positive_person_id, by = "person_id")
+  
+  # Get unique rows by randomly selecting one row from each group of person_id
+  negative_cohort <- negative_all_cohort  %>%
+    group_by(person_id) %>%
+    distinct() %>%
+    slice_sample(n = 1) %>%
+    ungroup()%>%
+    compute_new(index="person_id")
+  
+  return(negative_cohort)
+}
+
 # Function to make cohort for each study period
 # if any visit == TRUE, the negative cohort is defined as patients
 #  with any visit in study period, 
@@ -1552,7 +1645,7 @@ make_cohort <- function(positive_cohort, study_start, study_end, max_date = "202
     filter(cohort_entry_date>=study_start)%>% 
     filter(cohort_entry_date<=study_end)
   if(any_visit == TRUE){
-    negative_study <- get_covid_negatives_any_visit(positive_cohort = positive_cohort, 
+    negative_study <- get_covid_negatives(positive_cohort = positive_cohort, 
                                                     study_start = study_start, 
                                                     study_end = study_end,
                                                     max_date = max_date)
@@ -1658,6 +1751,81 @@ get_visits <- function(cohort,
 
 
 
+###########################
+# Function to get first infection for all positive patients and first positive time
+# (1) get a cohort with all positive covid records
+# (2) get a cohort with the earlies covid records
+get_covid_positives<-function( max_date="2022-11-30"){
+  # loading tables
+  condition_occurrence=cdm_tbl("condition_occurrence")
+  visit_occurrence = cdm_tbl("visit_occurrence")
+  measurement = cdm_tbl("measurement")
+  max_date="2022-11-30"
+  
+  # Loading Lab test concept IDs 
+  Lab_test_codes  = read_codeset('Covid Lab test Concept Sets', 'iccc')
+  covid_lab_test_codes <- c(Lab_test_codes['Id'])$Id
+  # Define the positive value list for filtering
+  positive_value_list <- c("4126681", "45877985", "9191", "45884084", "4181412", "45879438")
+  
+  # (1) get a cohort with all positive covid records
+  # Filter the condition_occurrence table for positive COVID-19 records
+  covid_positive_dx_cohort <- condition_occurrence %>%
+    filter(condition_concept_id == 37311061) %>%
+    filter(condition_start_date < max_date) %>%
+    left_join(visit_occurrence, by = c("visit_occurrence_id")) %>%
+    select(person_id = person_id.x, cohort_entry_date = condition_start_date, event_loc = visit_source_value)
+  
+  # Filter the measurement table for COVID lab test records
+  covid_positive_lab_cohort <- measurement %>%
+    filter(measurement_concept_id %in% covid_lab_test_codes)%>%
+    filter(measurement_date < max_date) %>%
+    filter(value_as_concept_id %in% positive_value_list) %>%
+    left_join(visit_occurrence, by = c("visit_occurrence_id")) %>%
+    select(person_id = person_id.x, cohort_entry_date = measurement_date, event_loc = visit_source_value)
+  
+  
+  # Union the two cohorts
+  positive_cohort <- union(covid_positive_dx_cohort, covid_positive_lab_cohort)
+  
+  # (2) get a cohort with the earlies covid records
+  # Group the combined cohort by person_id find first one
+  positive_first <- positive_cohort %>%
+    group_by(person_id) %>%
+    slice_min(cohort_entry_date, with_ties=FALSE) %>%
+    ungroup()%>%
+    compute_new(indices="person_id")
+  
+  return(positive_first)
+}
+
+# Function to get negative patients from lab test 
+get_covid_lab_negatives<-function(max_date="2022-12-01", positive_cohort = FALSE){
+  # loading tables
+  condition_occurrence=cdm_tbl("condition_occurrence")
+  visit_occurrence = cdm_tbl("visit_occurrence")
+  measurement = cdm_tbl("measurement")
+  max_date="2022-11-30"
+  
+  # Loading Lab test concept IDs 
+  Lab_test_codes  = read_codeset('Covid Lab test Concept Sets', 'iccc')
+  covid_lab_test_codes <- c(Lab_test_codes['Id'])$Id
+  # Define the positive value list for filtering
+  positive_value_list <- c("4126681", "45877985", "9191", "45884084", "4181412", "45879438")
+
+  # found all lab test  which not positive
+  negative_all_lab_test <- measurement %>%
+    filter(measurement_concept_id %in% covid_lab_test_codes)%>%
+    filter(measurement_date < max_date) %>%
+    filter(!value_as_concept_id %in% positive_value_list) %>%
+    left_join(visit_occurrence, by = c("visit_occurrence_id")) %>%
+    select(person_id = person_id.x, measurement_date, event_loc = visit_source_value)
+  
+  
+  return(negative_all_lab_test)
+}
 
 
 
+#positive_cohort = get_covid_positives(max_date="2022-12-01")
+#negative_cohort = get_covid_negatives(max_date="2022-12-01", study_start = "2021-07-01", study_end = "2021-11-30" ,positive_cohort = positive_cohort)
