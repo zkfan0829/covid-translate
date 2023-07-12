@@ -7,7 +7,7 @@ library(lubridate)
 library(ks)
 library(srcr)
 
-setwd("/Users/fanz/Desktop/covid-translate//")
+setwd("/Users/fanz/Desktop/covid-translate//")# input this project folder path
 
 #############################################################################################
 ## ------ Step 1: load functions & libraries --------
